@@ -27,3 +27,25 @@ After creating the `<output_dir>` with all the fasta files it is now possible to
 Note that train files are cleaned against zk488 and the validation files are validated against their respective training. **[WIP] BETTER DESCRIPTION** 
 
 ### Step3: Exraction of PDBS with ESM3
+
+To extract the PDBS from a given csv to a target output folder run the command
+```
+python scripts/extraction.py <csv_path>.csv <target_folder>
+```
+
+### Step4 
+
+Now run foldseek with validations datasets against training, and training dataset against ZK. 
+Results are then saved in FolderA_vs_FolderB.m8 file.
+
+```
+foldseek easy-search FolderA FolderB  FolderA_vs_FolderB.m8 tmp/ \
+    --format-output query,target,alntmscore,qtmscore,ttmscore,evalue \
+    -s 9.5
+```
+
+After the extraction with ESM3 with the following script copy in a target folder the proteins which are not similary in the .m8 file
+These proteins have qtmscore < 0.5 and evalue > 1e-3
+```
+python scripts/filter_foldseek.py <pdb_folder> <foldseek_file>.m8  <target_folder>
+```

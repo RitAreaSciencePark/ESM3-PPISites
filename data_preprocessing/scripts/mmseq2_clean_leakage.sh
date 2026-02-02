@@ -18,8 +18,8 @@ CSV_DIR="$2"
 INPUT_NAME_1=$(basename "$3" .fasta)
 INPUT_NAME_2=$(basename "$4" .fasta)
 
-TRAIN_FASTA="$FASTA_DIR/$3"
-TEST_FASTA="$FASTA_DIR/$4"
+TRAIN_FASTA="$FASTA_DIR/$3.fasta"
+TEST_FASTA="$FASTA_DIR/$4.fasta"
 TRAIN_CSV="$CSV_DIR/$INPUT_NAME_1.csv"
 
 # Check if files exist
