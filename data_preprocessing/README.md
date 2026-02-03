@@ -49,3 +49,10 @@ These proteins have qtmscore < 0.5 and evalue > 1e-3
 ```
 python scripts/filter_foldseek.py <pdb_folder> <foldseek_file>.m8  <target_folder>
 ```
+Now that it is present a folder with the final filtered PDBS, regenerate the CSV dataset files based on them, the final files will have only rows with the uniprot_id that matches the one in the pdb folder.
+
+Use the following script
+
+```
+python scripts/create_final_dataset.py -i <input_dataframe>.csv -d <pdb folder> -o <final file>.csv
+```
