@@ -7,8 +7,7 @@ With the following command-line instruction do a structural alignment between tw
 ```
 foldseek easy-search  folderA/ folderB/ output-file.m8 tmp/ --format-output query,target,alntmscore,qtmscore,ttmscore,evalue -s 9.5
 ```
-With this python script get a csv with a list of PDBs from the folderA that are in common with the folderB which are present in the **output-file.m8**
-
+After the extraction with ESM3 with the following script copy in a target folder the proteins which are not similary in the .m8 file
+These proteins have qtmscore < 0.5 and evalue > 1e-3
 ```
-scripts/extract_commons.py output-file.m8 output-commons.csv
 ```
