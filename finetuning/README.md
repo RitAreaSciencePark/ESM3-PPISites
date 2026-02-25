@@ -6,5 +6,5 @@ The parameters for the finetuning are ```model,train_file,val_file,test_file,dat
 
 This training runs for the amounts of input epochs and select the best models.
 ``` 
-sbatch train2.sh 
+sbatch train.sh 
 ```
