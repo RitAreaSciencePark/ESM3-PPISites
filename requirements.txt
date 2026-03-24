@@ -1,0 +1,11 @@
+esm
+huggingface_hub
+matplotlib
+numpy
+pandas<2.2.0
+scikit_learn
+torch
+tqdm
+transformers
+iprogress
+ipywidgets
