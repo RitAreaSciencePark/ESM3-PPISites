@@ -13,9 +13,9 @@ import concurrent.futures
 # DATASET & MODEL CONFIGURATION
 model_name = "big_model"
 dataset_name = "PDBbind-1409"
-path_data = model_name + "_data/"
 repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 data_path = os.path.join(repo_root, "data") + os.sep
+reps_path = #MISSING
 print(f"Model: {model_name}")
 print(f"Dataset: {dataset_name}")
 
@@ -106,9 +106,9 @@ def load_data_parallel(csv_path, pt_path):
     return load_aligned_data(csv_path, pt_path)
 
 data_configs = [
-    (data_path + "zk448_test.csv",            path_data + "zk448_test.pt"),
-    (data_path + dataset_name + "_train.csv", path_data + dataset_name + "_train.pt"),
-    (data_path + dataset_name + "_val.csv",   path_data + dataset_name + "_val.pt"),
+    (data_path + "zk448_test.csv",            reps_path + "zk448_test.pt"),
+    (data_path + dataset_name + "_train.csv", reps_path + dataset_name + "_train.pt"),
+    (data_path + dataset_name + "_val.csv",   reps_path + dataset_name + "_val.pt"),
 ]
 
 with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
