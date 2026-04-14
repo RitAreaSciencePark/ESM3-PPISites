@@ -195,7 +195,9 @@ if best_state is not None:
     model.load_state_dict(best_state)
 
 # SAVE MODEL
-PATH = f"{model_name}_{dataset_name}_{THRESHOLD}.pt"
+models_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models_baseline")
+os.makedirs(models_dir, exist_ok=True)
+PATH = os.path.join(models_dir, f"{model_name}_{dataset_name}_{THRESHOLD}.pt")
 torch.save({
     'epoch': EPOCHS, 
     'model_state_dict': model.state_dict(), 

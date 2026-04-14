@@ -1,6 +1,4 @@
-import argparse
 import os
-
 import numpy as np
 import pandas as pd
 import torch
@@ -9,6 +7,47 @@ import torch.nn.functional as F
 from sklearn.metrics import f1_score, matthews_corrcoef, precision_score, recall_score
 from sklearn.metrics import roc_auc_score
 from torch.utils.data import DataLoader, Dataset
+
+# DATASET & MODEL CONFIGURATION
+model_name = "big_model"
+dataset_name = "PDBbind-1409"
+repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+data_path = os.path.join(repo_root, "data") + os.sep
+reps_path = os.path.abspath(os.path.join(repo_root, "..", "Paper", f"{model_name}_data")) + os.sep
+models_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models_baseline")
+results_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "results_baseline")
+
+id_col = "uniprot_id"
+label_col = "p_interface"
+
+# GLOBAL VARIABLES
+BATCH = 96
+THRESHOLD = 0.7
+print(f"Threshold: {THRESHOLD}")
+
+def resolve_checkpoint_path(base_dir, selected_model_name, selected_dataset_name):
+    candidate_paths = [
+        os.path.join(base_dir, f"{selected_model_name}_{selected_dataset_name}.pt"),
+    ]
+
+    for candidate_path in candidate_paths:
+        if os.path.exists(candidate_path):
+            return candidate_path
+
+    return candidate_paths[0]
+
+
+checkpoint_path = resolve_checkpoint_path(models_dir, model_name, dataset_name)
+emb_pt_path = os.path.join(reps_path, "zk448_test.pt")
+test_csv = data_path + "zk448_test.csv"
+out_csv = os.path.join(results_dir, f"{model_name}_{dataset_name}_inference_results_per_protein.csv")
+performance_csv = os.path.join(results_dir, "performance.csv")
+
+os.makedirs(results_dir, exist_ok=True)
+
+print(f"Model: {model_name}")
+print(f"Dataset: {dataset_name}")
+print(f"Batch size: {BATCH}")
 
 
 class ProteinDataset(Dataset):
@@ -37,32 +76,6 @@ def hotspot_sites_from_binary_array(binary_array):
 
 def probabilities_to_csv_string(prob_array, decimals=6):
     return ",".join(f"{float(p):.{decimals}f}" for p in prob_array)
-
-
-def infer_model_and_dataset(checkpoint_path):
-    checkpoint_name = os.path.splitext(os.path.basename(checkpoint_path))[0]
-    parts = checkpoint_name.split("_")
-
-    if len(parts) >= 3 and parts[0] in {"big", "small"} and parts[1] == "model":
-        model = "_".join(parts[:2])
-        dataset = "_".join(parts[2:])
-    elif len(parts) >= 2:
-        model = parts[0]
-        dataset = "_".join(parts[1:])
-    else:
-        model = checkpoint_name
-        dataset = ""
-
-    dataset_parts = dataset.split("_") if dataset else []
-    if len(dataset_parts) > 1:
-        try:
-            float(dataset_parts[-1])
-        except ValueError:
-            pass
-        else:
-            dataset = "_".join(dataset_parts[:-1])
-
-    return model, dataset
 
 
 def upsert_performance_csv(
@@ -249,46 +262,21 @@ def run_inference(
     }
 
 
-def parse_args():
-    parser = argparse.ArgumentParser(description="Inference-only script for residue interface prediction.")
-    parser.add_argument("--checkpoint", required=True, help="Path to checkpoint .pt file.")
-    parser.add_argument("--emb-pt", required=True, help="Path to .pt dict with ID->embedding tensor.")
-    parser.add_argument("--test-csv", required=True, help="CSV file with p_interface labels.")
-    parser.add_argument("--batch-size", type=int, default=96, help="Batch size for inference.")
-    parser.add_argument("--threshold", type=float, default=0.5, help="Decision threshold on sigmoid output.")
-    parser.add_argument("--id-col", default="uniprot_id", help="Protein ID column name in test CSV.")
-    parser.add_argument("--label-col", default="p_interface", help="Label column name in test CSV.")
-    parser.add_argument(
-        "--out-csv",
-        default="inference_results_per_protein.csv",
-        help="Output CSV for per-protein metrics.",
-    )
-    parser.add_argument(
-        "--performance-csv",
-        default="performance.csv",
-        help="CSV file used to track global performance by model and dataset.",
-    )
-    return parser.parse_args()
-
-
 def main():
-    args = parse_args()
-
     outputs = run_inference(
-        checkpoint_path=args.checkpoint,
-        emb_pt_path=args.emb_pt,
-        test_csv=args.test_csv,
-        batch_size=args.batch_size,
-        threshold=args.threshold,
-        id_col=args.id_col,
-        label_col=args.label_col,
+        checkpoint_path=checkpoint_path,
+        emb_pt_path=emb_pt_path,
+        test_csv=test_csv,
+        batch_size=BATCH,
+        threshold=THRESHOLD,
+        id_col=id_col,
+        label_col=label_col,
     )
 
-    outputs["df_results"].to_csv(args.out_csv, index=False)
+    outputs["df_results"].to_csv(out_csv, index=False)
 
-    model_name, dataset_name = infer_model_and_dataset(args.checkpoint)
     upsert_performance_csv(
-        performance_csv_path=args.performance_csv,
+        performance_csv_path=performance_csv,
         model=model_name,
         dataset=dataset_name,
         f1_value=outputs["global_f1"],
@@ -303,8 +291,8 @@ def main():
     print(f"Global Test AUC: {outputs['global_auc']:.4f}")
     print(f"Global Test Precision: {outputs['global_precision']:.4f}")
     print(f"Global Test Recall: {outputs['global_recall']:.4f}")
-    print(f"Saved per-protein metrics to: {args.out_csv}")
-    print(f"Updated performance summary in: {args.performance_csv}")
+    print(f"Saved per-protein metrics to: {out_csv}")
+    print(f"Updated shared performance summary in: {performance_csv}")
 
 
 if __name__ == "__main__":
