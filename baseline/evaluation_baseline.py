@@ -9,8 +9,8 @@ from sklearn.metrics import roc_auc_score
 from torch.utils.data import DataLoader, Dataset
 
 # DATASET & MODEL CONFIGURATION
-model_name = "big_model"
-dataset_name = "PDBbind-1409"
+model_name = "small_model"
+dataset_name = "BioLiP-3693"
 repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 data_path = os.path.join(repo_root, "data") + os.sep
 reps_path = os.path.abspath(os.path.join(repo_root, "..", "Paper", f"{model_name}_data")) + os.sep
@@ -40,7 +40,7 @@ def resolve_checkpoint_path(base_dir, selected_model_name, selected_dataset_name
 checkpoint_path = resolve_checkpoint_path(models_dir, model_name, dataset_name)
 emb_pt_path = os.path.join(reps_path, "zk448_test.pt")
 test_csv = data_path + "zk448_test.csv"
-out_csv = os.path.join(results_dir, f"{model_name}_{dataset_name}_inference_results_per_protein.csv")
+out_csv = os.path.join(results_dir, f"{model_name}_{dataset_name}_evaluation_results.csv")
 performance_csv = os.path.join(results_dir, "performance.csv")
 
 os.makedirs(results_dir, exist_ok=True)
