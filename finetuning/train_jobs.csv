@@ -1,3 +1,3 @@
 model,train_file,val_file,test_file,dataset_type,epochs,lr,wd,batch_size,gradient_batch,done
-EvolutionaryScale/esm3-sm-open-v1,data/final_biolip_p_train.csv,data/final_biolip_p_val.csv,data/final_zk448_test.csv,p,15,0.00001,0.05,2,1,1
-EvolutionaryScale/esm3-sm-open-v1,data/final_pdbBind_train.csv,data/final_pdbBind_val.csv,data/final_zk448_test.csv,p,15,0.00001,0.01,2,4,1
+EvolutionaryScale/esm3-sm-open-v1,../data/PDBbind-1409_train.csv,../data/PDBbind-1409_val.csv,../data/zk448_test.csv,p,15,0.00001,0.05,1,2,0
+EvolutionaryScale/esm3-sm-open-v1,../data/BioLiP-3693_train.csv,../data/BioLiP-3693_val.csv,../data/zk448_test.csv,p,15,0.00001,0.05,1,2,0
