@@ -15,7 +15,7 @@ from transformers import AutoModel, T5EncoderModel
 from transformers import TrainingArguments, Trainer, TrainerCallback, EarlyStoppingCallback
 from esm.tokenization.sequence_tokenizer import EsmSequenceTokenizer
 
-from sklearn.metrics import accuracy_score, f1_score, matthews_corrcoef, roc_auc_score
+from sklearn.metrics import accuracy_score, f1_score, matthews_corrcoef, roc_auc_score, precision_score, recall_score
 from sklearn.model_selection import train_test_split
 
 # re-import
@@ -23,6 +23,51 @@ from src.models import ModelForResidueClassification
 from src.data_utils import load_biodl_dataset
 from src.dataset_class import ResidueInterfaceDataset
 from src.evaluation import compute_metrics
+
+# -------------------------------
+# Wrapper to guarantee Precision & Recall
+# -------------------------------
+def enhanced_compute_metrics(eval_pred):
+    metrics = compute_metrics(eval_pred)
+    
+    if not any("precision" in k.lower() for k in metrics):
+        logits, labels = eval_pred
+        if isinstance(logits, tuple):
+            logits = logits[0]
+
+        # ✅ Mirror compute_metrics exactly: sigmoid + threshold, then flatten
+        probs = 1 / (1 + np.exp(-logits))
+        preds = (probs > 0.7).astype(int)
+
+        labels_flat = labels.flatten()
+        preds_flat = preds.flatten()
+
+        mask = labels_flat != -100
+        labels_masked = labels_flat[mask]
+        preds_masked = preds_flat[mask]
+
+        metrics["precision"] = precision_score(labels_masked, preds_masked, average='macro', zero_division=0)
+        metrics["recall"] = recall_score(labels_masked, preds_masked, average='macro', zero_division=0)
+        
+    return metrics
+
+# -------------------------------
+# Custom Trainer for Train Set Evaluation
+# -------------------------------
+class CustomTrainer(Trainer):
+    """
+    Custom Trainer that evaluates both the validation dataset and the training dataset
+    at the end of each epoch to track train_set performances.
+    """
+    def evaluate(self, eval_dataset=None, ignore_keys=None, metric_key_prefix="eval"):
+        # First evaluate the default eval_dataset (validation)
+        eval_results = super().evaluate(eval_dataset, ignore_keys, metric_key_prefix)
+        
+        # If this is the standard validation step, also evaluate the training dataset
+        if metric_key_prefix == "eval" and self.train_dataset is not None:
+            super().evaluate(self.train_dataset, ignore_keys, "train")
+            
+        return eval_results
 
 # -------------------------------
 # Custom Callback for CSV Logging
@@ -35,10 +80,11 @@ class CSVLoggerCallback(TrainerCallback):
     def __init__(self, file_path):
         self.file_path = file_path
         self.expected_cols = [
-            "epoch", "is_best", "train_loss", "eval_loss", "eval_mcc", "eval_f1", 
-            "eval_accuracy", "test_loss", "test_mcc", "test_f1", "test_accuracy", 
-            "eval_roc_auc", "eval_runtime", "eval_samples_per_second", "eval_steps_per_second", 
-            "test_roc_auc", "test_runtime", "test_samples_per_second", "test_steps_per_second"
+            "epoch", "is_best", 
+            "train_step_loss", # Training loss from standard gradient steps
+            "train_loss", "train_mcc", "train_f1", "train_accuracy", "train_precision", "train_recall",
+            "eval_loss", "eval_mcc", "eval_f1", "eval_accuracy", "eval_precision", "eval_recall",
+            "test_loss", "test_mcc", "test_f1", "test_accuracy", "test_precision", "test_recall"
         ]
 
     def on_log(self, args, state, control, logs=None, **kwargs):
@@ -58,7 +104,8 @@ class CSVLoggerCallback(TrainerCallback):
             
             for k, v in log.items():
                 if k == "loss":
-                    df_data[epoch]["train_loss"] = v
+                    # Distinct standard loss tracking vs full 'train_loss' evaluated on the train set
+                    df_data[epoch]["train_step_loss"] = v
                 elif k != "epoch" and not k.startswith("test_"):
                     df_data[epoch][k] = v
                     
@@ -102,6 +149,21 @@ def main():
     parser.add_argument("--lr", type=float, default=5e-5, help="Learning rate")
 
     args = parser.parse_args()
+    
+    # -------------------------------
+    # Determine Dataset Name and Setup Directories
+    # -------------------------------
+    # Extract filename like "dataset.csv" and strip the extension to get the dataset name
+    train_file_name = os.path.basename(args.train_file)
+    dataset_name = train_file_name.rsplit('.', 1)[0]
+    
+    # 1. Output dir for the saved model: output_dir + models/model_<dataset_name>
+    model_output_dir = os.path.join(args.output_dir, "models", f"model_{dataset_name}")
+    # 2. Output dir for performances: results_finetuning/performances_<dataset_name>
+    performances_dir = os.path.join("results_finetuning", f"performances_{dataset_name}")
+    
+    os.makedirs(model_output_dir, exist_ok=True)
+    os.makedirs(performances_dir, exist_ok=True)
 
     # -------------------------------
     # Load sequences and labels
@@ -146,12 +208,8 @@ def main():
     # -------------------------------
     # Training arguments
     # -------------------------------
-    now = datetime.now()
-    output_dir = os.path.join(args.output_dir, args.model_name.replace("/", "_"), now.strftime("%Y_%m_%d_%H_%M_%S"))
-    os.makedirs(output_dir, exist_ok=True)
-
     training_args_dict = {
-        "output_dir": output_dir,
+        "output_dir": model_output_dir, # Checkpoints directly to new model dir
         "num_train_epochs": args.num_train_epochs,
         "per_device_train_batch_size": args.batch_size,
         "per_device_eval_batch_size": args.batch_size,
@@ -173,7 +231,8 @@ def main():
     
     training_args = TrainingArguments(**training_args_dict)
 
-    metrics_csv_path = os.path.join(output_dir, "training_metrics.csv")
+    # Metrics will be exported directly to performances directory
+    metrics_csv_path = os.path.join(performances_dir, "training_metrics.csv")
     csv_callback = CSVLoggerCallback(metrics_csv_path)
     
     early_stopping = EarlyStoppingCallback(
@@ -184,29 +243,32 @@ def main():
     # -------------------------------
     # Trainer
     # -------------------------------
-    trainer = Trainer(
+    trainer = CustomTrainer(
         model=model,
         args=training_args,
         train_dataset=train_dataset,
         eval_dataset=val_dataset,
-        compute_metrics=compute_metrics,
+        compute_metrics=enhanced_compute_metrics,
         callbacks=[csv_callback, early_stopping]
     )
 
     train_result = trainer.train()
 
     print("🔍 Evaluating on test set...", flush=True)
-    # Passed metric_key_prefix="test" to ensure compute_metrics outputs "test_mcc" instead of "eval_mcc"
+    # Passed metric_key_prefix="test" to ensure compute_metrics outputs "test_mcc", "test_precision" etc.
     test_metrics = trainer.evaluate(test_dataset, metric_key_prefix="test")
     print("📊 Test metrics:", test_metrics, flush=True)
 
     # -------------------------------
-    # Save model and metrics locally
+    # Save model locally (inside output_dir + models/model_<dataset_name>)
     # -------------------------------
-    trainer.save_model(output_dir)
-    tokenizer.save_pretrained(output_dir)
-    print(f"✅ Model and Tokenizer saved to {output_dir}", flush=True)
+    trainer.save_model(model_output_dir)
+    tokenizer.save_pretrained(model_output_dir)
+    print(f"✅ Model and Tokenizer saved to {model_output_dir}", flush=True)
 
+    # -------------------------------
+    # Finalize and Save Performance Metrics
+    # -------------------------------
     # Re-build final clean CSV to accurately assign the test metrics to the best epoch
     metrics = trainer.state.log_history
     df_data = {}
@@ -219,7 +281,7 @@ def main():
             
         for k, v in log.items():
             if k == "loss":
-                df_data[epoch]["train_loss"] = v
+                df_data[epoch]["train_step_loss"] = v
             elif k != "epoch" and not k.startswith("test_"):
                 df_data[epoch][k] = v
 
@@ -253,9 +315,12 @@ def main():
         "val_file": args.val_file 
     }
 
-    with open(os.path.join(output_dir, "params_dict.pkl") , "wb") as f:
+    # Save details parameters in the performances folder
+    params_path = os.path.join(performances_dir, "params_dict.pkl")
+    with open(params_path , "wb") as f:
         pickle.dump(dict_to_save, f)
-    print("✅ Dictionary saved", flush=True)
+        
+    print(f"✅ Performances and Metrics saved to {performances_dir}", flush=True)
 
 # run
 if __name__ == "__main__":
