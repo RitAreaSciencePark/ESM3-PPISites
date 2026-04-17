@@ -87,7 +87,7 @@ class CSVLoggerCallback(TrainerCallback):
             "test_loss", "test_mcc", "test_f1", "test_accuracy", "test_precision", "test_recall"
         ]
 
-    def on_log(self, args, state, control, logs=None, **kwargs):
+    def on_evaluate(self, args, state, control, metrics=None, **kwargs):
         if not state.log_history:
             return
             
@@ -160,10 +160,9 @@ def main():
     # 1. Output dir for the saved model: output_dir + models/model_<dataset_name>
     model_output_dir = os.path.join(args.output_dir, "models", f"model_{dataset_name}")
     # 2. Output dir for performances: results_finetuning/performances_<dataset_name>
-    performances_dir = os.path.join("results_finetuning", f"performances_{dataset_name}")
     
     os.makedirs(model_output_dir, exist_ok=True)
-    os.makedirs(performances_dir, exist_ok=True)
+    os.makedirs("results", exist_ok=True)
 
     # -------------------------------
     # Load sequences and labels
@@ -232,7 +231,7 @@ def main():
     training_args = TrainingArguments(**training_args_dict)
 
     # Metrics will be exported directly to performances directory
-    metrics_csv_path = os.path.join(performances_dir, "training_metrics.csv")
+    metrics_csv_path = os.path.join("results", f"training_metrics_{dataset_name}.csv")
     csv_callback = CSVLoggerCallback(metrics_csv_path)
     
     early_stopping = EarlyStoppingCallback(
@@ -316,11 +315,11 @@ def main():
     }
 
     # Save details parameters in the performances folder
-    params_path = os.path.join(performances_dir, "params_dict.pkl")
+    params_path = os.path.join("results", f"params_dict_{dataset_name}.pkl")
     with open(params_path , "wb") as f:
         pickle.dump(dict_to_save, f)
         
-    print(f"✅ Performances and Metrics saved to {performances_dir}", flush=True)
+    print(f"✅ Performances and Metrics saved to results folder", flush=True)
 
 # run
 if __name__ == "__main__":
