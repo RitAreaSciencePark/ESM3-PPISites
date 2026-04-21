@@ -1,0 +1,327 @@
+aa_chain	aa_complex	identical_aa	pdb_chain	chain_chain	aminoacid_chain	position_chain	is_modified_chain	pdb_complex	chain_complex	aminoacid_complex	position_complex	is_modified_complex
+E	M	False	1FPZ_Z	Z	GLU	1		1FQ1_WZ	Z	MET	1	
+Q	E	False	1FPZ_Z	Z	GLN	2		1FQ1_WZ	Z	GLU	2	
+T	-	False	1FPZ_Z	Z	THR	3						
+P	-	False	1FPZ_Z	Z	PRO	4						
+I	-	False	1FPZ_Z	Z	ILE	5						
+H	-	False	1FPZ_Z	Z	HIS	6						
+I	-	False	1FPZ_Z	Z	ILE	7						
+S	N	False	1FPZ_Z	Z	SER	8		1FQ1_WZ	Z	ASN	3	
+W	F	False	1FPZ_Z	Z	TRP	9		1FQ1_WZ	Z	PHE	4	
+L	Q	False	1FPZ_Z	Z	LEU	10		1FQ1_WZ	Z	GLN	5	
+S	K	False	1FPZ_Z	Z	SER	11		1FQ1_WZ	Z	LYS	6	
+L	V	False	1FPZ_Z	Z	LEU	12		1FQ1_WZ	Z	VAL	7	
+S	E	False	1FPZ_Z	Z	SER	13		1FQ1_WZ	Z	GLU	8	
+R	K	False	1FPZ_Z	Z	ARG	14		1FQ1_WZ	Z	LYS	9	
+V	I	False	1FPZ_Z	Z	VAL	15		1FQ1_WZ	Z	ILE	10	
+N	G	False	1FPZ_Z	Z	ASN	16		1FQ1_WZ	Z	GLY	11	
+C	E	False	1FPZ_Z	Z	CYS	17		1FQ1_WZ	Z	GLU	12	
+S	G	False	1FPZ_Z	Z	SER	18		1FQ1_WZ	Z	GLY	13	
+Q	T	False	1FPZ_Z	Z	GLN	19		1FQ1_WZ	Z	THR	14	
+F	Y	False	1FPZ_Z	Z	PHE	20		1FQ1_WZ	Z	TYR	15	
+L	-	False	1FPZ_Z	Z	LEU	21						
+G	-	False	1FPZ_Z	Z	GLY	22						
+L	-	False	1FPZ_Z	Z	LEU	23						
+C	-	False	1FPZ_Z	Z	CYS	24						
+A	-	False	1FPZ_Z	Z	ALA	25						
+L	-	False	1FPZ_Z	Z	LEU	26						
+P	-	False	1FPZ_Z	Z	PRO	27						
+G	G	True	1FPZ_Z	Z	GLY	28		1FQ1_WZ	Z	GLY	16	
+C	V	False	1FPZ_Z	Z	CYS	29		1FQ1_WZ	Z	VAL	17	
+K	V	False	1FPZ_Z	Z	LYS	30		1FQ1_WZ	Z	VAL	18	
+F	Y	False	1FPZ_Z	Z	PHE	31		1FQ1_WZ	Z	TYR	19	
+K	K	True	1FPZ_Z	Z	LYS	32		1FQ1_WZ	Z	LYS	20	
+D	-	False	1FPZ_Z	Z	ASP	33						
+V	-	False	1FPZ_Z	Z	VAL	34						
+R	A	False	1FPZ_Z	Z	ARG	35		1FQ1_WZ	Z	ALA	21	
+R	R	True	1FPZ_Z	Z	ARG	36		1FQ1_WZ	Z	ARG	22	
+N	N	True	1FPZ_Z	Z	ASN	37		1FQ1_WZ	Z	ASN	23	
+-	K	False						1FQ1_WZ	Z	LYS	24	
+-	L	False						1FQ1_WZ	Z	LEU	25	
+-	T	False						1FQ1_WZ	Z	THR	26	
+-	G	False						1FQ1_WZ	Z	GLY	27	
+-	E	False						1FQ1_WZ	Z	GLU	28	
+-	V	False						1FQ1_WZ	Z	VAL	29	
+-	V	False						1FQ1_WZ	Z	VAL	30	
+-	A	False						1FQ1_WZ	Z	ALA	31	
+-	L	False						1FQ1_WZ	Z	LEU	32	
+-	K	False						1FQ1_WZ	Z	LYS	33	
+-	K	False						1FQ1_WZ	Z	LYS	34	
+-	I	False						1FQ1_WZ	Z	ILE	35	
+-	R	False						1FQ1_WZ	Z	ARG	36	
+V	L	False	1FPZ_Z	Z	VAL	38		1FQ1_WZ	Z	LEU	37	
+Q	D	False	1FPZ_Z	Z	GLN	39		1FQ1_WZ	Z	ASP	38	
+K	T	False	1FPZ_Z	Z	LYS	40		1FQ1_WZ	Z	THR	39	
+D	E	False	1FPZ_Z	Z	ASP	41		1FQ1_WZ	Z	GLU	40	
+T	T	True	1FPZ_Z	Z	THR	42		1FQ1_WZ	Z	THR	41	
+E	E	True	1FPZ_Z	Z	GLU	43		1FQ1_WZ	Z	GLU	42	
+E	G	False	1FPZ_Z	Z	GLU	44		1FQ1_WZ	Z	GLY	43	
+L	V	False	1FPZ_Z	Z	LEU	45		1FQ1_WZ	Z	VAL	44	
+K	P	False	1FPZ_Z	Z	LYS	46		1FQ1_WZ	Z	PRO	45	
+S	S	True	1FPZ_Z	Z	SER	47		1FQ1_WZ	Z	SER	46	
+C	T	False	1FPZ_Z	Z	CYS	48		1FQ1_WZ	Z	THR	47	
+G	A	False	1FPZ_Z	Z	GLY	49		1FQ1_WZ	Z	ALA	48	
+I	I	True	1FPZ_Z	Z	ILE	50		1FQ1_WZ	Z	ILE	49	
+Q	R	False	1FPZ_Z	Z	GLN	51		1FQ1_WZ	Z	ARG	50	
+D	E	False	1FPZ_Z	Z	ASP	52		1FQ1_WZ	Z	GLU	51	
+I	I	True	1FPZ_Z	Z	ILE	53		1FQ1_WZ	Z	ILE	52	
+F	S	False	1FPZ_Z	Z	PHE	54		1FQ1_WZ	Z	SER	53	
+V	L	False	1FPZ_Z	Z	VAL	55		1FQ1_WZ	Z	LEU	54	
+F	L	False	1FPZ_Z	Z	PHE	56		1FQ1_WZ	Z	LEU	55	
+C	-	False	1FPZ_Z	Z	CYS	57						
+T	-	False	1FPZ_Z	Z	THR	58						
+R	-	False	1FPZ_Z	Z	ARG	59						
+G	K	False	1FPZ_Z	Z	GLY	60		1FQ1_WZ	Z	LYS	56	
+E	E	True	1FPZ_Z	Z	GLU	61		1FQ1_WZ	Z	GLU	57	
+L	L	True	1FPZ_Z	Z	LEU	62		1FQ1_WZ	Z	LEU	58	
+S	N	False	1FPZ_Z	Z	SER	63		1FQ1_WZ	Z	ASN	59	
+K	H	False	1FPZ_Z	Z	LYS	64		1FQ1_WZ	Z	HIS	60	
+Y	P	False	1FPZ_Z	Z	TYR	65		1FQ1_WZ	Z	PRO	61	
+R	N	False	1FPZ_Z	Z	ARG	66		1FQ1_WZ	Z	ASN	62	
+V	I	False	1FPZ_Z	Z	VAL	67		1FQ1_WZ	Z	ILE	63	
+P	V	False	1FPZ_Z	Z	PRO	68		1FQ1_WZ	Z	VAL	64	
+N	K	False	1FPZ_Z	Z	ASN	69		1FQ1_WZ	Z	LYS	65	
+L	L	True	1FPZ_Z	Z	LEU	70		1FQ1_WZ	Z	LEU	66	
+L	L	True	1FPZ_Z	Z	LEU	71		1FQ1_WZ	Z	LEU	67	
+D	D	True	1FPZ_Z	Z	ASP	72		1FQ1_WZ	Z	ASP	68	
+L	V	False	1FPZ_Z	Z	LEU	73		1FQ1_WZ	Z	VAL	69	
+-	I	False						1FQ1_WZ	Z	ILE	70	
+-	H	False						1FQ1_WZ	Z	HIS	71	
+-	T	False						1FQ1_WZ	Z	THR	72	
+-	E	False						1FQ1_WZ	Z	GLU	73	
+-	N	False						1FQ1_WZ	Z	ASN	74	
+-	K	False						1FQ1_WZ	Z	LYS	75	
+-	L	False						1FQ1_WZ	Z	LEU	76	
+-	Y	False						1FQ1_WZ	Z	TYR	77	
+-	L	False						1FQ1_WZ	Z	LEU	78	
+-	V	False						1FQ1_WZ	Z	VAL	79	
+-	F	False						1FQ1_WZ	Z	PHE	80	
+-	E	False						1FQ1_WZ	Z	GLU	81	
+-	F	False						1FQ1_WZ	Z	PHE	82	
+-	L	False						1FQ1_WZ	Z	LEU	83	
+-	H	False						1FQ1_WZ	Z	HIS	84	
+-	Q	False						1FQ1_WZ	Z	GLN	85	
+-	D	False						1FQ1_WZ	Z	ASP	86	
+-	L	False						1FQ1_WZ	Z	LEU	87	
+-	K	False						1FQ1_WZ	Z	LYS	88	
+-	K	False						1FQ1_WZ	Z	LYS	89	
+Y	F	False	1FPZ_Z	Z	TYR	74		1FQ1_WZ	Z	PHE	90	
+Q	M	False	1FPZ_Z	Z	GLN	75		1FQ1_WZ	Z	MET	91	
+Q	D	False	1FPZ_Z	Z	GLN	76		1FQ1_WZ	Z	ASP	92	
+C	A	False	1FPZ_Z	Z	CYS	77		1FQ1_WZ	Z	ALA	93	
+G	S	False	1FPZ_Z	Z	GLY	78		1FQ1_WZ	Z	SER	94	
+I	A	False	1FPZ_Z	Z	ILE	79		1FQ1_WZ	Z	ALA	95	
+I	L	False	1FPZ_Z	Z	ILE	80		1FQ1_WZ	Z	LEU	96	
+T	T	True	1FPZ_Z	Z	THR	81		1FQ1_WZ	Z	THR	97	
+-	G	False						1FQ1_WZ	Z	GLY	98	
+-	I	False						1FQ1_WZ	Z	ILE	99	
+-	P	False						1FQ1_WZ	Z	PRO	100	
+-	L	False						1FQ1_WZ	Z	LEU	101	
+-	P	False						1FQ1_WZ	Z	PRO	102	
+-	L	False						1FQ1_WZ	Z	LEU	103	
+-	I	False						1FQ1_WZ	Z	ILE	104	
+-	K	False						1FQ1_WZ	Z	LYS	105	
+-	S	False						1FQ1_WZ	Z	SER	106	
+-	Y	False						1FQ1_WZ	Z	TYR	107	
+-	L	False						1FQ1_WZ	Z	LEU	108	
+-	F	False						1FQ1_WZ	Z	PHE	109	
+-	Q	False						1FQ1_WZ	Z	GLN	110	
+-	L	False						1FQ1_WZ	Z	LEU	111	
+-	L	False						1FQ1_WZ	Z	LEU	112	
+-	Q	False						1FQ1_WZ	Z	GLN	113	
+-	G	False						1FQ1_WZ	Z	GLY	114	
+-	L	False						1FQ1_WZ	Z	LEU	115	
+-	A	False						1FQ1_WZ	Z	ALA	116	
+-	F	False						1FQ1_WZ	Z	PHE	117	
+-	C	False						1FQ1_WZ	Z	CYS	118	
+H	H	True	1FPZ_Z	Z	HIS	82		1FQ1_WZ	Z	HIS	119	
+H	S	False	1FPZ_Z	Z	HIS	83		1FQ1_WZ	Z	SER	120	
+H	H	True	1FPZ_Z	Z	HIS	84		1FQ1_WZ	Z	HIS	121	
+-	R	False						1FQ1_WZ	Z	ARG	122	
+-	V	False						1FQ1_WZ	Z	VAL	123	
+-	L	False						1FQ1_WZ	Z	LEU	124	
+-	H	False						1FQ1_WZ	Z	HIS	125	
+-	R	False						1FQ1_WZ	Z	ARG	126	
+-	D	False						1FQ1_WZ	Z	ASP	127	
+-	L	False						1FQ1_WZ	Z	LEU	128	
+-	K	False						1FQ1_WZ	Z	LYS	129	
+-	P	False						1FQ1_WZ	Z	PRO	130	
+-	Q	False						1FQ1_WZ	Z	GLN	131	
+-	N	False						1FQ1_WZ	Z	ASN	132	
+-	L	False						1FQ1_WZ	Z	LEU	133	
+-	L	False						1FQ1_WZ	Z	LEU	134	
+-	I	False						1FQ1_WZ	Z	ILE	135	
+-	N	False						1FQ1_WZ	Z	ASN	136	
+-	T	False						1FQ1_WZ	Z	THR	137	
+-	E	False						1FQ1_WZ	Z	GLU	138	
+-	G	False						1FQ1_WZ	Z	GLY	139	
+-	A	False						1FQ1_WZ	Z	ALA	140	
+-	I	False						1FQ1_WZ	Z	ILE	141	
+P	K	False	1FPZ_Z	Z	PRO	85		1FQ1_WZ	Z	LYS	142	
+I	L	False	1FPZ_Z	Z	ILE	86		1FQ1_WZ	Z	LEU	143	
+A	A	True	1FPZ_Z	Z	ALA	87		1FQ1_WZ	Z	ALA	144	
+D	D	True	1FPZ_Z	Z	ASP	88		1FQ1_WZ	Z	ASP	145	
+G	F	False	1FPZ_Z	Z	GLY	89		1FQ1_WZ	Z	PHE	146	
+G	G	True	1FPZ_Z	Z	GLY	90		1FQ1_WZ	Z	GLY	147	
+-	L	False						1FQ1_WZ	Z	LEU	148	
+-	A	False						1FQ1_WZ	Z	ALA	149	
+-	R	False						1FQ1_WZ	Z	ARG	150	
+-	A	False						1FQ1_WZ	Z	ALA	151	
+-	F	False						1FQ1_WZ	Z	PHE	152	
+-	G	False						1FQ1_WZ	Z	GLY	153	
+-	V	False						1FQ1_WZ	Z	VAL	154	
+-	P	False						1FQ1_WZ	Z	PRO	155	
+-	V	False						1FQ1_WZ	Z	VAL	156	
+-	R	False						1FQ1_WZ	Z	ARG	157	
+-	T	False						1FQ1_WZ	Z	THR	158	
+-	Y	False						1FQ1_WZ	Z	TYR	159	
+-	H	False						1FQ1_WZ	Z	HIS	160	
+-	E	False						1FQ1_WZ	Z	GLU	161	
+-	V	False						1FQ1_WZ	Z	VAL	162	
+-	V	False						1FQ1_WZ	Z	VAL	163	
+-	T	False						1FQ1_WZ	Z	THR	164	
+-	L	False						1FQ1_WZ	Z	LEU	165	
+-	W	False						1FQ1_WZ	Z	TRP	166	
+-	Y	False						1FQ1_WZ	Z	TYR	167	
+-	R	False						1FQ1_WZ	Z	ARG	168	
+T	A	False	1FPZ_Z	Z	THR	91		1FQ1_WZ	Z	ALA	169	
+P	P	True	1FPZ_Z	Z	PRO	92		1FQ1_WZ	Z	PRO	170	
+D	E	False	1FPZ_Z	Z	ASP	93		1FQ1_WZ	Z	GLU	171	
+I	I	True	1FPZ_Z	Z	ILE	94		1FQ1_WZ	Z	ILE	172	
+A	L	False	1FPZ_Z	Z	ALA	95		1FQ1_WZ	Z	LEU	173	
+S	L	False	1FPZ_Z	Z	SER	96		1FQ1_WZ	Z	LEU	174	
+C	G	False	1FPZ_Z	Z	CYS	97		1FQ1_WZ	Z	GLY	175	
+C	C	True	1FPZ_Z	Z	CYS	98		1FQ1_WZ	Z	CYS	176	
+E	K	False	1FPZ_Z	Z	GLU	99		1FQ1_WZ	Z	LYS	177	
+I	-	False	1FPZ_Z	Z	ILE	100						
+M	-	False	1FPZ_Z	Z	MET	101						
+E	-	False	1FPZ_Z	Z	GLU	102						
+E	-	False	1FPZ_Z	Z	GLU	103						
+L	-	False	1FPZ_Z	Z	LEU	104						
+T	-	False	1FPZ_Z	Z	THR	105						
+T	-	False	1FPZ_Z	Z	THR	106						
+C	-	False	1FPZ_Z	Z	CYS	107						
+L	-	False	1FPZ_Z	Z	LEU	108						
+K	-	False	1FPZ_Z	Z	LYS	109						
+N	-	False	1FPZ_Z	Z	ASN	110						
+Y	Y	True	1FPZ_Z	Z	TYR	111		1FQ1_WZ	Z	TYR	178	
+R	Y	False	1FPZ_Z	Z	ARG	112		1FQ1_WZ	Z	TYR	179	
+K	S	False	1FPZ_Z	Z	LYS	113		1FQ1_WZ	Z	SER	180	
+T	T	True	1FPZ_Z	Z	THR	114		1FQ1_WZ	Z	THR	181	
+L	A	False	1FPZ_Z	Z	LEU	115		1FQ1_WZ	Z	ALA	182	
+I	V	False	1FPZ_Z	Z	ILE	116		1FQ1_WZ	Z	VAL	183	
+H	D	False	1FPZ_Z	Z	HIS	117		1FQ1_WZ	Z	ASP	184	
+S	I	False	1FPZ_Z	Z	SER	118		1FQ1_WZ	Z	ILE	185	
+Y	W	False	1FPZ_Z	Z	TYR	119		1FQ1_WZ	Z	TRP	186	
+G	-	False	1FPZ_Z	Z	GLY	120						
+G	S	False	1FPZ_Z	Z	GLY	121		1FQ1_WZ	Z	SER	187	
+L	L	True	1FPZ_Z	Z	LEU	122		1FQ1_WZ	Z	LEU	188	
+G	G	True	1FPZ_Z	Z	GLY	123		1FQ1_WZ	Z	GLY	189	
+R	-	False	1FPZ_Z	Z	ARG	124						
+S	-	False	1FPZ_Z	Z	SER	125						
+C	C	True	1FPZ_Z	Z	CYS	126		1FQ1_WZ	Z	CYS	190	
+L	I	False	1FPZ_Z	Z	LEU	127		1FQ1_WZ	Z	ILE	191	
+V	F	False	1FPZ_Z	Z	VAL	128		1FQ1_WZ	Z	PHE	192	
+A	A	True	1FPZ_Z	Z	ALA	129		1FQ1_WZ	Z	ALA	193	
+A	E	False	1FPZ_Z	Z	ALA	130		1FQ1_WZ	Z	GLU	194	
+C	M	False	1FPZ_Z	Z	CYS	131		1FQ1_WZ	Z	MET	195	
+L	V	False	1FPZ_Z	Z	LEU	132		1FQ1_WZ	Z	VAL	196	
+-	T	False						1FQ1_WZ	Z	THR	197	
+-	R	False						1FQ1_WZ	Z	ARG	198	
+-	R	False						1FQ1_WZ	Z	ARG	199	
+-	A	False						1FQ1_WZ	Z	ALA	200	
+-	L	False						1FQ1_WZ	Z	LEU	201	
+-	F	False						1FQ1_WZ	Z	PHE	202	
+-	P	False						1FQ1_WZ	Z	PRO	203	
+-	G	False						1FQ1_WZ	Z	GLY	204	
+-	D	False						1FQ1_WZ	Z	ASP	205	
+-	S	False						1FQ1_WZ	Z	SER	206	
+-	E	False						1FQ1_WZ	Z	GLU	207	
+-	I	False						1FQ1_WZ	Z	ILE	208	
+-	D	False						1FQ1_WZ	Z	ASP	209	
+-	Q	False						1FQ1_WZ	Z	GLN	210	
+L	L	True	1FPZ_Z	Z	LEU	133		1FQ1_WZ	Z	LEU	211	
+L	F	False	1FPZ_Z	Z	LEU	134		1FQ1_WZ	Z	PHE	212	
+Y	R	False	1FPZ_Z	Z	TYR	135		1FQ1_WZ	Z	ARG	213	
+L	I	False	1FPZ_Z	Z	LEU	136		1FQ1_WZ	Z	ILE	214	
+S	F	False	1FPZ_Z	Z	SER	137		1FQ1_WZ	Z	PHE	215	
+D	R	False	1FPZ_Z	Z	ASP	138		1FQ1_WZ	Z	ARG	216	
+T	T	True	1FPZ_Z	Z	THR	139		1FQ1_WZ	Z	THR	217	
+I	L	False	1FPZ_Z	Z	ILE	140		1FQ1_WZ	Z	LEU	218	
+-	G	False						1FQ1_WZ	Z	GLY	219	
+S	T	False	1FPZ_Z	Z	SER	141		1FQ1_WZ	Z	THR	220	
+P	P	True	1FPZ_Z	Z	PRO	142		1FQ1_WZ	Z	PRO	221	
+E	D	False	1FPZ_Z	Z	GLU	143		1FQ1_WZ	Z	ASP	222	
+Q	E	False	1FPZ_Z	Z	GLN	144		1FQ1_WZ	Z	GLU	223	
+-	V	False						1FQ1_WZ	Z	VAL	224	
+-	V	False						1FQ1_WZ	Z	VAL	225	
+-	W	False						1FQ1_WZ	Z	TRP	226	
+-	P	False						1FQ1_WZ	Z	PRO	227	
+A	G	False	1FPZ_Z	Z	ALA	145		1FQ1_WZ	Z	GLY	228	
+I	V	False	1FPZ_Z	Z	ILE	146		1FQ1_WZ	Z	VAL	229	
+D	T	False	1FPZ_Z	Z	ASP	147		1FQ1_WZ	Z	THR	230	
+S	S	True	1FPZ_Z	Z	SER	148		1FQ1_WZ	Z	SER	231	
+L	M	False	1FPZ_Z	Z	LEU	149		1FQ1_WZ	Z	MET	232	
+R	P	False	1FPZ_Z	Z	ARG	150		1FQ1_WZ	Z	PRO	233	
+D	D	True	1FPZ_Z	Z	ASP	151		1FQ1_WZ	Z	ASP	234	
+L	Y	False	1FPZ_Z	Z	LEU	152		1FQ1_WZ	Z	TYR	235	
+R	K	False	1FPZ_Z	Z	ARG	153		1FQ1_WZ	Z	LYS	236	
+-	P	False						1FQ1_WZ	Z	PRO	237	
+-	S	False						1FQ1_WZ	Z	SER	238	
+-	F	False						1FQ1_WZ	Z	PHE	239	
+-	P	False						1FQ1_WZ	Z	PRO	240	
+-	K	False						1FQ1_WZ	Z	LYS	241	
+-	W	False						1FQ1_WZ	Z	TRP	242	
+-	A	False						1FQ1_WZ	Z	ALA	243	
+-	R	False						1FQ1_WZ	Z	ARG	244	
+-	Q	False						1FQ1_WZ	Z	GLN	245	
+-	D	False						1FQ1_WZ	Z	ASP	246	
+-	F	False						1FQ1_WZ	Z	PHE	247	
+-	S	False						1FQ1_WZ	Z	SER	248	
+-	K	False						1FQ1_WZ	Z	LYS	249	
+-	V	False						1FQ1_WZ	Z	VAL	250	
+-	V	False						1FQ1_WZ	Z	VAL	251	
+-	P	False						1FQ1_WZ	Z	PRO	252	
+-	P	False						1FQ1_WZ	Z	PRO	253	
+-	L	False						1FQ1_WZ	Z	LEU	254	
+-	D	False						1FQ1_WZ	Z	ASP	255	
+-	E	False						1FQ1_WZ	Z	GLU	256	
+-	D	False						1FQ1_WZ	Z	ASP	257	
+G	G	True	1FPZ_Z	Z	GLY	154		1FQ1_WZ	Z	GLY	258	
+S	R	False	1FPZ_Z	Z	SER	155		1FQ1_WZ	Z	ARG	259	
+G	S	False	1FPZ_Z	Z	GLY	156		1FQ1_WZ	Z	SER	260	
+A	L	False	1FPZ_Z	Z	ALA	157		1FQ1_WZ	Z	LEU	261	
+I	L	False	1FPZ_Z	Z	ILE	158		1FQ1_WZ	Z	LEU	262	
+Q	S	False	1FPZ_Z	Z	GLN	159		1FQ1_WZ	Z	SER	263	
+T	Q	False	1FPZ_Z	Z	THR	160		1FQ1_WZ	Z	GLN	264	
+I	M	False	1FPZ_Z	Z	ILE	161		1FQ1_WZ	Z	MET	265	
+K	L	False	1FPZ_Z	Z	LYS	162		1FQ1_WZ	Z	LEU	266	
+Q	H	False	1FPZ_Z	Z	GLN	163		1FQ1_WZ	Z	HIS	267	
+Y	Y	True	1FPZ_Z	Z	TYR	164		1FQ1_WZ	Z	TYR	268	
+N	D	False	1FPZ_Z	Z	ASN	165		1FQ1_WZ	Z	ASP	269	
+-	P	False						1FQ1_WZ	Z	PRO	270	
+-	N	False						1FQ1_WZ	Z	ASN	271	
+-	K	False						1FQ1_WZ	Z	LYS	272	
+-	R	False						1FQ1_WZ	Z	ARG	273	
+-	I	False						1FQ1_WZ	Z	ILE	274	
+-	S	False						1FQ1_WZ	Z	SER	275	
+-	A	False						1FQ1_WZ	Z	ALA	276	
+-	K	False						1FQ1_WZ	Z	LYS	277	
+-	A	False						1FQ1_WZ	Z	ALA	278	
+-	A	False						1FQ1_WZ	Z	ALA	279	
+Y	L	False	1FPZ_Z	Z	TYR	166		1FQ1_WZ	Z	LEU	280	
+L	A	False	1FPZ_Z	Z	LEU	167		1FQ1_WZ	Z	ALA	281	
+H	H	True	1FPZ_Z	Z	HIS	168		1FQ1_WZ	Z	HIS	282	
+E	P	False	1FPZ_Z	Z	GLU	169		1FQ1_WZ	Z	PRO	283	
+-	F	False						1FQ1_WZ	Z	PHE	284	
+F	F	True	1FPZ_Z	Z	PHE	170		1FQ1_WZ	Z	PHE	285	
+R	Q	False	1FPZ_Z	Z	ARG	171		1FQ1_WZ	Z	GLN	286	
+D	D	True	1FPZ_Z	Z	ASP	172		1FQ1_WZ	Z	ASP	287	
+-	V	False						1FQ1_WZ	Z	VAL	288	
+-	T	False						1FQ1_WZ	Z	THR	289	
+K	K	True	1FPZ_Z	Z	LYS	173		1FQ1_WZ	Z	LYS	290	
+L	P	False	1FPZ_Z	Z	LEU	174		1FQ1_WZ	Z	PRO	291	
+A	V	False	1FPZ_Z	Z	ALA	175		1FQ1_WZ	Z	VAL	292	
+A	P	False	1FPZ_Z	Z	ALA	176		1FQ1_WZ	Z	PRO	293	
+H	H	True	1FPZ_Z	Z	HIS	177		1FQ1_WZ	Z	HIS	294	
+L	L	True	1FPZ_Z	Z	LEU	178		1FQ1_WZ	Z	LEU	295	

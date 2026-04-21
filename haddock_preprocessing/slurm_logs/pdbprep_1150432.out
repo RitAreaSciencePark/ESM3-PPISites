@@ -1,0 +1,2874 @@
+SECTION: Starting...
+loaded venv ml_transformers
+SECTION: Download
+Processing: 2I25 (folder: 2I25)
+  Downloaded 2I25.pdb
+  Downloaded 2I24.pdb
+  Downloaded 3LZT.pdb
+Processing: 4Y7M (folder: 4Y7M)
+  Downloaded 4Y7M.pdb
+  Downloaded 4QGY.pdb
+  Downloaded 4Y7L.pdb
+Processing: 5JMO (folder: 5JMO)
+  Downloaded 5JMO.pdb
+  Downloaded 5JMR.pdb
+  Downloaded 5JXI.pdb
+Processing: 5SV3 (folder: 5SV3)
+  Downloaded 5SV3.pdb
+  Downloaded 5SV4.pdb
+  Downloaded 1IFT.pdb
+Processing: 6CWG (folder: 6CWG)
+  Downloaded 6CWG.pdb
+  Downloaded 6CWK.pdb
+  Downloaded 1IFT.pdb
+Processing: 6DBG (folder: 6DBG)
+  Downloaded 6DBG.pdb
+  Downloaded 6DBA.pdb
+  Downloaded 1H6T.pdb
+Processing: 1AVX (folder: 1AVX)
+  Downloaded 1AVX.pdb
+  Downloaded 1QQU.pdb
+  Downloaded 1BA7.pdb
+Processing: 1AY7 (folder: 1AY7)
+  Downloaded 1AY7.pdb
+  Downloaded 1RGH.pdb
+  Downloaded 1A19.pdb
+Processing: 1BUH (folder: 1BUH)
+  Downloaded 1BUH.pdb
+  Downloaded 1HCL.pdb
+  Downloaded 1DKS.pdb
+Processing: 1BVN (folder: 1BVN)
+  Downloaded 1BVN.pdb
+  Downloaded 1PIG.pdb
+  Downloaded 1HOE.pdb
+Processing: 1CLV (folder: 1CLV)
+  Downloaded 1CLV.pdb
+  Downloaded 1JAE.pdb
+  Downloaded 1QFD.pdb
+Processing: 1D6R (folder: 1D6R)
+  Downloaded 1D6R.pdb
+  Downloaded 2TGT.pdb
+  Downloaded 1K9B.pdb
+Processing: 1DFJ (folder: 1DFJ)
+  Downloaded 1DFJ.pdb
+  Downloaded 9RSA.pdb
+  Downloaded 2BNH.pdb
+Processing: 1E6E (folder: 1E6E)
+  Downloaded 1E6E.pdb
+  Downloaded 1E1N.pdb
+  Downloaded 1CJE.pdb
+Processing: 1EAW (folder: 1EAW)
+  Downloaded 1EAW.pdb
+  Downloaded 1EAX.pdb
+  Downloaded 9PTI.pdb
+Processing: 1EWY (folder: 1EWY)
+  Downloaded 1EWY.pdb
+  Downloaded 1GJR.pdb
+  Downloaded 1CZP.pdb
+Processing: 1F34 (folder: 1F34)
+  Downloaded 1F34.pdb
+  Downloaded 4PEP.pdb
+  Downloaded 1F32.pdb
+Processing: 1FLE (folder: 1FLE)
+  Downloaded 1FLE.pdb
+  Downloaded 9EST.pdb
+  Downloaded 2REL.pdb
+Processing: 1GL1 (folder: 1GL1)
+  Downloaded 1GL1.pdb
+  Downloaded 1K2I.pdb
+  Downloaded 1PMC.pdb
+Processing: 1GLA (folder: 1GLA)
+  Downloaded 1GLA.pdb
+  Downloaded 1BU6.pdb
+  Downloaded 1F3Z.pdb
+Processing: 1GXD (folder: 1GXD)
+  Downloaded 1GXD.pdb
+  Downloaded 1CK7.pdb
+  Downloaded 1BR9.pdb
+Processing: 1JTD (folder: 1JTD)
+  Downloaded 1JTD.pdb
+  Downloaded 3QI0.pdb
+  Downloaded 1BTL.pdb
+Processing: 1JTG (folder: 1JTG)
+  Downloaded 1JTG.pdb
+  Downloaded 3GMU.pdb
+  Downloaded 1ZG4.pdb
+Processing: 1MAH (folder: 1MAH)
+  Downloaded 1MAH.pdb
+  Downloaded 1J06.pdb
+  Downloaded 1FSC.pdb
+Processing: 1OC0 (folder: 1OC0)
+  Downloaded 1OC0.pdb
+  Downloaded 1B3K.pdb
+  Downloaded 2JQ8.pdb
+Processing: 1OPH (folder: 1OPH)
+  Downloaded 1OPH.pdb
+  Downloaded 1QLP.pdb
+  Downloaded 1UTQ.pdb
+Processing: 1OYV (folder: 1OYV)
+  Downloaded 1OYV.pdb
+  Downloaded 1SCD.pdb
+  Downloaded 1PJU.pdb
+Processing: 1OYV (folder: 1OYV)
+  Skipping 1OYV.pdb (already exists)
+  Skipping 1SCD.pdb (already exists)
+  Skipping 1PJU.pdb (already exists)
+Processing: 1PPE (folder: 1PPE)
+  Downloaded 1PPE.pdb
+  Downloaded 1BTP.pdb
+  Downloaded 1LU0.pdb
+Processing: 1R0R (folder: 1R0R)
+  Downloaded 1R0R.pdb
+  Downloaded 1SCN.pdb
+  Downloaded 2GKR.pdb
+Processing: 1TMQ (folder: 1TMQ)
+  Downloaded 1TMQ.pdb
+  Downloaded 1JAE.pdb
+  Downloaded 1B1U.pdb
+Processing: 1UDI (folder: 1UDI)
+  Downloaded 1UDI.pdb
+  Downloaded 1UDH.pdb
+  Downloaded 2UGI.pdb
+Processing: 1US7 (folder: 1US7)
+  Downloaded 1US7.pdb
+  Downloaded 2FXS.pdb
+  Downloaded 2W0G.pdb
+Processing: 1YVB (folder: 1YVB)
+  Downloaded 1YVB.pdb
+  Downloaded 2GHU.pdb
+  Downloaded 1CEW.pdb
+Processing: 1Z5Y (folder: 1Z5Y)
+  Downloaded 1Z5Y.pdb
+  Downloaded 1L6P.pdb
+  Downloaded 2B1K.pdb
+Processing: 2A1A (folder: 2A1A)
+  Downloaded 2A1A.pdb
+  Downloaded 3UIU.pdb
+  Downloaded 1Q46.pdb
+Processing: 2A9K (folder: 2A9K)
+  Downloaded 2A9K.pdb
+  Downloaded 1U90.pdb
+  Downloaded 2C8B.pdb
+Processing: 2ABZ (folder: 2ABZ)
+  Downloaded 2ABZ.pdb
+  Downloaded 3I1U.pdb
+  Downloaded 1ZFI.pdb
+Processing: 2AYO (folder: 2AYO)
+  Downloaded 2AYO.pdb
+  Downloaded 2AYN.pdb
+  Downloaded 2FCN.pdb
+Processing: 2B42 (folder: 2B42)
+  Downloaded 2B42.pdb
+  Downloaded 2DCY.pdb
+  Downloaded 1T6E.pdb
+Processing: 2GAF (folder: 2GAF)
+  Downloaded 2GAF.pdb
+  Downloaded 3OWG.pdb
+  Downloaded 1VPT.pdb
+Processing: 2J0T (folder: 2J0T)
+  Downloaded 2J0T.pdb
+  Downloaded 966C.pdb
+  Downloaded 1D2B.pdb
+Processing: 2O8V (folder: 2O8V)
+  Downloaded 2O8V.pdb
+  Downloaded 1SUR.pdb
+  Downloaded 2TRX.pdb
+Processing: 2OOB (folder: 2OOB)
+  Downloaded 2OOB.pdb
+  Downloaded 2OOA.pdb
+  Downloaded 1YJ1.pdb
+Processing: 2OUL (folder: 2OUL)
+  Downloaded 2OUL.pdb
+  Downloaded 3BPF.pdb
+  Downloaded 2NNR.pdb
+Processing: 2PCC (folder: 2PCC)
+  Downloaded 2PCC.pdb
+  Downloaded 1CCP.pdb
+  Downloaded 1YCC.pdb
+Processing: 2SIC (folder: 2SIC)
+  Downloaded 2SIC.pdb
+  Downloaded 1SUP.pdb
+  Downloaded 3SSI.pdb
+Processing: 2SNI (folder: 2SNI)
+  Downloaded 2SNI.pdb
+  Downloaded 1UBN.pdb
+  Downloaded 2CI2.pdb
+Processing: 2UUY (folder: 2UUY)
+  Downloaded 2UUY.pdb
+  Downloaded 1HJ9.pdb
+  Downloaded 2UUX.pdb
+Processing: 2YVJ (folder: 2YVJ)
+  Downloaded 2YVJ.pdb
+  Downloaded 2YVF.pdb
+  Downloaded 2E4P.pdb
+Processing: 3A4S (folder: 3A4S)
+  Downloaded 3A4S.pdb
+  Downloaded 1A3S.pdb
+  Downloaded 3A4R.pdb
+Processing: 3K75 (folder: 3K75)
+  Downloaded 3K75.pdb
+  Downloaded 1BPB.pdb
+  Downloaded 3K77.pdb
+Processing: 3PC8 (folder: 3PC8)
+  Downloaded 3PC8.pdb
+  Downloaded 3PC6.pdb
+  Downloaded 3PC7.pdb
+Processing: 3SGQ (folder: 3SGQ)
+  Downloaded 3SGQ.pdb
+  Downloaded 2QA9.pdb
+  Downloaded 2OVO.pdb
+Processing: 3VLB (folder: 3VLB)
+  Downloaded 3VLB.pdb
+  Downloaded 3VLA.pdb
+  Downloaded 3VL8.pdb
+Processing: 4CPA (folder: 4CPA)
+  Downloaded 4CPA.pdb
+  Downloaded 8CPA.pdb
+  Downloaded 1H20.pdb
+Processing: 4H03 (folder: 4H03)
+  Downloaded 4H03.pdb
+  Downloaded 1GIQ.pdb
+  Downloaded 1IJJ.pdb
+Processing: 7CEI (folder: 7CEI)
+  Downloaded 7CEI.pdb
+  Downloaded 1UNK.pdb
+  Downloaded 1M08.pdb
+Processing: 1AK4 (folder: 1AK4)
+  Downloaded 1AK4.pdb
+  Downloaded 2CPL.pdb
+  Downloaded 4J93.pdb
+Processing: 1E96 (folder: 1E96)
+  Downloaded 1E96.pdb
+  Downloaded 1MH1.pdb
+  Downloaded 1HH8.pdb
+Processing: 1EFN (folder: 1EFN)
+  Downloaded 1EFN.pdb
+  Downloaded 1AVV.pdb
+  Downloaded 1G83.pdb
+Processing: 1FFW (folder: 1FFW)
+  Downloaded 1FFW.pdb
+  Downloaded 3CHY.pdb
+  Downloaded 1FWP.pdb
+Processing: 1FQJ (folder: 1FQJ)
+  Downloaded 1FQJ.pdb
+  Downloaded 1TND.pdb
+  Downloaded 1FQI.pdb
+Processing: 1GCQ (folder: 1GCQ)
+  Downloaded 1GCQ.pdb
+  Downloaded 1GRI.pdb
+  Downloaded 1GCP.pdb
+Processing: 1GHQ (folder: 1GHQ)
+  Downloaded 1GHQ.pdb
+  Downloaded 1C3D.pdb
+  Downloaded 1LY2.pdb
+Processing: 1GPW (folder: 1GPW)
+  Downloaded 1GPW.pdb
+  Downloaded 1THF.pdb
+  Downloaded 1K9V.pdb
+Processing: 1H9D (folder: 1H9D)
+  Downloaded 1H9D.pdb
+  Downloaded 1EAN.pdb
+  Downloaded 1ILF.pdb
+Processing: 1HE1 (folder: 1HE1)
+  Downloaded 1HE1.pdb
+  Downloaded 1MH1.pdb
+  Downloaded 1HE9.pdb
+Processing: 1J2J (folder: 1J2J)
+  Downloaded 1J2J.pdb
+  Downloaded 1O3Y.pdb
+  Downloaded 1OXZ.pdb
+Processing: 1KAC (folder: 1KAC)
+  Downloaded 1KAC.pdb
+  Downloaded 1NOB.pdb
+  Downloaded 1F5W.pdb
+Processing: 1KTZ (folder: 1KTZ)
+  Downloaded 1KTZ.pdb
+  Downloaded 1TGK.pdb
+  Downloaded 1M9Z.pdb
+Processing: 1KXP (folder: 1KXP)
+  Downloaded 1KXP.pdb
+  Downloaded 1IJJ.pdb
+  Downloaded 1KW2.pdb
+Processing: 1PVH (folder: 1PVH)
+  Downloaded 1PVH.pdb
+  Downloaded 1BQU.pdb
+  Downloaded 1EMR.pdb
+Processing: 1QA9 (folder: 1QA9)
+  Downloaded 1QA9.pdb
+  Downloaded 1HNF.pdb
+  Downloaded 1CCZ.pdb
+Processing: 1S1Q (folder: 1S1Q)
+  Downloaded 1S1Q.pdb
+  Downloaded 2F0R.pdb
+  Downloaded 1YJ1.pdb
+Processing: 1SBB (folder: 1SBB)
+  Downloaded 1SBB.pdb
+  Downloaded 1BEC.pdb
+  Downloaded 1SE4.pdb
+Processing: 1T6B (folder: 1T6B)
+  Downloaded 1T6B.pdb
+  Downloaded 1ACC.pdb
+  Downloaded 1SHU.pdb
+Processing: 1XD3 (folder: 1XD3)
+  Downloaded 1XD3.pdb
+  Downloaded 1UCH.pdb
+  Downloaded 1YJ1.pdb
+Processing: 1Z0K (folder: 1Z0K)
+  Downloaded 1Z0K.pdb
+  Downloaded 2BME.pdb
+  Downloaded 1YZM.pdb
+Processing: 1ZHH (folder: 1ZHH)
+  Downloaded 1ZHH.pdb
+  Downloaded 1JX6.pdb
+  Downloaded 2HJE.pdb
+Processing: 1ZHI (folder: 1ZHI)
+  Downloaded 1ZHI.pdb
+  Downloaded 1M4Z.pdb
+  Downloaded 1Z1A.pdb
+Processing: 2A5T (folder: 2A5T)
+  Downloaded 2A5T.pdb
+  Downloaded 1Y20.pdb
+  Downloaded 2A5S.pdb
+Processing: 2AJF (folder: 2AJF)
+  Downloaded 2AJF.pdb
+  Downloaded 1R42.pdb
+  Downloaded 2GHV.pdb
+Processing: 2BTF (folder: 2BTF)
+  Downloaded 2BTF.pdb
+  Downloaded 1IJJ.pdb
+  Downloaded 1PNE.pdb
+Processing: 2FJU (folder: 2FJU)
+  Downloaded 2FJU.pdb
+  Downloaded 2ZKM.pdb
+  Downloaded 1MH1.pdb
+Processing: 2G77 (folder: 2G77)
+  Downloaded 2G77.pdb
+  Downloaded 1FKM.pdb
+  Downloaded 1Z06.pdb
+Processing: 2GTP (folder: 2GTP)
+  Downloaded 2GTP.pdb
+  Downloaded 1GFI.pdb
+  Downloaded 2BV1.pdb
+Processing: 2HLE (folder: 2HLE)
+  Downloaded 2HLE.pdb
+  Downloaded 2BBA.pdb
+  Downloaded 1IKO.pdb
+Processing: 2HQS (folder: 2HQS)
+  Downloaded 2HQS.pdb
+  Downloaded 1CRZ.pdb
+  Downloaded 1OAP.pdb
+Processing: 2VDB (folder: 2VDB)
+  Downloaded 2VDB.pdb
+  Downloaded 3CX9.pdb
+  Downloaded 2J5Y.pdb
+Processing: 2X9A (folder: 2X9A)
+  Downloaded 2X9A.pdb
+  Downloaded 1S62.pdb
+  Downloaded 2X9B.pdb
+Processing: 3BIW (folder: 3BIW)
+  Downloaded 3BIW.pdb
+  Downloaded 3BIX.pdb
+  Downloaded 2R1D.pdb
+Processing: 3D5S (folder: 3D5S)
+  Downloaded 3D5S.pdb
+  Downloaded 1C3D.pdb
+  Downloaded 2GOM.pdb
+Processing: 3H2V (folder: 3H2V)
+  Downloaded 3H2V.pdb
+  Downloaded 3MYI.pdb
+  Downloaded 1WI6.pdb
+Processing: 4M76 (folder: 4M76)
+  Downloaded 4M76.pdb
+  Downloaded 1C3D.pdb
+  Downloaded 1M1U.pdb
+Processing: 3RJQ (folder: 3RJQ)
+  Downloaded 3RJQ.pdb
+  Downloaded 3R0M.pdb
+  Downloaded 3TGR.pdb
+Processing: 4M3K (folder: 4M3K)
+  Downloaded 4M3K.pdb
+  Downloaded 4M3J.pdb
+  Downloaded 4BLM.pdb
+Processing: 4POU (folder: 4POU)
+  Downloaded 4POU.pdb
+  Downloaded 4POY.pdb
+  Downloaded 6ETL.pdb
+Processing: 5E5M (folder: 5E5M)
+  Downloaded 5E5M.pdb
+  Downloaded 5E03.pdb
+  Downloaded 5E56.pdb
+Processing: 5HGG (folder: 5HGG)
+  Downloaded 5HGG.pdb
+  Downloaded 5HDO.pdb
+  Downloaded 4FUD.pdb
+Processing: 5VNW (folder: 5VNW)
+  Downloaded 5VNW.pdb
+  Downloaded 5VNV.pdb
+  Downloaded 1E78.pdb
+Processing: 1CGI (folder: 1CGI)
+  Downloaded 1CGI.pdb
+  Downloaded 2CGA.pdb
+  Downloaded 1HPT.pdb
+Processing: 1JIW (folder: 1JIW)
+  Downloaded 1JIW.pdb
+  Downloaded 1AKL.pdb
+  Downloaded 2RN4.pdb
+Processing: 1M10 (folder: 1M10)
+  Downloaded 1M10.pdb
+  Downloaded 1AUQ.pdb
+  Downloaded 1M0Z.pdb
+Processing: 1NW9 (folder: 1NW9)
+  Downloaded 1NW9.pdb
+  Downloaded 1JXQ.pdb
+  Downloaded 2OPY.pdb
+Processing: 1R6Q (folder: 1R6Q)
+  Downloaded 1R6Q.pdb
+  Downloaded 1R6C.pdb
+  Downloaded 2W9R.pdb
+Processing: 1ZM4 (folder: 1ZM4)
+  Downloaded 1ZM4.pdb
+  Downloaded 1N0V.pdb
+  Downloaded 1XK9.pdb
+Processing: 2NZ8 (folder: 2NZ8)
+  Downloaded 2NZ8.pdb
+  Downloaded 1MH1.pdb
+  Downloaded 1NTY.pdb
+Processing: 2Z0E (folder: 2Z0E)
+  Downloaded 2Z0E.pdb
+  Downloaded 2D1I.pdb
+  Downloaded 1V49.pdb
+Processing: 4FZA (folder: 4FZA)
+  Downloaded 4FZA.pdb
+  Downloaded 1UPL.pdb
+  Downloaded 3GGF.pdb
+Processing: 4IZ7 (folder: 4IZ7)
+  Downloaded 4IZ7.pdb
+  Downloaded 1ERK.pdb
+  Downloaded 2LS7.pdb
+Processing: 1B6C (folder: 1B6C)
+  Downloaded 1B6C.pdb
+  Downloaded 1D6O.pdb
+  Downloaded 1IAS.pdb
+Processing: 1FC2 (folder: 1FC2)
+  Downloaded 1FC2.pdb
+  Downloaded 1BDD.pdb
+  Downloaded 1FC1.pdb
+Processing: 1HE8 (folder: 1HE8)
+  Downloaded 1HE8.pdb
+  Downloaded 821P.pdb
+  Downloaded 1E8Z.pdb
+Processing: 1I2M (folder: 1I2M)
+  Downloaded 1I2M.pdb
+  Downloaded 1QG4.pdb
+  Downloaded 1A12.pdb
+Processing: 1LFD (folder: 1LFD)
+  Downloaded 1LFD.pdb
+  Downloaded 5P21.pdb
+  Downloaded 1LXD.pdb
+Processing: 1MQ8 (folder: 1MQ8)
+  Downloaded 1MQ8.pdb
+  Downloaded 1IAM.pdb
+  Downloaded 1MQ9.pdb
+Processing: 1SYX (folder: 1SYX)
+  Downloaded 1SYX.pdb
+  Downloaded 1QGV.pdb
+  Downloaded 1L2Z.pdb
+Processing: 1XQS (folder: 1XQS)
+  Downloaded 1XQS.pdb
+  Downloaded 1XQR.pdb
+  Downloaded 1S3X.pdb
+Processing: 2CFH (folder: 2CFH)
+  Downloaded 2CFH.pdb
+  Downloaded 1SZ7.pdb
+  Downloaded 2BJN.pdb
+Processing: 2H7V (folder: 2H7V)
+  Downloaded 2H7V.pdb
+  Downloaded 1MH1.pdb
+  Downloaded 2H7O.pdb
+Processing: 2HRK (folder: 2HRK)
+  Downloaded 2HRK.pdb
+  Downloaded 2HRA.pdb
+  Downloaded 2HQT.pdb
+Processing: 2OZA (folder: 2OZA)
+  Downloaded 2OZA.pdb
+  Downloaded 3HEC.pdb
+  Downloaded 3FYK.pdb
+Processing: 3AAD (folder: 3AAD)
+  Downloaded 3AAD.pdb
+  Downloaded 1EQF.pdb
+  Downloaded 1TEY.pdb
+Processing: 3BX7 (folder: 3BX7)
+  Downloaded 3BX7.pdb
+  Downloaded 3BX8.pdb
+  Downloaded 3OSK.pdb
+Processing: 3CPH (folder: 3CPH)
+  Downloaded 3CPH.pdb
+  Downloaded 3CPI.pdb
+  Downloaded 1G16.pdb
+Processing: 3DAW (folder: 3DAW)
+  Downloaded 3DAW.pdb
+  Downloaded 1IJJ.pdb
+  Downloaded 2HD7.pdb
+Processing: 3S9D (folder: 3S9D)
+  Downloaded 3S9D.pdb
+  Downloaded 1N6U.pdb
+  Downloaded 1ITF.pdb
+Processing: 1ACB (folder: 1ACB)
+  Downloaded 1ACB.pdb
+  Downloaded 2CGA.pdb
+  Downloaded 1EGL.pdb
+Processing: 1F6M (folder: 1F6M)
+  Downloaded 1F6M.pdb
+  Downloaded 1CL0.pdb
+  Downloaded 2TIR.pdb
+Processing: 1FQ1 (folder: 1FQ1)
+  Downloaded 1FQ1.pdb
+  Downloaded 1B39.pdb
+  Downloaded 1FPZ.pdb
+Processing: 1JK9 (folder: 1JK9)
+  Downloaded 1JK9.pdb
+  Downloaded 1QUP.pdb
+  Downloaded 2JCW.pdb
+Processing: 1PXV (folder: 1PXV)
+  Downloaded 1PXV.pdb
+  Downloaded 1X9Y.pdb
+  Downloaded 1NYC.pdb
+Processing: 1ZLI (folder: 1ZLI)
+  Downloaded 1ZLI.pdb
+  Downloaded 1KWM.pdb
+  Downloaded 2JTO.pdb
+Processing: 2IDO (folder: 2IDO)
+  Downloaded 2IDO.pdb
+  Downloaded 1J54.pdb
+  Downloaded 1SE7.pdb
+Processing: 2O3B (folder: 2O3B)
+  Downloaded 2O3B.pdb
+  Downloaded 1ZM8.pdb
+  Downloaded 1J57.pdb
+Processing: 2OT3 (folder: 2OT3)
+  Downloaded 2OT3.pdb
+  Downloaded 1YZU.pdb
+  Downloaded 1TXU.pdb
+Processing: 3FN1 (folder: 3FN1)
+  Downloaded 3FN1.pdb
+  Downloaded 2EDI.pdb
+  Downloaded 2LQ7.pdb
+Processing: 1ATN (folder: 1ATN)
+  Downloaded 1ATN.pdb
+  Downloaded 1IJJ.pdb
+  Downloaded 3DNI.pdb
+Processing: 1BKD (folder: 1BKD)
+  Downloaded 1BKD.pdb
+  Downloaded 1CTQ.pdb
+  Downloaded 2II0.pdb
+Processing: 1H1V (folder: 1H1V)
+  Downloaded 1H1V.pdb
+  Downloaded 1IJJ.pdb
+  Downloaded 1D0N.pdb
+Processing: 1IBR (folder: 1IBR)
+  Downloaded 1IBR.pdb
+  Downloaded 1QG4.pdb
+  Downloaded 1F59.pdb
+Processing: 1IRA (folder: 1IRA)
+  Downloaded 1IRA.pdb
+  Downloaded 1G0Y.pdb
+  Downloaded 1ILR.pdb
+Processing: 1R8S (folder: 1R8S)
+  Downloaded 1R8S.pdb
+  Downloaded 1HUR.pdb
+  Downloaded 1R8M.pdb
+Processing: 1RKE (folder: 1RKE)
+  Downloaded 1RKE.pdb
+  Downloaded 1SYQ.pdb
+  Downloaded 3MYI.pdb
+Processing: 1Y64 (folder: 1Y64)
+  Downloaded 1Y64.pdb
+  Downloaded 2FXU.pdb
+  Downloaded 1UX5.pdb
+Processing: 2C0L (folder: 2C0L)
+  Downloaded 2C0L.pdb
+  Downloaded 1FCH.pdb
+  Downloaded 1C44.pdb
+Processing: 2I9B (folder: 2I9B)
+  Downloaded 2I9B.pdb
+  Downloaded 1YWH.pdb
+  Downloaded 2I9A.pdb
+Processing: 2J7P (folder: 2J7P)
+  Downloaded 2J7P.pdb
+  Downloaded 1NG1.pdb
+  Downloaded 2IYL.pdb
+Processing: 3AAD (folder: 3AAD)
+  Skipping 3AAD.pdb (already exists)
+  Skipping 1EQF.pdb (already exists)
+  Skipping 1TEY.pdb (already exists)
+Processing: 3F1P (folder: 3F1P)
+  Downloaded 3F1P.pdb
+  Downloaded 1P97.pdb
+  Downloaded 1X0O.pdb
+Download complete!
+-----\n
+-----\n
+-----\n
+SECTION: W,Z,WZ chain filtering
+
+[PROCESSING] 1ACB
+  [Step 1a] 2CGA.pdb: chain 'B' → W  →  2CGA_W.pdb
+  [Step 1b] 1EGL.pdb: chain 'A' → Z  →  1EGL_Z.pdb
+  [Step 2 ] 1ACB.pdb: chains 'E'→W, 'I'→Z  →  1ACB_WZ.pdb
+  → done
+
+[PROCESSING] 1AK4
+  [Step 1a] 2CPL.pdb: chain 'A' → W  →  2CPL_W.pdb
+  [Step 1b] 4J93.pdb: chain 'A' → Z  →  4J93_Z.pdb
+  [Step 2 ] 1AK4.pdb: chains 'A'→W, 'D'→Z  →  1AK4_WZ.pdb
+  → done
+
+[PROCESSING] 1ATN
+  [Step 1a] 1IJJ.pdb: chain 'B' → W  →  1IJJ_W.pdb
+  [Step 1b] 3DNI.pdb: chain 'A' → Z  →  3DNI_Z.pdb
+  [Step 2 ] 1ATN.pdb: chains 'A'→W, 'D'→Z  →  1ATN_WZ.pdb
+  → done
+
+[PROCESSING] 1AVX
+  [Step 1a] 1QQU.pdb: chain 'A' → W  →  1QQU_W.pdb
+  [Step 1b] 1BA7.pdb: chain 'B' → Z  →  1BA7_Z.pdb
+  [Step 2 ] 1AVX.pdb: chains 'A'→W, 'B'→Z  →  1AVX_WZ.pdb
+  → done
+
+[PROCESSING] 1AY7
+  [Step 1a] 1RGH.pdb: chain 'B' → W  →  1RGH_W.pdb
+  [Step 1b] 1A19.pdb: chain 'B' → Z  →  1A19_Z.pdb
+  [Step 2 ] 1AY7.pdb: chains 'A'→W, 'B'→Z  →  1AY7_WZ.pdb
+  → done
+
+[PROCESSING] 1B6C
+  [Step 1a] 1D6O.pdb: chain 'A' → W  →  1D6O_W.pdb
+  [Step 1b] 1IAS.pdb: chain 'A' → Z  →  1IAS_Z.pdb
+  [Step 2 ] 1B6C.pdb: chains 'A'→W, 'B'→Z  →  1B6C_WZ.pdb
+  → done
+
+[PROCESSING] 1BKD
+  [Step 1a] 1CTQ.pdb: chain 'A' → W  →  1CTQ_W.pdb
+  [Step 1b] 2II0.pdb: chain 'A' → Z  →  2II0_Z.pdb
+  [Step 2 ] 1BKD.pdb: chains 'R'→W, 'S'→Z  →  1BKD_WZ.pdb
+  → done
+
+[PROCESSING] 1BUH
+  [Step 1a] 1HCL.pdb: chain 'A' → W  →  1HCL_W.pdb
+  [Step 1b] 1DKS.pdb: chain 'A' → Z  →  1DKS_Z.pdb
+  [Step 2 ] 1BUH.pdb: chains 'A'→W, 'B'→Z  →  1BUH_WZ.pdb
+  → done
+
+[PROCESSING] 1BVN
+  [Step 1a] 1PIG.pdb: chain 'A' → W  →  1PIG_W.pdb
+  [Step 1b] 1HOE.pdb: chain 'A' → Z  →  1HOE_Z.pdb
+  [Step 2 ] 1BVN.pdb: chains 'P'→W, 'T'→Z  →  1BVN_WZ.pdb
+  → done
+
+[PROCESSING] 1CGI
+  [Step 1a] 2CGA.pdb: chain 'B' → W  →  2CGA_W.pdb
+  [Step 1b] 1HPT.pdb: chain 'A' → Z  →  1HPT_Z.pdb
+  [Step 2 ] 1CGI.pdb: chains 'E'→W, 'I'→Z  →  1CGI_WZ.pdb
+  → done
+
+[PROCESSING] 1CLV
+  [Step 1a] 1JAE.pdb: chain 'A' → W  →  1JAE_W.pdb
+  [Step 1b] 1QFD.pdb: chain 'A(1)' → Z  →  1QFD_Z.pdb
+  [Step 2 ] 1CLV.pdb: chains 'A'→W, 'I'→Z  →  1CLV_WZ.pdb
+  → done
+
+[PROCESSING] 1D6R
+  [Step 1a] 2TGT.pdb: chain 'A' → W  →  2TGT_W.pdb
+  [Step 1b] 1K9B.pdb: chain 'A' → Z  →  1K9B_Z.pdb
+  [Step 2 ] 1D6R.pdb: chains 'A'→W, 'I'→Z  →  1D6R_WZ.pdb
+  → done
+
+[PROCESSING] 1DFJ
+  [Step 1a] 9RSA.pdb: chain 'B' → W  →  9RSA_W.pdb
+  [Step 1b] 2BNH.pdb: chain 'A' → Z  →  2BNH_Z.pdb
+  [Step 2 ] 1DFJ.pdb: chains 'E'→W, 'I'→Z  →  1DFJ_WZ.pdb
+  → done
+
+[PROCESSING] 1E6E
+  [Step 1a] 1E1N.pdb: chain 'A' → W  →  1E1N_W.pdb
+  [Step 1b] 1CJE.pdb: chain 'D' → Z  →  1CJE_Z.pdb
+  [Step 2 ] 1E6E.pdb: chains 'A'→W, 'B'→Z  →  1E6E_WZ.pdb
+  → done
+
+[PROCESSING] 1E96
+  [Step 1a] 1MH1.pdb: chain 'A' → W  →  1MH1_W.pdb
+  [Step 1b] 1HH8.pdb: chain 'A' → Z  →  1HH8_Z.pdb
+  [Step 2 ] 1E96.pdb: chains 'A'→W, 'B'→Z  →  1E96_WZ.pdb
+  → done
+
+[PROCESSING] 1EAW
+  [Step 1a] 1EAX.pdb: chain 'A' → W  →  1EAX_W.pdb
+  [Step 1b] 9PTI.pdb: chain 'A' → Z  →  9PTI_Z.pdb
+  [Step 2 ] 1EAW.pdb: chains 'A'→W, 'B'→Z  →  1EAW_WZ.pdb
+  → done
+
+[PROCESSING] 1EFN
+  [Step 1a] 1AVV.pdb: chain 'A' → W  →  1AVV_W.pdb
+  [Step 1b] 1G83.pdb: chain 'A' → Z  →  1G83_Z.pdb
+  [Step 2 ] 1EFN.pdb: chains 'B'→W, 'A'→Z  →  1EFN_WZ.pdb
+  → done
+
+[PROCESSING] 1EWY
+  [Step 1a] 1GJR.pdb: chain 'A' → W  →  1GJR_W.pdb
+  [Step 1b] 1CZP.pdb: chain 'A' → Z  →  1CZP_Z.pdb
+  [Step 2 ] 1EWY.pdb: chains 'A'→W, 'C'→Z  →  1EWY_WZ.pdb
+  → done
+
+[PROCESSING] 1F34
+  [Step 1a] 4PEP.pdb: chain 'A' → W  →  4PEP_W.pdb
+  [Step 1b] 1F32.pdb: chain 'A' → Z  →  1F32_Z.pdb
+  [Step 2 ] 1F34.pdb: chains 'A'→W, 'B'→Z  →  1F34_WZ.pdb
+  → done
+
+[PROCESSING] 1F6M
+  [Step 1a] 1CL0.pdb: chain 'A' → W  →  1CL0_W.pdb
+  [Step 1b] 2TIR.pdb: chain 'A' → Z  →  2TIR_Z.pdb
+  [Step 2 ] 1F6M.pdb: chains 'A'→W, 'C'→Z  →  1F6M_WZ.pdb
+  → done
+
+[PROCESSING] 1FC2
+  [Step 1a] 1BDD.pdb: chain 'A' → W  →  1BDD_W.pdb
+  [Step 1b] 1FC1.pdb: chain 'AB' → Z  →  1FC1_Z.pdb
+  [Step 2 ] 1FC2.pdb: chains 'C'→W, 'D'→Z  →  1FC2_WZ.pdb
+  → done
+
+[PROCESSING] 1FFW
+  [Step 1a] 3CHY.pdb: chain 'A' → W  →  3CHY_W.pdb
+  [Step 1b] 1FWP.pdb: chain 'A' → Z  →  1FWP_Z.pdb
+  [Step 2 ] 1FFW.pdb: chains 'A'→W, 'B'→Z  →  1FFW_WZ.pdb
+  → done
+
+[PROCESSING] 1FLE
+  [Step 1a] 9EST.pdb: chain 'A' → W  →  9EST_W.pdb
+  [Step 1b] 2REL.pdb: chain 'A(4)' → Z  →  2REL_Z.pdb
+  [Step 2 ] 1FLE.pdb: chains 'E'→W, 'I'→Z  →  1FLE_WZ.pdb
+  → done
+
+[PROCESSING] 1FQ1
+  [Step 1a] 1B39.pdb: chain 'A' → W  →  1B39_W.pdb
+  [Step 1b] 1FPZ.pdb: chain 'F' → Z  →  1FPZ_Z.pdb
+  [Step 2 ] 1FQ1.pdb: chains 'A'→W, 'B'→Z  →  1FQ1_WZ.pdb
+  → done
+
+[PROCESSING] 1FQJ
+  [Step 1a] 1TND.pdb: chain 'C' → W  →  1TND_W.pdb
+  [Step 1b] 1FQI.pdb: chain 'A' → Z  →  1FQI_Z.pdb
+  [Step 2 ] 1FQJ.pdb: chains 'A'→W, 'B'→Z  →  1FQJ_WZ.pdb
+  → done
+
+[PROCESSING] 1GCQ
+  [Step 1a] 1GRI.pdb: chain 'B' → W  →  1GRI_W.pdb
+  [Step 1b] 1GCP.pdb: chain 'B' → Z  →  1GCP_Z.pdb
+  [Step 2 ] 1GCQ.pdb: chains 'B'→W, 'C'→Z  →  1GCQ_WZ.pdb
+  → done
+
+[PROCESSING] 1GHQ
+  [Step 1a] 1C3D.pdb: chain 'A' → W  →  1C3D_W.pdb
+  [Step 1b] 1LY2.pdb: chain 'A' → Z  →  1LY2_Z.pdb
+  [Step 2 ] 1GHQ.pdb: chains 'A'→W, 'B'→Z  →  1GHQ_WZ.pdb
+  → done
+
+[PROCESSING] 1GL1
+  [Step 1a] 1K2I.pdb: chain '1' → W  →  1K2I_W.pdb
+  [Step 1b] 1PMC.pdb: chain 'A(6)' → Z  →  1PMC_Z.pdb
+  [Step 2 ] 1GL1.pdb: chains 'A'→W, 'I'→Z  →  1GL1_WZ.pdb
+  → done
+
+[PROCESSING] 1GLA
+  [Step 1a] 1BU6.pdb: chain 'O' → W  →  1BU6_W.pdb
+  [Step 1b] 1F3Z.pdb: chain 'A' → Z  →  1F3Z_Z.pdb
+  [Step 2 ] 1GLA.pdb: chains 'G'→W, 'F'→Z  →  1GLA_WZ.pdb
+  → done
+
+[PROCESSING] 1GPW
+  [Step 1a] 1THF.pdb: chain 'D' → W  →  1THF_W.pdb
+  [Step 1b] 1K9V.pdb: chain 'F' → Z  →  1K9V_Z.pdb
+  [Step 2 ] 1GPW.pdb: chains 'A'→W, 'B'→Z  →  1GPW_WZ.pdb
+  → done
+
+[PROCESSING] 1GXD
+  [Step 1a] 1CK7.pdb: chain 'A' → W  →  1CK7_W.pdb
+  [Step 1b] 1BR9.pdb: chain 'A' → Z  →  1BR9_Z.pdb
+  [Step 2 ] 1GXD.pdb: chains 'A'→W, 'C'→Z  →  1GXD_WZ.pdb
+  → done
+
+[PROCESSING] 1H1V
+  [Step 1a] 1IJJ.pdb: chain 'B' → W  →  1IJJ_W.pdb
+  [Step 1b] 1D0N.pdb: chain 'B' → Z  →  1D0N_Z.pdb
+  [Step 2 ] 1H1V.pdb: chains 'A'→W, 'G'→Z  →  1H1V_WZ.pdb
+  → done
+
+[PROCESSING] 1H9D
+  [Step 1a] 1EAN.pdb: chain 'A' → W  →  1EAN_W.pdb
+  [Step 1b] 1ILF.pdb: chain 'A(1)' → Z  →  1ILF_Z.pdb
+  [Step 2 ] 1H9D.pdb: chains 'A'→W, 'B'→Z  →  1H9D_WZ.pdb
+  → done
+
+[PROCESSING] 1HE1
+  [Step 1a] 1MH1.pdb: chain 'A' → W  →  1MH1_W.pdb
+  [Step 1b] 1HE9.pdb: chain 'A' → Z  →  1HE9_Z.pdb
+  [Step 2 ] 1HE1.pdb: chains 'C'→W, 'A'→Z  →  1HE1_WZ.pdb
+  → done
+
+[PROCESSING] 1HE8
+  [Step 1a] 821P.pdb: chain 'A' → W  →  821P_W.pdb
+  [Step 1b] 1E8Z.pdb: chain 'A' → Z  →  1E8Z_Z.pdb
+  [Step 2 ] 1HE8.pdb: chains 'B'→W, 'A'→Z  →  1HE8_WZ.pdb
+  → done
+
+[PROCESSING] 1I2M
+  [Step 1a] 1QG4.pdb: chain 'A' → W  →  1QG4_W.pdb
+  [Step 1b] 1A12.pdb: chain 'A' → Z  →  1A12_Z.pdb
+  [Step 2 ] 1I2M.pdb: chains 'A'→W, 'B'→Z  →  1I2M_WZ.pdb
+  → done
+
+[PROCESSING] 1IBR
+  [Step 1a] 1QG4.pdb: chain 'A' → W  →  1QG4_W.pdb
+  [Step 1b] 1F59.pdb: chain 'A' → Z  →  1F59_Z.pdb
+  [Step 2 ] 1IBR.pdb: chains 'A'→W, 'B'→Z  →  1IBR_WZ.pdb
+  → done
+
+[PROCESSING] 1IRA
+  [Step 1a] 1G0Y.pdb: chain 'R' → W  →  1G0Y_W.pdb
+  [Step 1b] 1ILR.pdb: chain '1' → Z  →  1ILR_Z.pdb
+  [Step 2 ] 1IRA.pdb: chains 'Y'→W, 'X'→Z  →  1IRA_WZ.pdb
+  → done
+
+[PROCESSING] 1J2J
+  [Step 1a] 1O3Y.pdb: chain 'A' → W  →  1O3Y_W.pdb
+  [Step 1b] 1OXZ.pdb: chain 'A' → Z  →  1OXZ_Z.pdb
+  [Step 2 ] 1J2J.pdb: chains 'A'→W, 'B'→Z  →  1J2J_WZ.pdb
+  → done
+
+[PROCESSING] 1JIW
+  [Step 1a] 1AKL.pdb: chain 'A' → W  →  1AKL_W.pdb
+  [Step 1b] 2RN4.pdb: chain 'A(1)' → Z  →  2RN4_Z.pdb
+  [Step 2 ] 1JIW.pdb: chains 'P'→W, 'I'→Z  →  1JIW_WZ.pdb
+  → done
+
+[PROCESSING] 1JK9
+  [Step 1a] 1QUP.pdb: chain 'A' → W  →  1QUP_W.pdb
+  [Step 1b] 2JCW.pdb: chain 'A' → Z  →  2JCW_Z.pdb
+  [Step 2 ] 1JK9.pdb: chains 'B'→W, 'A'→Z  →  1JK9_WZ.pdb
+  → done
+
+[PROCESSING] 1JTD
+  [Step 1a] 3QI0.pdb: chain 'A' → W  →  3QI0_W.pdb
+  [Step 1b] 1BTL.pdb: chain 'A' → Z  →  1BTL_Z.pdb
+  [Step 2 ] 1JTD.pdb: chains 'B'→W, 'A'→Z  →  1JTD_WZ.pdb
+  → done
+
+[PROCESSING] 1JTG
+  [Step 1a] 3GMU.pdb: chain 'B' → W  →  3GMU_W.pdb
+  [Step 1b] 1ZG4.pdb: chain 'A' → Z  →  1ZG4_Z.pdb
+  [Step 2 ] 1JTG.pdb: chains 'B'→W, 'A'→Z  →  1JTG_WZ.pdb
+  → done
+
+[PROCESSING] 1KAC
+  [Step 1a] 1NOB.pdb: chain 'F' → W  →  1NOB_W.pdb
+  [Step 1b] 1F5W.pdb: chain 'B' → Z  →  1F5W_Z.pdb
+  [Step 2 ] 1KAC.pdb: chains 'A'→W, 'B'→Z  →  1KAC_WZ.pdb
+  → done
+
+[PROCESSING] 1KTZ
+  [Step 1a] 1TGK.pdb: chain 'A' → W  →  1TGK_W.pdb
+  [Step 1b] 1M9Z.pdb: chain 'A' → Z  →  1M9Z_Z.pdb
+  [Step 2 ] 1KTZ.pdb: chains 'A'→W, 'B'→Z  →  1KTZ_WZ.pdb
+  → done
+
+[PROCESSING] 1KXP
+  [Step 1a] 1IJJ.pdb: chain 'B' → W  →  1IJJ_W.pdb
+  [Step 1b] 1KW2.pdb: chain 'B' → Z  →  1KW2_Z.pdb
+  [Step 2 ] 1KXP.pdb: chains 'A'→W, 'D'→Z  →  1KXP_WZ.pdb
+  → done
+
+[PROCESSING] 1LFD
+  [Step 1a] 5P21.pdb: chain 'A' → W  →  5P21_W.pdb
+  [Step 1b] 1LXD.pdb: chain 'A' → Z  →  1LXD_Z.pdb
+  [Step 2 ] 1LFD.pdb: chains 'B'→W, 'A'→Z  →  1LFD_WZ.pdb
+  → done
+
+[PROCESSING] 1M10
+  [Step 1a] 1AUQ.pdb: chain 'A' → W  →  1AUQ_W.pdb
+  [Step 1b] 1M0Z.pdb: chain 'B' → Z  →  1M0Z_Z.pdb
+  [Step 2 ] 1M10.pdb: chains 'A'→W, 'B'→Z  →  1M10_WZ.pdb
+  → done
+
+[PROCESSING] 1MAH
+  [Step 1a] 1J06.pdb: chain 'B' → W  →  1J06_W.pdb
+  [Step 1b] 1FSC.pdb: chain 'A' → Z  →  1FSC_Z.pdb
+  [Step 2 ] 1MAH.pdb: chains 'A'→W, 'F'→Z  →  1MAH_WZ.pdb
+  → done
+
+[PROCESSING] 1MQ8
+  [Step 1a] 1IAM.pdb: chain 'A' → W  →  1IAM_W.pdb
+  [Step 1b] 1MQ9.pdb: chain 'A' → Z  →  1MQ9_Z.pdb
+  [Step 2 ] 1MQ8.pdb: chains 'A'→W, 'B'→Z  →  1MQ8_WZ.pdb
+  → done
+
+[PROCESSING] 1NW9
+  [Step 1a] 1JXQ.pdb: chain 'A' → W  →  1JXQ_W.pdb
+  [Step 1b] 2OPY.pdb: chain 'A' → Z  →  2OPY_Z.pdb
+  [Step 2 ] 1NW9.pdb: chains 'B'→W, 'A'→Z  →  1NW9_WZ.pdb
+  → done
+
+[PROCESSING] 1OC0
+  [Step 1a] 1B3K.pdb: chain 'A' → W  →  1B3K_W.pdb
+  [Step 1b] 2JQ8.pdb: chain 'A(4)' → Z  →  2JQ8_Z.pdb
+  [Step 2 ] 1OC0.pdb: chains 'A'→W, 'B'→Z  →  1OC0_WZ.pdb
+  → done
+
+[PROCESSING] 1OPH
+  [Step 1a] 1QLP.pdb: chain 'A' → W  →  1QLP_W.pdb
+  [Step 1b] 1UTQ.pdb: chain 'A' → Z  →  1UTQ_Z.pdb
+  [Step 2 ] 1OPH.pdb: chains 'A'→W, 'B'→Z  →  1OPH_WZ.pdb
+  → done
+
+[PROCESSING] 1OYV
+  [Step 1a] 1SCD.pdb: chain 'A' → W  →  1SCD_W.pdb
+  [Step 1b] 1PJU.pdb: chain 'A' → Z  →  1PJU_Z.pdb
+  [Step 2 ] 1OYV.pdb: chains 'B'→W, 'I'→Z  →  1OYV_WZ.pdb
+  → done
+
+[PROCESSING] 1PPE
+  [Step 1a] 1BTP.pdb: chain 'A' → W  →  1BTP_W.pdb
+  [Step 1b] 1LU0.pdb: chain 'A' → Z  →  1LU0_Z.pdb
+  [Step 2 ] 1PPE.pdb: chains 'E'→W, 'I'→Z  →  1PPE_WZ.pdb
+  → done
+
+[PROCESSING] 1PVH
+  [Step 1a] 1BQU.pdb: chain 'A' → W  →  1BQU_W.pdb
+  [Step 1b] 1EMR.pdb: chain 'A' → Z  →  1EMR_Z.pdb
+  [Step 2 ] 1PVH.pdb: chains 'A'→W, 'B'→Z  →  1PVH_WZ.pdb
+  → done
+
+[PROCESSING] 1PXV
+  [Step 1a] 1X9Y.pdb: chain 'A' → W  →  1X9Y_W.pdb
+  [Step 1b] 1NYC.pdb: chain 'A' → Z  →  1NYC_Z.pdb
+  [Step 2 ] 1PXV.pdb: chains 'A'→W, 'C'→Z  →  1PXV_WZ.pdb
+  → done
+
+[PROCESSING] 1QA9
+  [Step 1a] 1HNF.pdb: chain 'A' → W  →  1HNF_W.pdb
+  [Step 1b] 1CCZ.pdb: chain 'A' → Z  →  1CCZ_Z.pdb
+  [Step 2 ] 1QA9.pdb: chains 'A'→W, 'B'→Z  →  1QA9_WZ.pdb
+  → done
+
+[PROCESSING] 1R0R
+  [Step 1a] 1SCN.pdb: chain 'E' → W  →  1SCN_W.pdb
+  [Step 1b] 2GKR.pdb: chain 'I' → Z  →  2GKR_Z.pdb
+  [Step 2 ] 1R0R.pdb: chains 'E'→W, 'I'→Z  →  1R0R_WZ.pdb
+  → done
+
+[PROCESSING] 1R6Q
+  [Step 1a] 1R6C.pdb: chain 'X' → W  →  1R6C_W.pdb
+  [Step 1b] 2W9R.pdb: chain 'A' → Z  →  2W9R_Z.pdb
+  [Step 2 ] 1R6Q.pdb: chains 'A'→W, 'C'→Z  →  1R6Q_WZ.pdb
+  → done
+
+[PROCESSING] 1R8S
+  [Step 1a] 1HUR.pdb: chain 'A' → W  →  1HUR_W.pdb
+  [Step 1b] 1R8M.pdb: chain 'E' → Z  →  1R8M_Z.pdb
+  [Step 2 ] 1R8S.pdb: chains 'A'→W, 'E'→Z  →  1R8S_WZ.pdb
+  → done
+
+[PROCESSING] 1RKE
+  [Step 1a] 1SYQ.pdb: chain 'A' → W  →  1SYQ_W.pdb
+  [Step 1b] 3MYI.pdb: chain 'A' → Z  →  3MYI_Z.pdb
+  [Step 2 ] 1RKE.pdb: chains 'A'→W, 'B'→Z  →  1RKE_WZ.pdb
+  → done
+
+[PROCESSING] 1S1Q
+  [Step 1a] 2F0R.pdb: chain 'A' → W  →  2F0R_W.pdb
+  [Step 1b] 1YJ1.pdb: chain 'A' → Z  →  1YJ1_Z.pdb
+  [Step 2 ] 1S1Q.pdb: chains 'A'→W, 'B'→Z  →  1S1Q_WZ.pdb
+  → done
+
+[PROCESSING] 1SBB
+  [Step 1a] 1BEC.pdb: chain 'A' → W  →  1BEC_W.pdb
+  [Step 1b] 1SE4.pdb: chain 'A' → Z  →  1SE4_Z.pdb
+  [Step 2 ] 1SBB.pdb: chains 'A'→W, 'B'→Z  →  1SBB_WZ.pdb
+  → done
+
+[PROCESSING] 1SYX
+  [Step 1a] 1QGV.pdb: chain 'A' → W  →  1QGV_W.pdb
+  [Step 1b] 1L2Z.pdb: chain 'A(1)' → Z  →  1L2Z_Z.pdb
+  [Step 2 ] 1SYX.pdb: chains 'A'→W, 'B'→Z  →  1SYX_WZ.pdb
+  → done
+
+[PROCESSING] 1T6B
+  [Step 1a] 1ACC.pdb: chain 'A' → W  →  1ACC_W.pdb
+  [Step 1b] 1SHU.pdb: chain 'X' → Z  →  1SHU_Z.pdb
+  [Step 2 ] 1T6B.pdb: chains 'X'→W, 'Y'→Z  →  1T6B_WZ.pdb
+  → done
+
+[PROCESSING] 1TMQ
+  [Step 1a] 1JAE.pdb: chain 'A' → W  →  1JAE_W.pdb
+  [Step 1b] 1B1U.pdb: chain 'A' → Z  →  1B1U_Z.pdb
+  [Step 2 ] 1TMQ.pdb: chains 'A'→W, 'B'→Z  →  1TMQ_WZ.pdb
+  → done
+
+[PROCESSING] 1UDI
+  [Step 1a] 1UDH.pdb: chain 'A' → W  →  1UDH_W.pdb
+  [Step 1b] 2UGI.pdb: chain 'B' → Z  →  2UGI_Z.pdb
+  [Step 2 ] 1UDI.pdb: chains 'E'→W, 'I'→Z  →  1UDI_WZ.pdb
+  → done
+
+[PROCESSING] 1US7
+  [Step 1a] 2FXS.pdb: chain 'A' → W  →  2FXS_W.pdb
+  [Step 1b] 2W0G.pdb: chain 'A' → Z  →  2W0G_Z.pdb
+  [Step 2 ] 1US7.pdb: chains 'A'→W, 'B'→Z  →  1US7_WZ.pdb
+  → done
+
+[PROCESSING] 1XD3
+  [Step 1a] 1UCH.pdb: chain 'A' → W  →  1UCH_W.pdb
+  [Step 1b] 1YJ1.pdb: chain 'A' → Z  →  1YJ1_Z.pdb
+  [Step 2 ] 1XD3.pdb: chains 'A'→W, 'B'→Z  →  1XD3_WZ.pdb
+  → done
+
+[PROCESSING] 1XQS
+  [Step 1a] 1XQR.pdb: chain 'A' → W  →  1XQR_W.pdb
+  [Step 1b] 1S3X.pdb: chain 'A' → Z  →  1S3X_Z.pdb
+  [Step 2 ] 1XQS.pdb: chains 'A'→W, 'C'→Z  →  1XQS_WZ.pdb
+  → done
+
+[PROCESSING] 1Y64
+  [Step 1a] 2FXU.pdb: chain 'A' → W  →  2FXU_W.pdb
+  [Step 1b] 1UX5.pdb: chain 'A' → Z  →  1UX5_Z.pdb
+  [Step 2 ] 1Y64.pdb: chains 'A'→W, 'B'→Z  →  1Y64_WZ.pdb
+  → done
+
+[PROCESSING] 1YVB
+  [Step 1a] 2GHU.pdb: chain 'A' → W  →  2GHU_W.pdb
+  [Step 1b] 1CEW.pdb: chain 'I' → Z  →  1CEW_Z.pdb
+  [Step 2 ] 1YVB.pdb: chains 'A'→W, 'I'→Z  →  1YVB_WZ.pdb
+  → done
+
+[PROCESSING] 1Z0K
+  [Step 1a] 2BME.pdb: chain 'A' → W  →  2BME_W.pdb
+  [Step 1b] 1YZM.pdb: chain 'A' → Z  →  1YZM_Z.pdb
+  [Step 2 ] 1Z0K.pdb: chains 'A'→W, 'B'→Z  →  1Z0K_WZ.pdb
+  → done
+
+[PROCESSING] 1Z5Y
+  [Step 1a] 1L6P.pdb: chain 'A' → W  →  1L6P_W.pdb
+  [Step 1b] 2B1K.pdb: chain 'A' → Z  →  2B1K_Z.pdb
+  [Step 2 ] 1Z5Y.pdb: chains 'D'→W, 'E'→Z  →  1Z5Y_WZ.pdb
+  → done
+
+[PROCESSING] 1ZHH
+  [Step 1a] 1JX6.pdb: chain 'A' → W  →  1JX6_W.pdb
+  [Step 1b] 2HJE.pdb: chain 'A' → Z  →  2HJE_Z.pdb
+  [Step 2 ] 1ZHH.pdb: chains 'A'→W, 'B'→Z  →  1ZHH_WZ.pdb
+  → done
+
+[PROCESSING] 1ZHI
+  [Step 1a] 1M4Z.pdb: chain 'A' → W  →  1M4Z_W.pdb
+  [Step 1b] 1Z1A.pdb: chain 'A' → Z  →  1Z1A_Z.pdb
+  [Step 2 ] 1ZHI.pdb: chains 'A'→W, 'B'→Z  →  1ZHI_WZ.pdb
+  → done
+
+[PROCESSING] 1ZLI
+  [Step 1a] 1KWM.pdb: chain 'A' → W  →  1KWM_W.pdb
+  [Step 1b] 2JTO.pdb: chain 'A(6)' → Z  →  2JTO_Z.pdb
+  [Step 2 ] 1ZLI.pdb: chains 'A'→W, 'B'→Z  →  1ZLI_WZ.pdb
+  → done
+
+[PROCESSING] 1ZM4
+  [Step 1a] 1N0V.pdb: chain 'C' → W  →  1N0V_W.pdb
+  [Step 1b] 1XK9.pdb: chain 'A' → Z  →  1XK9_Z.pdb
+  [Step 2 ] 1ZM4.pdb: chains 'A'→W, 'B'→Z  →  1ZM4_WZ.pdb
+  → done
+
+[PROCESSING] 2A1A
+  [Step 1a] 3UIU.pdb: chain 'A' → W  →  3UIU_W.pdb
+  [Step 1b] 1Q46.pdb: chain 'A' → Z  →  1Q46_Z.pdb
+  [Step 2 ] 2A1A.pdb: chains 'B'→W, 'A'→Z  →  2A1A_WZ.pdb
+  → done
+
+[PROCESSING] 2A5T
+  [Step 1a] 1Y20.pdb: chain 'A' → W  →  1Y20_W.pdb
+  [Step 1b] 2A5S.pdb: chain 'A' → Z  →  2A5S_Z.pdb
+  [Step 2 ] 2A5T.pdb: chains 'A'→W, 'B'→Z  →  2A5T_WZ.pdb
+  → done
+
+[PROCESSING] 2A9K
+  [Step 1a] 1U90.pdb: chain 'A' → W  →  1U90_W.pdb
+  [Step 1b] 2C8B.pdb: chain 'X' → Z  →  2C8B_Z.pdb
+  [Step 2 ] 2A9K.pdb: chains 'A'→W, 'B'→Z  →  2A9K_WZ.pdb
+  → done
+
+[PROCESSING] 2ABZ
+  [Step 1a] 3I1U.pdb: chain 'A' → W  →  3I1U_W.pdb
+  [Step 1b] 1ZFI.pdb: chain 'A(1)' → Z  →  1ZFI_Z.pdb
+  [Step 2 ] 2ABZ.pdb: chains 'B'→W, 'E'→Z  →  2ABZ_WZ.pdb
+  → done
+
+[PROCESSING] 2AJF
+  [Step 1a] 1R42.pdb: chain 'A' → W  →  1R42_W.pdb
+  [Step 1b] 2GHV.pdb: chain 'E' → Z  →  2GHV_Z.pdb
+  [Step 2 ] 2AJF.pdb: chains 'A'→W, 'E'→Z  →  2AJF_WZ.pdb
+  → done
+
+[PROCESSING] 2AYO
+  [Step 1a] 2AYN.pdb: chain 'A' → W  →  2AYN_W.pdb
+  [Step 1b] 2FCN.pdb: chain 'A' → Z  →  2FCN_Z.pdb
+  [Step 2 ] 2AYO.pdb: chains 'A'→W, 'B'→Z  →  2AYO_WZ.pdb
+  → done
+
+[PROCESSING] 2B42
+  [Step 1a] 2DCY.pdb: chain 'A' → W  →  2DCY_W.pdb
+  [Step 1b] 1T6E.pdb: chain 'X' → Z  →  1T6E_Z.pdb
+  [Step 2 ] 2B42.pdb: chains 'B'→W, 'A'→Z  →  2B42_WZ.pdb
+  → done
+
+[PROCESSING] 2BTF
+  [Step 1a] 1IJJ.pdb: chain 'B' → W  →  1IJJ_W.pdb
+  [Step 1b] 1PNE.pdb: chain 'A' → Z  →  1PNE_Z.pdb
+  [Step 2 ] 2BTF.pdb: chains 'A'→W, 'P'→Z  →  2BTF_WZ.pdb
+  → done
+
+[PROCESSING] 2C0L
+  [Step 1a] 1FCH.pdb: chain 'A' → W  →  1FCH_W.pdb
+  [Step 1b] 1C44.pdb: chain 'A' → Z  →  1C44_Z.pdb
+  [Step 2 ] 2C0L.pdb: chains 'A'→W, 'B'→Z  →  2C0L_WZ.pdb
+  → done
+
+[PROCESSING] 2CFH
+  [Step 1a] 1SZ7.pdb: chain 'A' → W  →  1SZ7_W.pdb
+  [Step 1b] 2BJN.pdb: chain 'A' → Z  →  2BJN_Z.pdb
+  [Step 2 ] 2CFH.pdb: chains 'A'→W, 'C'→Z  →  2CFH_WZ.pdb
+  → done
+
+[PROCESSING] 2FJU
+  [Step 1a] 2ZKM.pdb: chain 'X' → W  →  2ZKM_W.pdb
+  [Step 1b] 1MH1.pdb: chain 'A' → Z  →  1MH1_Z.pdb
+  [Step 2 ] 2FJU.pdb: chains 'B'→W, 'A'→Z  →  2FJU_WZ.pdb
+  → done
+
+[PROCESSING] 2G77
+  [Step 1a] 1FKM.pdb: chain 'A' → W  →  1FKM_W.pdb
+  [Step 1b] 1Z06.pdb: chain 'A' → Z  →  1Z06_Z.pdb
+  [Step 2 ] 2G77.pdb: chains 'A'→W, 'B'→Z  →  2G77_WZ.pdb
+  → done
+
+[PROCESSING] 2GAF
+  [Step 1a] 3OWG.pdb: chain 'A' → W  →  3OWG_W.pdb
+  [Step 1b] 1VPT.pdb: chain 'A' → Z  →  1VPT_Z.pdb
+  [Step 2 ] 2GAF.pdb: chains 'D'→W, 'A'→Z  →  2GAF_WZ.pdb
+  → done
+
+[PROCESSING] 2GTP
+  [Step 1a] 1GFI.pdb: chain 'A' → W  →  1GFI_W.pdb
+  [Step 1b] 2BV1.pdb: chain 'A' → Z  →  2BV1_Z.pdb
+  [Step 2 ] 2GTP.pdb: chains 'A'→W, 'D'→Z  →  2GTP_WZ.pdb
+  → done
+
+[PROCESSING] 2H7V
+  [Step 1a] 1MH1.pdb: chain 'A' → W  →  1MH1_W.pdb
+  [Step 1b] 2H7O.pdb: chain 'A' → Z  →  2H7O_Z.pdb
+  [Step 2 ] 2H7V.pdb: chains 'A'→W, 'C'→Z  →  2H7V_WZ.pdb
+  → done
+
+[PROCESSING] 2HLE
+  [Step 1a] 2BBA.pdb: chain 'A' → W  →  2BBA_W.pdb
+  [Step 1b] 1IKO.pdb: chain 'P' → Z  →  1IKO_Z.pdb
+  [Step 2 ] 2HLE.pdb: chains 'A'→W, 'B'→Z  →  2HLE_WZ.pdb
+  → done
+
+[PROCESSING] 2HQS
+  [Step 1a] 1CRZ.pdb: chain 'A' → W  →  1CRZ_W.pdb
+  [Step 1b] 1OAP.pdb: chain 'A' → Z  →  1OAP_Z.pdb
+  [Step 2 ] 2HQS.pdb: chains 'A'→W, 'H'→Z  →  2HQS_WZ.pdb
+  → done
+
+[PROCESSING] 2HRK
+  [Step 1a] 2HRA.pdb: chain 'A' → W  →  2HRA_W.pdb
+  [Step 1b] 2HQT.pdb: chain 'A' → Z  →  2HQT_Z.pdb
+  [Step 2 ] 2HRK.pdb: chains 'A'→W, 'B'→Z  →  2HRK_WZ.pdb
+  → done
+
+[PROCESSING] 2I25
+  [Step 1a] 2I24.pdb: chain 'N' → W  →  2I24_W.pdb
+  [Step 1b] 3LZT.pdb: chain 'A' → Z  →  3LZT_Z.pdb
+  [Step 2 ] 2I25.pdb: chains 'N'→W, 'L'→Z  →  2I25_WZ.pdb
+  → done
+
+[PROCESSING] 2I9B
+  [Step 1a] 1YWH.pdb: chain 'A' → W  →  1YWH_W.pdb
+  [Step 1b] 2I9A.pdb: chain 'A' → Z  →  2I9A_Z.pdb
+  [Step 2 ] 2I9B.pdb: chains 'E'→W, 'A'→Z  →  2I9B_WZ.pdb
+  → done
+
+[PROCESSING] 2IDO
+  [Step 1a] 1J54.pdb: chain 'A' → W  →  1J54_W.pdb
+  [Step 1b] 1SE7.pdb: chain 'A(1)' → Z  →  1SE7_Z.pdb
+  [Step 2 ] 2IDO.pdb: chains 'A'→W, 'B'→Z  →  2IDO_WZ.pdb
+  → done
+
+[PROCESSING] 2J0T
+  [Step 1a] 966C.pdb: chain 'A' → W  →  966C_W.pdb
+  [Step 1b] 1D2B.pdb: chain 'A(20)' → Z  →  1D2B_Z.pdb
+  [Step 2 ] 2J0T.pdb: chains 'A'→W, 'D'→Z  →  2J0T_WZ.pdb
+  → done
+
+[PROCESSING] 2J7P
+  [Step 1a] 1NG1.pdb: chain 'A' → W  →  1NG1_W.pdb
+  [Step 1b] 2IYL.pdb: chain 'D' → Z  →  2IYL_Z.pdb
+  [Step 2 ] 2J7P.pdb: chains 'A'→W, 'D'→Z  →  2J7P_WZ.pdb
+  → done
+
+[PROCESSING] 2NZ8
+  [Step 1a] 1MH1.pdb: chain 'A' → W  →  1MH1_W.pdb
+  [Step 1b] 1NTY.pdb: chain 'A' → Z  →  1NTY_Z.pdb
+  [Step 2 ] 2NZ8.pdb: chains 'A'→W, 'B'→Z  →  2NZ8_WZ.pdb
+  → done
+
+[PROCESSING] 2O3B
+  [Step 1a] 1ZM8.pdb: chain 'A' → W  →  1ZM8_W.pdb
+  [Step 1b] 1J57.pdb: chain 'A' → Z  →  1J57_Z.pdb
+  [Step 2 ] 2O3B.pdb: chains 'A'→W, 'B'→Z  →  2O3B_WZ.pdb
+  → done
+
+[PROCESSING] 2O8V
+  [Step 1a] 1SUR.pdb: chain 'A' → W  →  1SUR_W.pdb
+  [Step 1b] 2TRX.pdb: chain 'A' → Z  →  2TRX_Z.pdb
+  [Step 2 ] 2O8V.pdb: chains 'A'→W, 'B'→Z  →  2O8V_WZ.pdb
+  → done
+
+[PROCESSING] 2OOB
+  [Step 1a] 2OOA.pdb: chain 'A' → W  →  2OOA_W.pdb
+  [Step 1b] 1YJ1.pdb: chain 'A' → Z  →  1YJ1_Z.pdb
+  [Step 2 ] 2OOB.pdb: chains 'A'→W, 'B'→Z  →  2OOB_WZ.pdb
+  → done
+
+[PROCESSING] 2OT3
+  [Step 1a] 1YZU.pdb: chain 'A' → W  →  1YZU_W.pdb
+  [Step 1b] 1TXU.pdb: chain 'A' → Z  →  1TXU_Z.pdb
+  [Step 2 ] 2OT3.pdb: chains 'B'→W, 'A'→Z  →  2OT3_WZ.pdb
+  → done
+
+[PROCESSING] 2OUL
+  [Step 1a] 3BPF.pdb: chain 'A' → W  →  3BPF_W.pdb
+  [Step 1b] 2NNR.pdb: chain 'A' → Z  →  2NNR_Z.pdb
+  [Step 2 ] 2OUL.pdb: chains 'A'→W, 'B'→Z  →  2OUL_WZ.pdb
+  → done
+
+[PROCESSING] 2OZA
+  [Step 1a] 3HEC.pdb: chain 'A' → W  →  3HEC_W.pdb
+  [Step 1b] 3FYK.pdb: chain 'X' → Z  →  3FYK_Z.pdb
+  [Step 2 ] 2OZA.pdb: chains 'B'→W, 'A'→Z  →  2OZA_WZ.pdb
+  → done
+
+[PROCESSING] 2PCC
+  [Step 1a] 1CCP.pdb: chain 'A' → W  →  1CCP_W.pdb
+  [Step 1b] 1YCC.pdb: chain 'A' → Z  →  1YCC_Z.pdb
+  [Step 2 ] 2PCC.pdb: chains 'A'→W, 'B'→Z  →  2PCC_WZ.pdb
+  → done
+
+[PROCESSING] 2SIC
+  [Step 1a] 1SUP.pdb: chain 'A' → W  →  1SUP_W.pdb
+  [Step 1b] 3SSI.pdb: chain 'A' → Z  →  3SSI_Z.pdb
+  [Step 2 ] 2SIC.pdb: chains 'E'→W, 'I'→Z  →  2SIC_WZ.pdb
+  → done
+
+[PROCESSING] 2SNI
+  [Step 1a] 1UBN.pdb: chain 'A' → W  →  1UBN_W.pdb
+  [Step 1b] 2CI2.pdb: chain 'I' → Z  →  2CI2_Z.pdb
+  [Step 2 ] 2SNI.pdb: chains 'E'→W, 'I'→Z  →  2SNI_WZ.pdb
+  → done
+
+[PROCESSING] 2UUY
+  [Step 1a] 1HJ9.pdb: chain 'A' → W  →  1HJ9_W.pdb
+  [Step 1b] 2UUX.pdb: chain 'A' → Z  →  2UUX_Z.pdb
+  [Step 2 ] 2UUY.pdb: chains 'A'→W, 'B'→Z  →  2UUY_WZ.pdb
+  → done
+
+[PROCESSING] 2VDB
+  [Step 1a] 3CX9.pdb: chain 'A' → W  →  3CX9_W.pdb
+  [Step 1b] 2J5Y.pdb: chain 'A' → Z  →  2J5Y_Z.pdb
+  [Step 2 ] 2VDB.pdb: chains 'A'→W, 'B'→Z  →  2VDB_WZ.pdb
+  → done
+
+[PROCESSING] 2X9A
+  [Step 1a] 1S62.pdb: chain 'A(8)' → W  →  1S62_W.pdb
+  [Step 1b] 2X9B.pdb: chain 'A' → Z  →  2X9B_Z.pdb
+  [Step 2 ] 2X9A.pdb: chains 'D'→W, 'C'→Z  →  2X9A_WZ.pdb
+  → done
+
+[PROCESSING] 2YVJ
+  [Step 1a] 2YVF.pdb: chain 'A' → W  →  2YVF_W.pdb
+  [Step 1b] 2E4P.pdb: chain 'A' → Z  →  2E4P_Z.pdb
+  [Step 2 ] 2YVJ.pdb: chains 'A'→W, 'B'→Z  →  2YVJ_WZ.pdb
+  → done
+
+[PROCESSING] 2Z0E
+  [Step 1a] 2D1I.pdb: chain 'A' → W  →  2D1I_W.pdb
+  [Step 1b] 1V49.pdb: chain 'A(1)' → Z  →  1V49_Z.pdb
+  [Step 2 ] 2Z0E.pdb: chains 'A'→W, 'B'→Z  →  2Z0E_WZ.pdb
+  → done
+
+[PROCESSING] 3A4S
+  [Step 1a] 1A3S.pdb: chain 'A' → W  →  1A3S_W.pdb
+  [Step 1b] 3A4R.pdb: chain 'A' → Z  →  3A4R_Z.pdb
+  [Step 2 ] 3A4S.pdb: chains 'A'→W, 'D'→Z  →  3A4S_WZ.pdb
+  → done
+
+[PROCESSING] 3AAD
+  [Step 1a] 1EQF.pdb: chain 'A' → W  →  1EQF_W.pdb
+  [Step 1b] 1TEY.pdb: chain 'A(4)' → Z  →  1TEY_Z.pdb
+  [Step 2 ] 3AAD.pdb: chains 'A'→W, 'B'→Z  →  3AAD_WZ.pdb
+  → done
+
+[PROCESSING] 3BIW
+  [Step 1a] 3BIX.pdb: chain 'A' → W  →  3BIX_W.pdb
+  [Step 1b] 2R1D.pdb: chain 'A' → Z  →  2R1D_Z.pdb
+  [Step 2 ] 3BIW.pdb: chains 'A'→W, 'E'→Z  →  3BIW_WZ.pdb
+  → done
+
+[PROCESSING] 3BX7
+  [Step 1a] 3BX8.pdb: chain 'A' → W  →  3BX8_W.pdb
+  [Step 1b] 3OSK.pdb: chain 'A' → Z  →  3OSK_Z.pdb
+  [Step 2 ] 3BX7.pdb: chains 'A'→W, 'C'→Z  →  3BX7_WZ.pdb
+  → done
+
+[PROCESSING] 3CPH
+  [Step 1a] 3CPI.pdb: chain 'G' → W  →  3CPI_W.pdb
+  [Step 1b] 1G16.pdb: chain 'A' → Z  →  1G16_Z.pdb
+  [Step 2 ] 3CPH.pdb: chains 'G'→W, 'A'→Z  →  3CPH_WZ.pdb
+  → done
+
+[PROCESSING] 3D5S
+  [Step 1a] 1C3D.pdb: chain 'A' → W  →  1C3D_W.pdb
+  [Step 1b] 2GOM.pdb: chain 'A' → Z  →  2GOM_Z.pdb
+  [Step 2 ] 3D5S.pdb: chains 'A'→W, 'C'→Z  →  3D5S_WZ.pdb
+  → done
+
+[PROCESSING] 3DAW
+  [Step 1a] 1IJJ.pdb: chain 'A' → W  →  1IJJ_W.pdb
+  [Step 1b] 2HD7.pdb: chain 'A(5)' → Z  →  2HD7_Z.pdb
+  [Step 2 ] 3DAW.pdb: chains 'A'→W, 'B'→Z  →  3DAW_WZ.pdb
+  → done
+
+[PROCESSING] 3F1P
+  [Step 1a] 1P97.pdb: chain 'A(9)' → W  →  1P97_W.pdb
+  [Step 1b] 1X0O.pdb: chain 'A(5)' → Z  →  1X0O_Z.pdb
+  [Step 2 ] 3F1P.pdb: chains 'A'→W, 'B'→Z  →  3F1P_WZ.pdb
+  → done
+
+[PROCESSING] 3FN1
+  [Step 1a] 2EDI.pdb: chain 'A(5)' → W  →  2EDI_W.pdb
+  [Step 1b] 2LQ7.pdb: chain 'A' → Z  →  2LQ7_Z.pdb
+  [Step 2 ] 3FN1.pdb: chains 'B'→W, 'A'→Z  →  3FN1_WZ.pdb
+  → done
+
+[PROCESSING] 3H2V
+  [Step 1a] 3MYI.pdb: chain 'A' → W  →  3MYI_W.pdb
+  [Step 1b] 1WI6.pdb: chain 'A(8)' → Z  →  1WI6_Z.pdb
+  [Step 2 ] 3H2V.pdb: chains 'A'→W, 'E'→Z  →  3H2V_WZ.pdb
+  → done
+
+[PROCESSING] 3K75
+  [Step 1a] 1BPB.pdb: chain 'A' → W  →  1BPB_W.pdb
+  [Step 1b] 3K77.pdb: chain 'A' → Z  →  3K77_Z.pdb
+  [Step 2 ] 3K75.pdb: chains 'D'→W, 'B'→Z  →  3K75_WZ.pdb
+  → done
+
+[PROCESSING] 3PC8
+  [Step 1a] 3PC6.pdb: chain 'A' → W  →  3PC6_W.pdb
+  [Step 1b] 3PC7.pdb: chain 'A' → Z  →  3PC7_Z.pdb
+  [Step 2 ] 3PC8.pdb: chains 'A'→W, 'C'→Z  →  3PC8_WZ.pdb
+  → done
+
+[PROCESSING] 3RJQ
+  [Step 1a] 3R0M.pdb: chain 'A' → W  →  3R0M_W.pdb
+  [Step 1b] 3TGR.pdb: chain 'A' → Z  →  3TGR_Z.pdb
+  [Step 2 ] 3RJQ.pdb: chains 'B'→W, 'A'→Z  →  3RJQ_WZ.pdb
+  → done
+
+[PROCESSING] 3S9D
+  [Step 1a] 1N6U.pdb: chain 'A(15)' → W  →  1N6U_W.pdb
+  [Step 1b] 1ITF.pdb: chain 'A(9)' → Z  →  1ITF_Z.pdb
+  [Step 2 ] 3S9D.pdb: chains 'B'→W, 'A'→Z  →  3S9D_WZ.pdb
+  → done
+
+[PROCESSING] 3SGQ
+  [Step 1a] 2QA9.pdb: chain 'E' → W  →  2QA9_W.pdb
+  [Step 1b] 2OVO.pdb: chain 'A' → Z  →  2OVO_Z.pdb
+  [Step 2 ] 3SGQ.pdb: chains 'E'→W, 'I'→Z  →  3SGQ_WZ.pdb
+  → done
+
+[PROCESSING] 3VLB
+  [Step 1a] 3VLA.pdb: chain 'A' → W  →  3VLA_W.pdb
+  [Step 1b] 3VL8.pdb: chain 'A' → Z  →  3VL8_Z.pdb
+  [Step 2 ] 3VLB.pdb: chains 'A'→W, 'B'→Z  →  3VLB_WZ.pdb
+  → done
+
+[PROCESSING] 4CPA
+  [Step 1a] 8CPA.pdb: chain 'A' → W  →  8CPA_W.pdb
+  [Step 1b] 1H20.pdb: chain 'A(9)' → Z  →  1H20_Z.pdb
+  [Step 2 ] 4CPA.pdb: chains 'A'→W, 'I'→Z  →  4CPA_WZ.pdb
+  → done
+
+[PROCESSING] 4FZA
+  [Step 1a] 1UPL.pdb: chain 'A' → W  →  1UPL_W.pdb
+  [Step 1b] 3GGF.pdb: chain 'A' → Z  →  3GGF_Z.pdb
+  [Step 2 ] 4FZA.pdb: chains 'A'→W, 'B'→Z  →  4FZA_WZ.pdb
+  → done
+
+[PROCESSING] 4H03
+  [Step 1a] 1GIQ.pdb: chain 'A' → W  →  1GIQ_W.pdb
+  [Step 1b] 1IJJ.pdb: chain 'A' → Z  →  1IJJ_Z.pdb
+  [Step 2 ] 4H03.pdb: chains 'A'→W, 'B'→Z  →  4H03_WZ.pdb
+  → done
+
+[PROCESSING] 4IZ7
+  [Step 1a] 1ERK.pdb: chain 'A' → W  →  1ERK_W.pdb
+  [Step 1b] 2LS7.pdb: chain 'A(1)' → Z  →  2LS7_Z.pdb
+  [Step 2 ] 4IZ7.pdb: chains 'A'→W, 'B'→Z  →  4IZ7_WZ.pdb
+  → done
+
+[PROCESSING] 4M3K
+  [Step 1a] 4M3J.pdb: chain 'A' → W  →  4M3J_W.pdb
+  [Step 1b] 4BLM.pdb: chain 'A' → Z  →  4BLM_Z.pdb
+  [Step 2 ] 4M3K.pdb: chains 'B'→W, 'A'→Z  →  4M3K_WZ.pdb
+  → done
+
+[PROCESSING] 4M76
+  [Step 1a] 1C3D.pdb: chain 'A' → W  →  1C3D_W.pdb
+  [Step 1b] 1M1U.pdb: chain 'A' → Z  →  1M1U_Z.pdb
+  [Step 2 ] 4M76.pdb: chains 'A'→W, 'B'→Z  →  4M76_WZ.pdb
+  → done
+
+[PROCESSING] 4POU
+  [Step 1a] 4POY.pdb: chain 'A' → W  →  4POY_W.pdb
+  [Step 1b] 6ETL.pdb: chain 'A' → Z  →  6ETL_Z.pdb
+  [Step 2 ] 4POU.pdb: chains 'B'→W, 'A'→Z  →  4POU_WZ.pdb
+  → done
+
+[PROCESSING] 4Y7M
+  [Step 1a] 4QGY.pdb: chain 'A' → W  →  4QGY_W.pdb
+  [Step 1b] 4Y7L.pdb: chain 'A' → Z  →  4Y7L_Z.pdb
+  [Step 2 ] 4Y7M.pdb: chains 'A'→W, 'C'→Z  →  4Y7M_WZ.pdb
+  → done
+
+[PROCESSING] 5E5M
+  [Step 1a] 5E03.pdb: chain 'A' → W  →  5E03_W.pdb
+  [Step 1b] 5E56.pdb: chain 'A' → Z  →  5E56_Z.pdb
+  [Step 2 ] 5E5M.pdb: chains 'B'→W, 'A'→Z  →  5E5M_WZ.pdb
+  → done
+
+[PROCESSING] 5HGG
+  [Step 1a] 5HDO.pdb: chain 'A' → W  →  5HDO_W.pdb
+  [Step 1b] 4FUD.pdb: chain 'A' → Z  →  4FUD_Z.pdb
+  [Step 2 ] 5HGG.pdb: chains 'T'→W, 'A'→Z  →  5HGG_WZ.pdb
+  → done
+
+[PROCESSING] 5JMO
+  [Step 1a] 5JMR.pdb: chain 'A' → W  →  5JMR_W.pdb
+  [Step 1b] 5JXI.pdb: chain 'A' → Z  →  5JXI_Z.pdb
+  [Step 2 ] 5JMO.pdb: chains 'D'→W, 'B'→Z  →  5JMO_WZ.pdb
+  → done
+
+[PROCESSING] 5SV3
+  [Step 1a] 5SV4.pdb: chain 'A' → W  →  5SV4_W.pdb
+  [Step 1b] 1IFT.pdb: chain 'A' → Z  →  1IFT_Z.pdb
+  [Step 2 ] 5SV3.pdb: chains 'C'→W, 'D'→Z  →  5SV3_WZ.pdb
+  → done
+
+[PROCESSING] 5VNW
+  [Step 1a] 5VNV.pdb: chain 'A' → W  →  5VNV_W.pdb
+  [Step 1b] 1E78.pdb: chain 'A' → Z  →  1E78_Z.pdb
+  [Step 2 ] 5VNW.pdb: chains 'D'→W, 'A'→Z  →  5VNW_WZ.pdb
+  → done
+
+[PROCESSING] 6CWG
+  [Step 1a] 6CWK.pdb: chain 'A' → W  →  6CWK_W.pdb
+  [Step 1b] 1IFT.pdb: chain 'A' → Z  →  1IFT_Z.pdb
+  [Step 2 ] 6CWG.pdb: chains 'B'→W, 'A'→Z  →  6CWG_WZ.pdb
+  → done
+
+[PROCESSING] 6DBG
+  [Step 1a] 6DBA.pdb: chain 'A' → W  →  6DBA_W.pdb
+  [Step 1b] 1H6T.pdb: chain 'A' → Z  →  1H6T_Z.pdb
+  [Step 2 ] 6DBG.pdb: chains 'C'→W, 'B'→Z  →  6DBG_WZ.pdb
+  → done
+
+[PROCESSING] 7CEI
+  [Step 1a] 1UNK.pdb: chain 'D' → W  →  1UNK_W.pdb
+  [Step 1b] 1M08.pdb: chain 'B' → Z  →  1M08_Z.pdb
+  [Step 2 ] 7CEI.pdb: chains 'A'→W, 'B'→Z  →  7CEI_WZ.pdb
+  → done
+
+Finished. 149 OK, 0 errors.
+-----\n
+-----\n
+-----\n
+SECTION: tmptsv files
+Written 152 residues (0 modified) across chains ['Z'] → data/haddock_units/3K75/residues/3K77_Z_residues.tsv
+Written 399 residues (0 modified) across chains ['W', 'Z'] → data/haddock_units/3K75/residues/3K75_WZ_residues.tsv
+Written 242 residues (0 modified) across chains ['W'] → data/haddock_units/3K75/residues/1BPB_W_residues.tsv
+Written 72 residues (0 modified) across chains ['Z'] → data/haddock_units/2AYO/residues/2FCN_Z_residues.tsv
+Written 430 residues (0 modified) across chains ['W', 'Z'] → data/haddock_units/2AYO/residues/2AYO_WZ_residues.tsv
+Written 337 residues (0 modified) across chains ['W'] → data/haddock_units/2AYO/residues/2AYN_W_residues.tsv
+Written 108 residues (0 modified) across chains ['Z'] → data/haddock_units/1F6M/residues/2TIR_Z_residues.tsv
+Written 317 residues (0 modified) across chains ['W'] → data/haddock_units/1F6M/residues/1CL0_W_residues.tsv
+Written 428 residues (0 modified) across chains ['W', 'Z'] → data/haddock_units/1F6M/residues/1F6M_WZ_residues.tsv
+Written 478 residues (0 modified) across chains ['W', 'Z'] → data/haddock_units/1FQ1/residues/1FQ1_WZ_residues.tsv
+Written 290 residues (0 modified) across chains ['W'] → data/haddock_units/1FQ1/residues/1B39_W_residues.tsv
+Written 178 residues (0 modified) across chains ['Z'] → data/haddock_units/1FQ1/residues/1FPZ_Z_residues.tsv
+Written 204 residues (0 modified) across chains ['Z'] → data/haddock_units/1ZM4/residues/1XK9_Z_residues.tsv
+Written 825 residues (0 modified) across chains ['W'] → data/haddock_units/1ZM4/residues/1N0V_W_residues.tsv
+Written 1029 residues (0 modified) across chains ['W', 'Z'] → data/haddock_units/1ZM4/residues/1ZM4_WZ_residues.tsv
+Written 182 residues (0 modified) across chains ['Z'] → data/haddock_units/1GXD/residues/1BR9_Z_residues.tsv
+Written 816 residues (0 modified) across chains ['W', 'Z'] → data/haddock_units/1GXD/residues/1GXD_WZ_residues.tsv
+Written 619 residues (0 modified) across chains ['W'] → data/haddock_units/1GXD/residues/1CK7_W_residues.tsv
+Written 310 residues (0 modified) across chains ['W', 'Z'] → data/haddock_units/1AK4/residues/1AK4_WZ_residues.tsv
+Written 146 residues (0 modified) across chains ['Z'] → data/haddock_units/1AK4/residues/4J93_Z_residues.tsv
+Written 164 residues (0 modified) across chains ['W'] → data/haddock_units/1AK4/residues/2CPL_W_residues.tsv
+Written 771 residues (0 modified) across chains ['W', 'Z'] → data/haddock_units/2AJF/residues/2AJF_WZ_residues.tsv
+Written 183 residues (0 modified) across chains ['Z'] → data/haddock_units/2AJF/residues/2GHV_Z_residues.tsv
+Written 597 residues (0 modified) across chains ['W'] → data/haddock_units/2AJF/residues/1R42_W_residues.tsv
+Written 168 residues (0 modified) across chains ['W'] → data/haddock_units/2A9K/residues/1U90_W_residues.tsv
+Written 201 residues (0 modified) across chains ['Z'] → data/haddock_units/2A9K/residues/2C8B_Z_residues.tsv
+Written 377 residues (0 modified) across chains ['W', 'Z'] → data/haddock_units/2A9K/residues/2A9K_WZ_residues.tsv
+Written 456 residues (0 modified) across chains ['W', 'Z'] → data/haddock_units/2NZ8/residues/2NZ8_WZ_residues.tsv
+Written 183 residues (0 modified) across chains ['W'] → data/haddock_units/2NZ8/residues/1MH1_W_residues.tsv
+Written 305 residues (0 modified) across chains ['Z'] → data/haddock_units/2NZ8/residues/1NTY_Z_residues.tsv
+Written 347 residues (0 modified) across chains ['W', 'Z'] → data/haddock_units/1R8S/residues/1R8S_WZ_residues.tsv
+Written 195 residues (0 modified) across chains ['Z'] → data/haddock_units/1R8S/residues/1R8M_Z_residues.tsv
+Written 180 residues (0 modified) across chains ['W'] → data/haddock_units/1R8S/residues/1HUR_W_residues.tsv
+Written 316 residues (0 modified) across chains ['W'] → data/haddock_units/1FQJ/residues/1TND_W_residues.tsv
+Written 450 residues (0 modified) across chains ['W', 'Z'] → data/haddock_units/1FQJ/residues/1FQJ_WZ_residues.tsv
+Written 133 residues (0 modified) across chains ['Z'] → data/haddock_units/1FQJ/residues/1FQI_Z_residues.tsv
+Written 475 residues (0 modified) across chains ['W', 'Z'] → data/haddock_units/4M76/residues/4M76_WZ_residues.tsv
+Written 294 residues (0 modified) across chains ['W'] → data/haddock_units/4M76/residues/1C3D_W_residues.tsv
+Written 184 residues (0 modified) across chains ['Z'] → data/haddock_units/4M76/residues/1M1U_Z_residues.tsv
+Written 362 residues (0 modified) across chains ['W', 'Z'] → data/haddock_units/3D5S/residues/3D5S_WZ_residues.tsv
+Written 61 residues (0 modified) across chains ['Z'] → data/haddock_units/3D5S/residues/2GOM_Z_residues.tsv
+Written 294 residues (0 modified) across chains ['W'] → data/haddock_units/3D5S/residues/1C3D_W_residues.tsv
+Written 325 residues (0 modified) across chains ['W'] → data/haddock_units/1F34/residues/4PEP_W_residues.tsv
+Written 127 residues (0 modified) across chains ['Z'] → data/haddock_units/1F34/residues/1F32_Z_residues.tsv
+Written 463 residues (0 modified) across chains ['W', 'Z'] → data/haddock_units/1F34/residues/1F34_WZ_residues.tsv
+Written 303 residues (0 modified) across chains ['W'] → data/haddock_units/2ABZ/residues/3I1U_W_residues.tsv
+Processing: 3K77_Z -> data/haddock_units/3K75/residues/3K77_Z_residues.tsv
+Processing: 3K75_WZ -> data/haddock_units/3K75/residues/3K75_WZ_residues.tsv
+Processing: 1BPB_W -> data/haddock_units/3K75/residues/1BPB_W_residues.tsv
+Processing: 2FCN_Z -> data/haddock_units/2AYO/residues/2FCN_Z_residues.tsv
+Processing: 2AYO_WZ -> data/haddock_units/2AYO/residues/2AYO_WZ_residues.tsv
+Processing: 2AYN_W -> data/haddock_units/2AYO/residues/2AYN_W_residues.tsv
+Processing: 2TIR_Z -> data/haddock_units/1F6M/residues/2TIR_Z_residues.tsv
+Processing: 1CL0_W -> data/haddock_units/1F6M/residues/1CL0_W_residues.tsv
+Processing: 1F6M_WZ -> data/haddock_units/1F6M/residues/1F6M_WZ_residues.tsv
+Processing: 1FQ1_WZ -> data/haddock_units/1FQ1/residues/1FQ1_WZ_residues.tsv
+Processing: 1B39_W -> data/haddock_units/1FQ1/residues/1B39_W_residues.tsv
+Processing: 1FPZ_Z -> data/haddock_units/1FQ1/residues/1FPZ_Z_residues.tsv
+Processing: 1XK9_Z -> data/haddock_units/1ZM4/residues/1XK9_Z_residues.tsv
+Processing: 1N0V_W -> data/haddock_units/1ZM4/residues/1N0V_W_residues.tsv
+Processing: 1ZM4_WZ -> data/haddock_units/1ZM4/residues/1ZM4_WZ_residues.tsv
+Processing: 1BR9_Z -> data/haddock_units/1GXD/residues/1BR9_Z_residues.tsv
+Processing: 1GXD_WZ -> data/haddock_units/1GXD/residues/1GXD_WZ_residues.tsv
+Processing: 1CK7_W -> data/haddock_units/1GXD/residues/1CK7_W_residues.tsv
+Processing: 1AK4_WZ -> data/haddock_units/1AK4/residues/1AK4_WZ_residues.tsv
+Processing: 4J93_Z -> data/haddock_units/1AK4/residues/4J93_Z_residues.tsv
+Processing: 2CPL_W -> data/haddock_units/1AK4/residues/2CPL_W_residues.tsv
+Processing: 2AJF_WZ -> data/haddock_units/2AJF/residues/2AJF_WZ_residues.tsv
+Processing: 2GHV_Z -> data/haddock_units/2AJF/residues/2GHV_Z_residues.tsv
+Processing: 1R42_W -> data/haddock_units/2AJF/residues/1R42_W_residues.tsv
+Processing: 1U90_W -> data/haddock_units/2A9K/residues/1U90_W_residues.tsv
+Processing: 2C8B_Z -> data/haddock_units/2A9K/residues/2C8B_Z_residues.tsv
+Processing: 2A9K_WZ -> data/haddock_units/2A9K/residues/2A9K_WZ_residues.tsv
+Processing: 2NZ8_WZ -> data/haddock_units/2NZ8/residues/2NZ8_WZ_residues.tsv
+Processing: 1MH1_W -> data/haddock_units/2NZ8/residues/1MH1_W_residues.tsv
+Processing: 1NTY_Z -> data/haddock_units/2NZ8/residues/1NTY_Z_residues.tsv
+Processing: 1R8S_WZ -> data/haddock_units/1R8S/residues/1R8S_WZ_residues.tsv
+Processing: 1R8M_Z -> data/haddock_units/1R8S/residues/1R8M_Z_residues.tsv
+Processing: 1HUR_W -> data/haddock_units/1R8S/residues/1HUR_W_residues.tsv
+Processing: 1TND_W -> data/haddock_units/1FQJ/residues/1TND_W_residues.tsv
+Processing: 1FQJ_WZ -> data/haddock_units/1FQJ/residues/1FQJ_WZ_residues.tsv
+Processing: 1FQI_Z -> data/haddock_units/1FQJ/residues/1FQI_Z_residues.tsv
+Processing: 4M76_WZ -> data/haddock_units/4M76/residues/4M76_WZ_residues.tsv
+Processing: 1C3D_W -> data/haddock_units/4M76/residues/1C3D_W_residues.tsv
+Processing: 1M1U_Z -> data/haddock_units/4M76/residues/1M1U_Z_residues.tsv
+Processing: 3D5S_WZ -> data/haddock_units/3D5S/residues/3D5S_WZ_residues.tsv
+Processing: 2GOM_Z -> data/haddock_units/3D5S/residues/2GOM_Z_residues.tsv
+Processing: 1C3D_W -> data/haddock_units/3D5S/residues/1C3D_W_residues.tsv
+Processing: 4PEP_W -> data/haddock_units/1F34/residues/4PEP_W_residues.tsv
+Processing: 1F32_Z -> data/haddock_units/1F34/residues/1F32_Z_residues.tsv
+Processing: 1F34_WZ -> data/haddock_units/1F34/residues/1F34_WZ_residues.tsv
+Processing: 3I1U_W -> data/haddock_units/2ABZ/residues/3I1U_W_residues.tsv
+Processing: 1ZFI_Z -> data/haddock_units/2ABZ/residues/1ZFI_Z_residues.tsv
+-----\n
+-----\n
+-----\n
+SECTION: contact maps, contacts
+Found 399 CA atoms
+Computing 37448 inter-chain CA-CA distances...
+Kept 26 pairs within 0.8 nm cutoff
+Wrote 26 inter-chain contacts to data/haddock_units/3K75/contacts/contacts_3K75_WZ.tsv
+Wrote 13 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3K75/contacts/3K75_WZ_W_truecontacts.txt
+Wrote 11 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3K75/contacts/3K75_WZ_Z_truecontacts.txt
+Found 430 CA atoms
+Computing 26625 inter-chain CA-CA distances...
+Kept 82 pairs within 0.8 nm cutoff
+Wrote 82 inter-chain contacts to data/haddock_units/2AYO/contacts/contacts_2AYO_WZ.tsv
+Wrote 41 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2AYO/contacts/2AYO_WZ_W_truecontacts.txt
+Wrote 19 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2AYO/contacts/2AYO_WZ_Z_truecontacts.txt
+Found 428 CA atoms
+Computing 34560 inter-chain CA-CA distances...
+Kept 54 pairs within 0.8 nm cutoff
+Wrote 54 inter-chain contacts to data/haddock_units/1F6M/contacts/contacts_1F6M_WZ.tsv
+Wrote 23 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1F6M/contacts/1F6M_WZ_W_truecontacts.txt
+Wrote 19 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1F6M/contacts/1F6M_WZ_Z_truecontacts.txt
+Found 478 CA atoms
+Computing 53985 inter-chain CA-CA distances...
+Kept 32 pairs within 0.8 nm cutoff
+Wrote 32 inter-chain contacts to data/haddock_units/1FQ1/contacts/contacts_1FQ1_WZ.tsv
+Wrote 16 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1FQ1/contacts/1FQ1_WZ_W_truecontacts.txt
+Wrote 13 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1FQ1/contacts/1FQ1_WZ_Z_truecontacts.txt
+Found 1029 CA atoms
+Computing 170154 inter-chain CA-CA distances...
+Kept 42 pairs within 0.8 nm cutoff
+Wrote 42 inter-chain contacts to data/haddock_units/1ZM4/contacts/contacts_1ZM4_WZ.tsv
+Wrote 20 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1ZM4/contacts/1ZM4_WZ_W_truecontacts.txt
+Wrote 18 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1ZM4/contacts/1ZM4_WZ_Z_truecontacts.txt
+Found 816 CA atoms
+Computing 119808 inter-chain CA-CA distances...
+Kept 52 pairs within 0.8 nm cutoff
+Wrote 52 inter-chain contacts to data/haddock_units/1GXD/contacts/contacts_1GXD_WZ.tsv
+Wrote 16 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1GXD/contacts/1GXD_WZ_W_truecontacts.txt
+Wrote 22 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1GXD/contacts/1GXD_WZ_Z_truecontacts.txt
+Found 310 CA atoms
+Computing 23925 inter-chain CA-CA distances...
+Kept 29 pairs within 0.8 nm cutoff
+Wrote 29 inter-chain contacts to data/haddock_units/1AK4/contacts/contacts_1AK4_WZ.tsv
+Wrote 14 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1AK4/contacts/1AK4_WZ_W_truecontacts.txt
+Wrote 7 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1AK4/contacts/1AK4_WZ_Z_truecontacts.txt
+Found 771 CA atoms
+Computing 103878 inter-chain CA-CA distances...
+Kept 28 pairs within 0.8 nm cutoff
+Wrote 28 inter-chain contacts to data/haddock_units/2AJF/contacts/contacts_2AJF_WZ.tsv
+Wrote 14 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2AJF/contacts/2AJF_WZ_W_truecontacts.txt
+Wrote 12 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2AJF/contacts/2AJF_WZ_Z_truecontacts.txt
+Found 377 CA atoms
+Computing 35190 inter-chain CA-CA distances...
+Kept 54 pairs within 0.8 nm cutoff
+Wrote 54 inter-chain contacts to data/haddock_units/2A9K/contacts/contacts_2A9K_WZ.tsv
+Wrote 20 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2A9K/contacts/2A9K_WZ_W_truecontacts.txt
+Wrote 16 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2A9K/contacts/2A9K_WZ_Z_truecontacts.txt
+Found 456 CA atoms
+Computing 49383 inter-chain CA-CA distances...
+Kept 38 pairs within 0.8 nm cutoff
+Wrote 38 inter-chain contacts to data/haddock_units/2NZ8/contacts/contacts_2NZ8_WZ.tsv
+Wrote 17 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2NZ8/contacts/2NZ8_WZ_W_truecontacts.txt
+Wrote 25 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2NZ8/contacts/2NZ8_WZ_Z_truecontacts.txt
+Found 347 CA atoms
+Computing 29920 inter-chain CA-CA distances...
+Kept 70 pairs within 0.8 nm cutoff
+Wrote 70 inter-chain contacts to data/haddock_units/1R8S/contacts/contacts_1R8S_WZ.tsv
+Wrote 26 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1R8S/contacts/1R8S_WZ_W_truecontacts.txt
+Wrote 30 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1R8S/contacts/1R8S_WZ_Z_truecontacts.txt
+Found 450 CA atoms
+Computing 42161 inter-chain CA-CA distances...
+Kept 36 pairs within 0.8 nm cutoff
+Wrote 36 inter-chain contacts to data/haddock_units/1FQJ/contacts/contacts_1FQJ_WZ.tsv
+Wrote 17 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1FQJ/contacts/1FQJ_WZ_W_truecontacts.txt
+Wrote 15 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1FQJ/contacts/1FQJ_WZ_Z_truecontacts.txt
+Found 475 CA atoms
+Computing 52984 inter-chain CA-CA distances...
+Kept 25 pairs within 0.8 nm cutoff
+Wrote 25 inter-chain contacts to data/haddock_units/4M76/contacts/contacts_4M76_WZ.tsv
+Wrote 7 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/4M76/contacts/4M76_WZ_W_truecontacts.txt
+Wrote 10 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/4M76/contacts/4M76_WZ_Z_truecontacts.txt
+Found 362 CA atoms
+Computing 19305 inter-chain CA-CA distances...
+Kept 35 pairs within 0.8 nm cutoff
+Wrote 35 inter-chain contacts to data/haddock_units/3D5S/contacts/contacts_3D5S_WZ.tsv
+Wrote 16 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3D5S/contacts/3D5S_WZ_W_truecontacts.txt
+Wrote 18 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3D5S/contacts/3D5S_WZ_Z_truecontacts.txt
+Found 463 CA atoms
+Computing 44850 inter-chain CA-CA distances...
+Kept 115 pairs within 0.8 nm cutoff
+Wrote 115 inter-chain contacts to data/haddock_units/1F34/contacts/contacts_1F34_WZ.tsv
+Wrote 40 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1F34/contacts/1F34_WZ_W_truecontacts.txt
+Wrote 37 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1F34/contacts/1F34_WZ_Z_truecontacts.txt
+Found 361 CA atoms
+Computing 18060 inter-chain CA-CA distances...
+Kept 33 pairs within 0.8 nm cutoff
+Wrote 33 inter-chain contacts to data/haddock_units/2ABZ/contacts/contacts_2ABZ_WZ.tsv
+Wrote 19 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2ABZ/contacts/2ABZ_WZ_W_truecontacts.txt
+Wrote 14 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2ABZ/contacts/2ABZ_WZ_Z_truecontacts.txt
+Found 389 CA atoms
+Computing 33274 inter-chain CA-CA distances...
+Kept 45 pairs within 0.8 nm cutoff
+Wrote 45 inter-chain contacts to data/haddock_units/6CWG/contacts/contacts_6CWG_WZ.tsv
+Wrote 15 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/6CWG/contacts/6CWG_WZ_W_truecontacts.txt
+Wrote 14 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/6CWG/contacts/6CWG_WZ_Z_truecontacts.txt
+Found 287 CA atoms
+Computing 11280 inter-chain CA-CA distances...
+Kept 55 pairs within 0.8 nm cutoff
+Wrote 55 inter-chain contacts to data/haddock_units/1FLE/contacts/contacts_1FLE_WZ.tsv
+Wrote 23 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1FLE/contacts/1FLE_WZ_W_truecontacts.txt
+Wrote 14 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1FLE/contacts/1FLE_WZ_Z_truecontacts.txt
+Found 427 CA atoms
+Computing 43230 inter-chain CA-CA distances...
+Kept 31 pairs within 0.8 nm cutoff
+Wrote 31 inter-chain contacts to data/haddock_units/1JTG/contacts/contacts_1JTG_WZ.tsv
+Wrote 15 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1JTG/contacts/1JTG_WZ_W_truecontacts.txt
+Wrote 17 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1JTG/contacts/1JTG_WZ_Z_truecontacts.txt
+Found 250 CA atoms
+Computing 14400 inter-chain CA-CA distances...
+Kept 70 pairs within 0.8 nm cutoff
+Wrote 70 inter-chain contacts to data/haddock_units/3FN1/contacts/contacts_3FN1_WZ.tsv
+Wrote 23 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3FN1/contacts/3FN1_WZ_W_truecontacts.txt
+Wrote 26 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3FN1/contacts/3FN1_WZ_Z_truecontacts.txt
+Found 500 CA atoms
+Computing 55939 inter-chain CA-CA distances...
+Kept 46 pairs within 0.8 nm cutoff
+Wrote 46 inter-chain contacts to data/haddock_units/2G77/contacts/contacts_2G77_WZ.tsv
+Wrote 22 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2G77/contacts/2G77_WZ_W_truecontacts.txt
+Wrote 19 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2G77/contacts/2G77_WZ_Z_truecontacts.txt
+Found 401 CA atoms
+Computing 13468 inter-chain CA-CA distances...
+Kept 25 pairs within 0.8 nm cutoff
+Wrote 25 inter-chain contacts to data/haddock_units/1OC0/contacts/contacts_1OC0_WZ.tsv
+Wrote 12 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1OC0/contacts/1OC0_WZ_W_truecontacts.txt
+Wrote 9 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1OC0/contacts/1OC0_WZ_Z_truecontacts.txt
+Found 376 CA atoms
+Computing 32535 inter-chain CA-CA distances...
+Kept 21 pairs within 0.8 nm cutoff
+Wrote 21 inter-chain contacts to data/haddock_units/2O3B/contacts/contacts_2O3B_WZ.tsv
+Wrote 16 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2O3B/contacts/2O3B_WZ_W_truecontacts.txt
+Wrote 11 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2O3B/contacts/2O3B_WZ_Z_truecontacts.txt
+Found 197 CA atoms
+Computing 9690 inter-chain CA-CA distances...
+Kept 15 pairs within 0.8 nm cutoff
+Wrote 15 inter-chain contacts to data/haddock_units/1QA9/contacts/contacts_1QA9_WZ.tsv
+Wrote 6 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1QA9/contacts/1QA9_WZ_W_truecontacts.txt
+Wrote 7 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1QA9/contacts/1QA9_WZ_Z_truecontacts.txt
+Found 292 CA atoms
+Computing 20875 inter-chain CA-CA distances...
+Kept 34 pairs within 0.8 nm cutoff
+Wrote 34 inter-chain contacts to data/haddock_units/5SV3/contacts/contacts_5SV3_WZ.tsv
+Wrote 11 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/5SV3/contacts/5SV3_WZ_W_truecontacts.txt
+Wrote 13 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/5SV3/contacts/5SV3_WZ_Z_truecontacts.txt
+Found 846 CA atoms
+Computing 114920 inter-chain CA-CA distances...
+Kept 55 pairs within 0.8 nm cutoff
+Wrote 55 inter-chain contacts to data/haddock_units/1T6B/contacts/contacts_1T6B_WZ.tsv
+Wrote 18 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1T6B/contacts/1T6B_WZ_W_truecontacts.txt
+Wrote 19 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1T6B/contacts/1T6B_WZ_Z_truecontacts.txt
+Found 344 CA atoms
+Computing 11359 inter-chain CA-CA distances...
+Kept 17 pairs within 0.8 nm cutoff
+Wrote 17 inter-chain contacts to data/haddock_units/4CPA/contacts/contacts_4CPA_WZ.tsv
+Wrote 9 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/4CPA/contacts/4CPA_WZ_W_truecontacts.txt
+Wrote 6 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/4CPA/contacts/4CPA_WZ_Z_truecontacts.txt
+Found 433 CA atoms
+Computing 34882 inter-chain CA-CA distances...
+Kept 32 pairs within 0.8 nm cutoff
+Wrote 32 inter-chain contacts to data/haddock_units/1B6C/contacts/contacts_1B6C_WZ.tsv
+Wrote 12 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1B6C/contacts/1B6C_WZ_W_truecontacts.txt
+Wrote 19 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1B6C/contacts/1B6C_WZ_Z_truecontacts.txt
+Found 512 CA atoms
+Computing 51847 inter-chain CA-CA distances...
+Kept 41 pairs within 0.8 nm cutoff
+Wrote 41 inter-chain contacts to data/haddock_units/2BTF/contacts/contacts_2BTF_WZ.tsv
+Wrote 16 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2BTF/contacts/2BTF_WZ_W_truecontacts.txt
+Wrote 14 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2BTF/contacts/2BTF_WZ_Z_truecontacts.txt
+Found 587 CA atoms
+Computing 54990 inter-chain CA-CA distances...
+Kept 59 pairs within 0.8 nm cutoff
+Wrote 59 inter-chain contacts to data/haddock_units/1TMQ/contacts/contacts_1TMQ_WZ.tsv
+Wrote 24 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1TMQ/contacts/1TMQ_WZ_W_truecontacts.txt
+Wrote 28 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1TMQ/contacts/1TMQ_WZ_Z_truecontacts.txt
+Found 438 CA atoms
+Computing 46112 inter-chain CA-CA distances...
+Kept 47 pairs within 0.8 nm cutoff
+Wrote 47 inter-chain contacts to data/haddock_units/1RKE/contacts/contacts_1RKE_WZ.tsv
+Wrote 26 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1RKE/contacts/1RKE_WZ_W_truecontacts.txt
+Wrote 19 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1RKE/contacts/1RKE_WZ_Z_truecontacts.txt
+Found 297 CA atoms
+Computing 13496 inter-chain CA-CA distances...
+Kept 50 pairs within 0.8 nm cutoff
+Wrote 50 inter-chain contacts to data/haddock_units/1EAW/contacts/contacts_1EAW_WZ.tsv
+Wrote 23 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1EAW/contacts/1EAW_WZ_W_truecontacts.txt
+Wrote 13 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1EAW/contacts/1EAW_WZ_Z_truecontacts.txt
+Found 208 CA atoms
+Computing 9727 inter-chain CA-CA distances...
+Kept 43 pairs within 0.8 nm cutoff
+Wrote 43 inter-chain contacts to data/haddock_units/1S1Q/contacts/contacts_1S1Q_WZ.tsv
+Wrote 15 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1S1Q/contacts/1S1Q_WZ_W_truecontacts.txt
+Wrote 19 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1S1Q/contacts/1S1Q_WZ_Z_truecontacts.txt
+Found 417 CA atoms
+Computing 40392 inter-chain CA-CA distances...
+Kept 24 pairs within 0.8 nm cutoff
+Wrote 24 inter-chain contacts to data/haddock_units/3AAD/contacts/contacts_3AAD_WZ.tsv
+Wrote 12 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3AAD/contacts/3AAD_WZ_W_truecontacts.txt
+Wrote 15 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3AAD/contacts/3AAD_WZ_Z_truecontacts.txt
+Found 430 CA atoms
+Computing 43309 inter-chain CA-CA distances...
+Kept 19 pairs within 0.8 nm cutoff
+Wrote 19 inter-chain contacts to data/haddock_units/2A1A/contacts/contacts_2A1A_WZ.tsv
+Wrote 8 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2A1A/contacts/2A1A_WZ_W_truecontacts.txt
+Wrote 11 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2A1A/contacts/2A1A_WZ_Z_truecontacts.txt
+Found 553 CA atoms
+Computing 64020 inter-chain CA-CA distances...
+Kept 43 pairs within 0.8 nm cutoff
+Wrote 43 inter-chain contacts to data/haddock_units/1I2M/contacts/contacts_1I2M_WZ.tsv
+Wrote 18 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1I2M/contacts/1I2M_WZ_W_truecontacts.txt
+Wrote 24 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1I2M/contacts/1I2M_WZ_Z_truecontacts.txt
+Found 767 CA atoms
+Computing 146316 inter-chain CA-CA distances...
+Kept 57 pairs within 0.8 nm cutoff
+Wrote 57 inter-chain contacts to data/haddock_units/1Y64/contacts/contacts_1Y64_WZ.tsv
+Wrote 31 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1Y64/contacts/1Y64_WZ_W_truecontacts.txt
+Wrote 25 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1Y64/contacts/1Y64_WZ_Z_truecontacts.txt
+Found 434 CA atoms
+Computing 30960 inter-chain CA-CA distances...
+Kept 27 pairs within 0.8 nm cutoff
+Wrote 27 inter-chain contacts to data/haddock_units/4IZ7/contacts/contacts_4IZ7_WZ.tsv
+Wrote 13 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/4IZ7/contacts/4IZ7_WZ_W_truecontacts.txt
+Wrote 10 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/4IZ7/contacts/4IZ7_WZ_Z_truecontacts.txt
+Found 547 CA atoms
+Computing 74796 inter-chain CA-CA distances...
+Kept 45 pairs within 0.8 nm cutoff
+Wrote 45 inter-chain contacts to data/haddock_units/2A5T/contacts/contacts_2A5T_WZ.tsv
+Wrote 21 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2A5T/contacts/2A5T_WZ_W_truecontacts.txt
+Wrote 20 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2A5T/contacts/2A5T_WZ_Z_truecontacts.txt
+Found 310 CA atoms
+Computing 23989 inter-chain CA-CA distances...
+Kept 53 pairs within 0.8 nm cutoff
+Wrote 53 inter-chain contacts to data/haddock_units/2CFH/contacts/contacts_2CFH_WZ.tsv
+Wrote 21 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2CFH/contacts/2CFH_WZ_W_truecontacts.txt
+Wrote 20 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2CFH/contacts/2CFH_WZ_Z_truecontacts.txt
+Found 309 CA atoms
+Computing 22940 inter-chain CA-CA distances...
+Kept 26 pairs within 0.8 nm cutoff
+Wrote 26 inter-chain contacts to data/haddock_units/1KAC/contacts/contacts_1KAC_WZ.tsv
+Wrote 12 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1KAC/contacts/1KAC_WZ_W_truecontacts.txt
+Wrote 14 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1KAC/contacts/1KAC_WZ_Z_truecontacts.txt
+Found 250 CA atoms
+Computing 15625 inter-chain CA-CA distances...
+Kept 83 pairs within 0.8 nm cutoff
+Wrote 83 inter-chain contacts to data/haddock_units/1H9D/contacts/contacts_1H9D_WZ.tsv
+Wrote 26 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1H9D/contacts/1H9D_WZ_W_truecontacts.txt
+Wrote 23 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1H9D/contacts/1H9D_WZ_Z_truecontacts.txt
+Found 311 CA atoms
+Computing 23760 inter-chain CA-CA distances...
+Kept 46 pairs within 0.8 nm cutoff
+Wrote 46 inter-chain contacts to data/haddock_units/1HE1/contacts/contacts_1HE1_WZ.tsv
+Wrote 18 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1HE1/contacts/1HE1_WZ_W_truecontacts.txt
+Wrote 24 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1HE1/contacts/1HE1_WZ_Z_truecontacts.txt
+Found 236 CA atoms
+Computing 13348 inter-chain CA-CA distances...
+Kept 35 pairs within 0.8 nm cutoff
+Wrote 35 inter-chain contacts to data/haddock_units/1R6Q/contacts/contacts_1R6Q_WZ.tsv
+Wrote 20 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1R6Q/contacts/1R6Q_WZ_W_truecontacts.txt
+Wrote 16 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1R6Q/contacts/1R6Q_WZ_Z_truecontacts.txt
+Found 535 CA atoms
+Computing 71526 inter-chain CA-CA distances...
+Kept 14 pairs within 0.8 nm cutoff
+Wrote 14 inter-chain contacts to data/haddock_units/1JTD/contacts/contacts_1JTD_WZ.tsv
+Wrote 11 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1JTD/contacts/1JTD_WZ_W_truecontacts.txt
+Wrote 11 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1JTD/contacts/1JTD_WZ_Z_truecontacts.txt
+Found 376 CA atoms
+Computing 30160 inter-chain CA-CA distances...
+Kept 44 pairs within 0.8 nm cutoff
+Wrote 44 inter-chain contacts to data/haddock_units/4M3K/contacts/contacts_4M3K_WZ.tsv
+Wrote 17 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/4M3K/contacts/4M3K_WZ_W_truecontacts.txt
+Wrote 22 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/4M3K/contacts/4M3K_WZ_Z_truecontacts.txt
+Found 352 CA atoms
+Computing 26751 inter-chain CA-CA distances...
+Kept 67 pairs within 0.8 nm cutoff
+Wrote 67 inter-chain contacts to data/haddock_units/1YVB/contacts/contacts_1YVB_WZ.tsv
+Wrote 26 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1YVB/contacts/1YVB_WZ_W_truecontacts.txt
+Wrote 14 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1YVB/contacts/1YVB_WZ_Z_truecontacts.txt
+Found 370 CA atoms
+Computing 33969 inter-chain CA-CA distances...
+Kept 38 pairs within 0.8 nm cutoff
+Wrote 38 inter-chain contacts to data/haddock_units/1PVH/contacts/contacts_1PVH_WZ.tsv
+Wrote 14 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1PVH/contacts/1PVH_WZ_W_truecontacts.txt
+Wrote 20 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1PVH/contacts/1PVH_WZ_Z_truecontacts.txt
+Found 557 CA atoms
+Computing 77380 inter-chain CA-CA distances...
+Kept 73 pairs within 0.8 nm cutoff
+Wrote 73 inter-chain contacts to data/haddock_units/2J7P/contacts/contacts_2J7P_WZ.tsv
+Wrote 31 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2J7P/contacts/2J7P_WZ_W_truecontacts.txt
+Wrote 30 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2J7P/contacts/2J7P_WZ_Z_truecontacts.txt
+Found 512 CA atoms
+Computing 52080 inter-chain CA-CA distances...
+Kept 42 pairs within 0.8 nm cutoff
+Wrote 42 inter-chain contacts to data/haddock_units/3DAW/contacts/contacts_3DAW_WZ.tsv
+Wrote 17 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3DAW/contacts/3DAW_WZ_W_truecontacts.txt
+Wrote 17 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3DAW/contacts/3DAW_WZ_Z_truecontacts.txt
+Found 442 CA atoms
+Computing 40920 inter-chain CA-CA distances...
+Kept 36 pairs within 0.8 nm cutoff
+Wrote 36 inter-chain contacts to data/haddock_units/2GTP/contacts/contacts_2GTP_WZ.tsv
+Wrote 15 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2GTP/contacts/2GTP_WZ_W_truecontacts.txt
+Wrote 16 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2GTP/contacts/2GTP_WZ_Z_truecontacts.txt
+Found 206 CA atoms
+Computing 6765 inter-chain CA-CA distances...
+Kept 17 pairs within 0.8 nm cutoff
+Wrote 17 inter-chain contacts to data/haddock_units/1J2J/contacts/contacts_1J2J_WZ.tsv
+Wrote 7 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1J2J/contacts/1J2J_WZ_W_truecontacts.txt
+Wrote 10 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1J2J/contacts/1J2J_WZ_Z_truecontacts.txt
+Found 616 CA atoms
+Computing 77175 inter-chain CA-CA distances...
+Kept 33 pairs within 0.8 nm cutoff
+Wrote 33 inter-chain contacts to data/haddock_units/3CPH/contacts/contacts_3CPH_WZ.tsv
+Wrote 14 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3CPH/contacts/3CPH_WZ_W_truecontacts.txt
+Wrote 14 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3CPH/contacts/3CPH_WZ_Z_truecontacts.txt
+Found 402 CA atoms
+Computing 31752 inter-chain CA-CA distances...
+Kept 14 pairs within 0.8 nm cutoff
+Wrote 14 inter-chain contacts to data/haddock_units/2PCC/contacts/contacts_2PCC_WZ.tsv
+Wrote 8 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2PCC/contacts/2PCC_WZ_W_truecontacts.txt
+Wrote 8 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2PCC/contacts/2PCC_WZ_Z_truecontacts.txt
+Found 339 CA atoms
+Computing 17600 inter-chain CA-CA distances...
+Kept 58 pairs within 0.8 nm cutoff
+Wrote 58 inter-chain contacts to data/haddock_units/2SNI/contacts/contacts_2SNI_WZ.tsv
+Wrote 24 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2SNI/contacts/2SNI_WZ_W_truecontacts.txt
+Wrote 11 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2SNI/contacts/2SNI_WZ_Z_truecontacts.txt
+Found 304 CA atoms
+Computing 17175 inter-chain CA-CA distances...
+Kept 68 pairs within 0.8 nm cutoff
+Wrote 68 inter-chain contacts to data/haddock_units/1XD3/contacts/contacts_1XD3_WZ.tsv
+Wrote 29 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1XD3/contacts/1XD3_WZ_W_truecontacts.txt
+Wrote 15 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1XD3/contacts/1XD3_WZ_Z_truecontacts.txt
+Found 275 CA atoms
+Computing 11596 inter-chain CA-CA distances...
+Kept 44 pairs within 0.8 nm cutoff
+Wrote 44 inter-chain contacts to data/haddock_units/2UUY/contacts/contacts_2UUY_WZ.tsv
+Wrote 19 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2UUY/contacts/2UUY_WZ_W_truecontacts.txt
+Wrote 9 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2UUY/contacts/2UUY_WZ_Z_truecontacts.txt
+Found 227 CA atoms
+Computing 12880 inter-chain CA-CA distances...
+Kept 41 pairs within 0.8 nm cutoff
+Wrote 41 inter-chain contacts to data/haddock_units/5E5M/contacts/contacts_5E5M_WZ.tsv
+Wrote 14 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/5E5M/contacts/5E5M_WZ_W_truecontacts.txt
+Wrote 14 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/5E5M/contacts/5E5M_WZ_Z_truecontacts.txt
+Found 703 CA atoms
+Computing 69960 inter-chain CA-CA distances...
+Kept 16 pairs within 0.8 nm cutoff
+Wrote 16 inter-chain contacts to data/haddock_units/5VNW/contacts/contacts_5VNW_WZ.tsv
+Wrote 7 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/5VNW/contacts/5VNW_WZ_W_truecontacts.txt
+Wrote 8 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/5VNW/contacts/5VNW_WZ_Z_truecontacts.txt
+Found 873 CA atoms
+Computing 123192 inter-chain CA-CA distances...
+Kept 13 pairs within 0.8 nm cutoff
+Wrote 13 inter-chain contacts to data/haddock_units/2FJU/contacts/contacts_2FJU_WZ.tsv
+Wrote 7 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2FJU/contacts/2FJU_WZ_W_truecontacts.txt
+Wrote 8 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2FJU/contacts/2FJU_WZ_Z_truecontacts.txt
+Found 451 CA atoms
+Computing 48958 inter-chain CA-CA distances...
+Kept 26 pairs within 0.8 nm cutoff
+Wrote 26 inter-chain contacts to data/haddock_units/2H7V/contacts/contacts_2H7V_WZ.tsv
+Wrote 13 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2H7V/contacts/2H7V_WZ_W_truecontacts.txt
+Wrote 13 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2H7V/contacts/2H7V_WZ_Z_truecontacts.txt
+Found 508 CA atoms
+Computing 42612 inter-chain CA-CA distances...
+Kept 18 pairs within 0.8 nm cutoff
+Wrote 18 inter-chain contacts to data/haddock_units/2YVJ/contacts/contacts_2YVJ_WZ.tsv
+Wrote 11 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2YVJ/contacts/2YVJ_WZ_W_truecontacts.txt
+Wrote 7 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2YVJ/contacts/2YVJ_WZ_Z_truecontacts.txt
+Found 548 CA atoms
+Computing 66976 inter-chain CA-CA distances...
+Kept 63 pairs within 0.8 nm cutoff
+Wrote 63 inter-chain contacts to data/haddock_units/2B42/contacts/contacts_2B42_WZ.tsv
+Wrote 22 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2B42/contacts/2B42_WZ_W_truecontacts.txt
+Wrote 29 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2B42/contacts/2B42_WZ_Z_truecontacts.txt
+Found 570 CA atoms
+Computing 51641 inter-chain CA-CA distances...
+Kept 38 pairs within 0.8 nm cutoff
+Wrote 38 inter-chain contacts to data/haddock_units/1E6E/contacts/contacts_1E6E_WZ.tsv
+Wrote 21 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1E6E/contacts/1E6E_WZ_W_truecontacts.txt
+Wrote 20 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1E6E/contacts/1E6E_WZ_Z_truecontacts.txt
+Found 240 CA atoms
+Computing 14400 inter-chain CA-CA distances...
+Kept 36 pairs within 0.8 nm cutoff
+Wrote 36 inter-chain contacts to data/haddock_units/4POU/contacts/contacts_4POU_WZ.tsv
+Wrote 12 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/4POU/contacts/4POU_WZ_W_truecontacts.txt
+Wrote 14 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/4POU/contacts/4POU_WZ_Z_truecontacts.txt
+Found 151 CA atoms
+Computing 5490 inter-chain CA-CA distances...
+Kept 48 pairs within 0.8 nm cutoff
+Wrote 48 inter-chain contacts to data/haddock_units/2X9A/contacts/contacts_2X9A_WZ.tsv
+Wrote 17 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2X9A/contacts/2X9A_WZ_W_truecontacts.txt
+Wrote 15 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2X9A/contacts/2X9A_WZ_Z_truecontacts.txt
+Found 477 CA atoms
+Computing 56882 inter-chain CA-CA distances...
+Kept 25 pairs within 0.8 nm cutoff
+Wrote 25 inter-chain contacts to data/haddock_units/1SBB/contacts/contacts_1SBB_WZ.tsv
+Wrote 11 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1SBB/contacts/1SBB_WZ_W_truecontacts.txt
+Wrote 11 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1SBB/contacts/1SBB_WZ_Z_truecontacts.txt
+Found 552 CA atoms
+Computing 71552 inter-chain CA-CA distances...
+Kept 61 pairs within 0.8 nm cutoff
+Wrote 61 inter-chain contacts to data/haddock_units/1ZHH/contacts/contacts_1ZHH_WZ.tsv
+Wrote 21 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1ZHH/contacts/1ZHH_WZ_W_truecontacts.txt
+Wrote 22 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1ZHH/contacts/1ZHH_WZ_Z_truecontacts.txt
+Found 605 CA atoms
+Computing 91044 inter-chain CA-CA distances...
+Kept 19 pairs within 0.8 nm cutoff
+Wrote 19 inter-chain contacts to data/haddock_units/4FZA/contacts/contacts_4FZA_WZ.tsv
+Wrote 12 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/4FZA/contacts/4FZA_WZ_W_truecontacts.txt
+Wrote 10 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/4FZA/contacts/4FZA_WZ_Z_truecontacts.txt
+Found 285 CA atoms
+Computing 19964 inter-chain CA-CA distances...
+Kept 55 pairs within 0.8 nm cutoff
+Wrote 55 inter-chain contacts to data/haddock_units/2J0T/contacts/contacts_2J0T_WZ.tsv
+Wrote 19 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2J0T/contacts/2J0T_WZ_W_truecontacts.txt
+Wrote 14 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2J0T/contacts/2J0T_WZ_Z_truecontacts.txt
+Found 188 CA atoms
+Computing 8692 inter-chain CA-CA distances...
+Kept 29 pairs within 0.8 nm cutoff
+Wrote 29 inter-chain contacts to data/haddock_units/1KTZ/contacts/contacts_1KTZ_WZ.tsv
+Wrote 9 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1KTZ/contacts/1KTZ_WZ_W_truecontacts.txt
+Wrote 12 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1KTZ/contacts/1KTZ_WZ_Z_truecontacts.txt
+Found 436 CA atoms
+Computing 39603 inter-chain CA-CA distances...
+Kept 23 pairs within 0.8 nm cutoff
+Wrote 23 inter-chain contacts to data/haddock_units/1GHQ/contacts/contacts_1GHQ_WZ.tsv
+Wrote 9 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1GHQ/contacts/1GHQ_WZ_W_truecontacts.txt
+Wrote 8 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1GHQ/contacts/1GHQ_WZ_Z_truecontacts.txt
+Found 575 CA atoms
+Computing 49350 inter-chain CA-CA distances...
+Kept 62 pairs within 0.8 nm cutoff
+Wrote 62 inter-chain contacts to data/haddock_units/1JIW/contacts/contacts_1JIW_WZ.tsv
+Wrote 27 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1JIW/contacts/1JIW_WZ_W_truecontacts.txt
+Wrote 21 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1JIW/contacts/1JIW_WZ_Z_truecontacts.txt
+Found 293 CA atoms
+Computing 20760 inter-chain CA-CA distances...
+Kept 29 pairs within 0.8 nm cutoff
+Wrote 29 inter-chain contacts to data/haddock_units/3BX7/contacts/contacts_3BX7_WZ.tsv
+Wrote 16 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3BX7/contacts/3BX7_WZ_W_truecontacts.txt
+Wrote 18 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3BX7/contacts/3BX7_WZ_Z_truecontacts.txt
+Found 310 CA atoms
+Computing 18841 inter-chain CA-CA distances...
+Kept 41 pairs within 0.8 nm cutoff
+Wrote 41 inter-chain contacts to data/haddock_units/1UDI/contacts/contacts_1UDI_WZ.tsv
+Wrote 19 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1UDI/contacts/1UDI_WZ_W_truecontacts.txt
+Wrote 19 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1UDI/contacts/1UDI_WZ_Z_truecontacts.txt
+Found 429 CA atoms
+Computing 43560 inter-chain CA-CA distances...
+Kept 34 pairs within 0.8 nm cutoff
+Wrote 34 inter-chain contacts to data/haddock_units/1XQS/contacts/contacts_1XQS_WZ.tsv
+Wrote 14 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1XQS/contacts/1XQS_WZ_W_truecontacts.txt
+Wrote 16 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1XQS/contacts/1XQS_WZ_Z_truecontacts.txt
+Found 387 CA atoms
+Computing 32330 inter-chain CA-CA distances...
+Kept 40 pairs within 0.8 nm cutoff
+Wrote 40 inter-chain contacts to data/haddock_units/2I9B/contacts/contacts_2I9B_WZ.tsv
+Wrote 20 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2I9B/contacts/2I9B_WZ_W_truecontacts.txt
+Wrote 14 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2I9B/contacts/2I9B_WZ_Z_truecontacts.txt
+Found 695 CA atoms
+Computing 120336 inter-chain CA-CA distances...
+Kept 48 pairs within 0.8 nm cutoff
+Wrote 48 inter-chain contacts to data/haddock_units/1H1V/contacts/contacts_1H1V_WZ.tsv
+Wrote 20 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1H1V/contacts/1H1V_WZ_W_truecontacts.txt
+Wrote 16 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1H1V/contacts/1H1V_WZ_Z_truecontacts.txt
+Found 161 CA atoms
+Computing 5928 inter-chain CA-CA distances...
+Kept 20 pairs within 0.8 nm cutoff
+Wrote 20 inter-chain contacts to data/haddock_units/1EFN/contacts/contacts_1EFN_WZ.tsv
+Wrote 9 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1EFN/contacts/1EFN_WZ_W_truecontacts.txt
+Wrote 10 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1EFN/contacts/1EFN_WZ_Z_truecontacts.txt
+Found 254 CA atoms
+Computing 14529 inter-chain CA-CA distances...
+Kept 26 pairs within 0.8 nm cutoff
+Wrote 26 inter-chain contacts to data/haddock_units/1LFD/contacts/contacts_1LFD_WZ.tsv
+Wrote 11 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1LFD/contacts/1LFD_WZ_W_truecontacts.txt
+Wrote 9 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1LFD/contacts/1LFD_WZ_Z_truecontacts.txt
+Found 307 CA atoms
+Computing 22860 inter-chain CA-CA distances...
+Kept 42 pairs within 0.8 nm cutoff
+Wrote 42 inter-chain contacts to data/haddock_units/3S9D/contacts/contacts_3S9D_WZ.tsv
+Wrote 15 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3S9D/contacts/3S9D_WZ_W_truecontacts.txt
+Wrote 19 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3S9D/contacts/3S9D_WZ_Z_truecontacts.txt
+Found 116 CA atoms
+Computing 3168 inter-chain CA-CA distances...
+Kept 23 pairs within 0.8 nm cutoff
+Wrote 23 inter-chain contacts to data/haddock_units/2OOB/contacts/contacts_2OOB_WZ.tsv
+Wrote 10 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2OOB/contacts/2OOB_WZ_W_truecontacts.txt
+Wrote 10 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2OOB/contacts/2OOB_WZ_Z_truecontacts.txt
+Found 456 CA atoms
+Computing 45095 inter-chain CA-CA distances...
+Kept 67 pairs within 0.8 nm cutoff
+Wrote 67 inter-chain contacts to data/haddock_units/1IRA/contacts/contacts_1IRA_WZ.tsv
+Wrote 34 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1IRA/contacts/1IRA_WZ_W_truecontacts.txt
+Wrote 27 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1IRA/contacts/1IRA_WZ_Z_truecontacts.txt
+Found 348 CA atoms
+Computing 25787 inter-chain CA-CA distances...
+Kept 70 pairs within 0.8 nm cutoff
+Wrote 70 inter-chain contacts to data/haddock_units/2OUL/contacts/contacts_2OUL_WZ.tsv
+Wrote 29 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2OUL/contacts/2OUL_WZ_W_truecontacts.txt
+Wrote 17 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2OUL/contacts/2OUL_WZ_Z_truecontacts.txt
+Found 410 CA atoms
+Computing 39721 inter-chain CA-CA distances...
+Kept 58 pairs within 0.8 nm cutoff
+Wrote 58 inter-chain contacts to data/haddock_units/2OT3/contacts/contacts_2OT3_WZ.tsv
+Wrote 25 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2OT3/contacts/2OT3_WZ_W_truecontacts.txt
+Wrote 25 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2OT3/contacts/2OT3_WZ_Z_truecontacts.txt
+Found 629 CA atoms
+Computing 95718 inter-chain CA-CA distances...
+Kept 59 pairs within 0.8 nm cutoff
+Wrote 59 inter-chain contacts to data/haddock_units/1ATN/contacts/contacts_1ATN_WZ.tsv
+Wrote 17 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1ATN/contacts/1ATN_WZ_W_truecontacts.txt
+Wrote 26 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1ATN/contacts/1ATN_WZ_Z_truecontacts.txt
+Found 401 CA atoms
+Computing 29694 inter-chain CA-CA distances...
+Kept 44 pairs within 0.8 nm cutoff
+Wrote 44 inter-chain contacts to data/haddock_units/1EWY/contacts/contacts_1EWY_WZ.tsv
+Wrote 21 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1EWY/contacts/1EWY_WZ_W_truecontacts.txt
+Wrote 13 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1EWY/contacts/1EWY_WZ_Z_truecontacts.txt
+Found 301 CA atoms
+Computing 13720 inter-chain CA-CA distances...
+Kept 64 pairs within 0.8 nm cutoff
+Wrote 64 inter-chain contacts to data/haddock_units/1CGI/contacts/contacts_1CGI_WZ.tsv
+Wrote 25 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1CGI/contacts/1CGI_WZ_W_truecontacts.txt
+Wrote 19 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1CGI/contacts/1CGI_WZ_Z_truecontacts.txt
+Found 567 CA atoms
+Computing 35216 inter-chain CA-CA distances...
+Kept 46 pairs within 0.8 nm cutoff
+Wrote 46 inter-chain contacts to data/haddock_units/1BVN/contacts/contacts_1BVN_WZ.tsv
+Wrote 19 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1BVN/contacts/1BVN_WZ_W_truecontacts.txt
+Wrote 20 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1BVN/contacts/1BVN_WZ_Z_truecontacts.txt
+Found 236 CA atoms
+Computing 9435 inter-chain CA-CA distances...
+Kept 54 pairs within 0.8 nm cutoff
+Wrote 54 inter-chain contacts to data/haddock_units/3SGQ/contacts/contacts_3SGQ_WZ.tsv
+Wrote 20 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3SGQ/contacts/3SGQ_WZ_W_truecontacts.txt
+Wrote 11 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3SGQ/contacts/3SGQ_WZ_Z_truecontacts.txt
+Found 419 CA atoms
+Computing 37084 inter-chain CA-CA distances...
+Kept 25 pairs within 0.8 nm cutoff
+Wrote 25 inter-chain contacts to data/haddock_units/3RJQ/contacts/contacts_3RJQ_WZ.tsv
+Wrote 12 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3RJQ/contacts/3RJQ_WZ_W_truecontacts.txt
+Wrote 17 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3RJQ/contacts/3RJQ_WZ_Z_truecontacts.txt
+Found 396 CA atoms
+Computing 37179 inter-chain CA-CA distances...
+Kept 88 pairs within 0.8 nm cutoff
+Wrote 88 inter-chain contacts to data/haddock_units/1JK9/contacts/contacts_1JK9_WZ.tsv
+Wrote 31 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1JK9/contacts/1JK9_WZ_W_truecontacts.txt
+Wrote 30 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1JK9/contacts/1JK9_WZ_Z_truecontacts.txt
+Found 672 CA atoms
+Computing 112880 inter-chain CA-CA distances...
+Kept 147 pairs within 0.8 nm cutoff
+Wrote 147 inter-chain contacts to data/haddock_units/2OZA/contacts/contacts_2OZA_WZ.tsv
+Wrote 54 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2OZA/contacts/2OZA_WZ_W_truecontacts.txt
+Wrote 55 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2OZA/contacts/2OZA_WZ_Z_truecontacts.txt
+Found 650 CA atoms
+Computing 78729 inter-chain CA-CA distances...
+Kept 21 pairs within 0.8 nm cutoff
+Wrote 21 inter-chain contacts to data/haddock_units/1GLA/contacts/contacts_1GLA_WZ.tsv
+Wrote 10 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1GLA/contacts/1GLA_WZ_W_truecontacts.txt
+Wrote 10 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1GLA/contacts/1GLA_WZ_Z_truecontacts.txt
+Found 598 CA atoms
+Computing 83625 inter-chain CA-CA distances...
+Kept 45 pairs within 0.8 nm cutoff
+Wrote 45 inter-chain contacts to data/haddock_units/1OPH/contacts/contacts_1OPH_WZ.tsv
+Wrote 11 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1OPH/contacts/1OPH_WZ_W_truecontacts.txt
+Wrote 18 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1OPH/contacts/1OPH_WZ_Z_truecontacts.txt
+Found 247 CA atoms
+Computing 12900 inter-chain CA-CA distances...
+Kept 36 pairs within 0.8 nm cutoff
+Wrote 36 inter-chain contacts to data/haddock_units/2IDO/contacts/contacts_2IDO_WZ.tsv
+Wrote 13 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2IDO/contacts/2IDO_WZ_W_truecontacts.txt
+Wrote 15 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2IDO/contacts/2IDO_WZ_Z_truecontacts.txt
+Found 196 CA atoms
+Computing 8704 inter-chain CA-CA distances...
+Kept 20 pairs within 0.8 nm cutoff
+Wrote 20 inter-chain contacts to data/haddock_units/1FFW/contacts/contacts_1FFW_WZ.tsv
+Wrote 12 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1FFW/contacts/1FFW_WZ_W_truecontacts.txt
+Wrote 8 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1FFW/contacts/1FFW_WZ_Z_truecontacts.txt
+Found 380 CA atoms
+Computing 22644 inter-chain CA-CA distances...
+Kept 48 pairs within 0.8 nm cutoff
+Wrote 48 inter-chain contacts to data/haddock_units/1ZLI/contacts/contacts_1ZLI_WZ.tsv
+Wrote 22 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1ZLI/contacts/1ZLI_WZ_W_truecontacts.txt
+Wrote 20 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1ZLI/contacts/1ZLI_WZ_Z_truecontacts.txt
+Found 329 CA atoms
+Computing 21658 inter-chain CA-CA distances...
+Kept 60 pairs within 0.8 nm cutoff
+Wrote 60 inter-chain contacts to data/haddock_units/1NW9/contacts/contacts_1NW9_WZ.tsv
+Wrote 21 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1NW9/contacts/1NW9_WZ_W_truecontacts.txt
+Wrote 25 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1NW9/contacts/1NW9_WZ_Z_truecontacts.txt
+Found 395 CA atoms
+Computing 38356 inter-chain CA-CA distances...
+Kept 49 pairs within 0.8 nm cutoff
+Wrote 49 inter-chain contacts to data/haddock_units/1AVX/contacts/contacts_1AVX_WZ.tsv
+Wrote 23 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1AVX/contacts/1AVX_WZ_W_truecontacts.txt
+Wrote 12 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1AVX/contacts/1AVX_WZ_Z_truecontacts.txt
+Found 520 CA atoms
+Computing 44496 inter-chain CA-CA distances...
+Kept 34 pairs within 0.8 nm cutoff
+Wrote 34 inter-chain contacts to data/haddock_units/2HQS/contacts/contacts_2HQS_WZ.tsv
+Wrote 22 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2HQS/contacts/2HQS_WZ_W_truecontacts.txt
+Wrote 15 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2HQS/contacts/2HQS_WZ_Z_truecontacts.txt
+Found 252 CA atoms
+Computing 6467 inter-chain CA-CA distances...
+Kept 52 pairs within 0.8 nm cutoff
+Wrote 52 inter-chain contacts to data/haddock_units/1PPE/contacts/contacts_1PPE_WZ.tsv
+Wrote 22 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1PPE/contacts/1PPE_WZ_W_truecontacts.txt
+Wrote 12 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1PPE/contacts/1PPE_WZ_Z_truecontacts.txt
+Found 580 CA atoms
+Computing 56544 inter-chain CA-CA distances...
+Kept 19 pairs within 0.8 nm cutoff
+Wrote 19 inter-chain contacts to data/haddock_units/1DFJ/contacts/contacts_1DFJ_WZ.tsv
+Wrote 10 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1DFJ/contacts/1DFJ_WZ_W_truecontacts.txt
+Wrote 15 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1DFJ/contacts/1DFJ_WZ_Z_truecontacts.txt
+Found 126 CA atoms
+Computing 3933 inter-chain CA-CA distances...
+Kept 28 pairs within 0.8 nm cutoff
+Wrote 28 inter-chain contacts to data/haddock_units/1GCQ/contacts/contacts_1GCQ_WZ.tsv
+Wrote 14 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1GCQ/contacts/1GCQ_WZ_W_truecontacts.txt
+Wrote 13 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1GCQ/contacts/1GCQ_WZ_Z_truecontacts.txt
+Found 321 CA atoms
+Computing 25004 inter-chain CA-CA distances...
+Kept 58 pairs within 0.8 nm cutoff
+Wrote 58 inter-chain contacts to data/haddock_units/2HLE/contacts/contacts_2HLE_WZ.tsv
+Wrote 27 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2HLE/contacts/2HLE_WZ_W_truecontacts.txt
+Wrote 22 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2HLE/contacts/2HLE_WZ_Z_truecontacts.txt
+Found 399 CA atoms
+Computing 39758 inter-chain CA-CA distances...
+Kept 27 pairs within 0.8 nm cutoff
+Wrote 27 inter-chain contacts to data/haddock_units/1US7/contacts/contacts_1US7_WZ.tsv
+Wrote 12 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1US7/contacts/1US7_WZ_W_truecontacts.txt
+Wrote 12 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1US7/contacts/1US7_WZ_Z_truecontacts.txt
+Found 298 CA atoms
+Computing 21417 inter-chain CA-CA distances...
+Kept 38 pairs within 0.8 nm cutoff
+Wrote 38 inter-chain contacts to data/haddock_units/2HRK/contacts/contacts_2HRK_WZ.tsv
+Wrote 15 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2HRK/contacts/2HRK_WZ_W_truecontacts.txt
+Wrote 16 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2HRK/contacts/2HRK_WZ_Z_truecontacts.txt
+Found 294 CA atoms
+Computing 20313 inter-chain CA-CA distances...
+Kept 79 pairs within 0.8 nm cutoff
+Wrote 79 inter-chain contacts to data/haddock_units/1PXV/contacts/contacts_1PXV_WZ.tsv
+Wrote 24 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1PXV/contacts/1PXV_WZ_W_truecontacts.txt
+Wrote 18 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1PXV/contacts/1PXV_WZ_Z_truecontacts.txt
+Found 230 CA atoms
+Computing 10309 inter-chain CA-CA distances...
+Kept 42 pairs within 0.8 nm cutoff
+Wrote 42 inter-chain contacts to data/haddock_units/1Z0K/contacts/contacts_1Z0K_WZ.tsv
+Wrote 15 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1Z0K/contacts/1Z0K_WZ_W_truecontacts.txt
+Wrote 14 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1Z0K/contacts/1Z0K_WZ_Z_truecontacts.txt
+Found 622 CA atoms
+Computing 88072 inter-chain CA-CA distances...
+Kept 65 pairs within 0.8 nm cutoff
+Wrote 65 inter-chain contacts to data/haddock_units/3VLB/contacts/contacts_3VLB_WZ.tsv
+Wrote 30 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3VLB/contacts/3VLB_WZ_W_truecontacts.txt
+Wrote 22 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3VLB/contacts/3VLB_WZ_Z_truecontacts.txt
+Found 304 CA atoms
+Computing 15183 inter-chain CA-CA distances...
+Kept 43 pairs within 0.8 nm cutoff
+Wrote 43 inter-chain contacts to data/haddock_units/1ACB/contacts/contacts_1ACB_WZ.tsv
+Wrote 17 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1ACB/contacts/1ACB_WZ_W_truecontacts.txt
+Wrote 11 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1ACB/contacts/1ACB_WZ_Z_truecontacts.txt
+Found 197 CA atoms
+Computing 8370 inter-chain CA-CA distances...
+Kept 21 pairs within 0.8 nm cutoff
+Wrote 21 inter-chain contacts to data/haddock_units/1SYX/contacts/contacts_1SYX_WZ.tsv
+Wrote 11 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1SYX/contacts/1SYX_WZ_W_truecontacts.txt
+Wrote 9 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1SYX/contacts/1SYX_WZ_Z_truecontacts.txt
+Found 502 CA atoms
+Computing 15040 inter-chain CA-CA distances...
+Kept 43 pairs within 0.8 nm cutoff
+Wrote 43 inter-chain contacts to data/haddock_units/1CLV/contacts/contacts_1CLV_WZ.tsv
+Wrote 19 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1CLV/contacts/1CLV_WZ_W_truecontacts.txt
+Wrote 21 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1CLV/contacts/1CLV_WZ_Z_truecontacts.txt
+Found 174 CA atoms
+Computing 7469 inter-chain CA-CA distances...
+Kept 12 pairs within 0.8 nm cutoff
+Wrote 12 inter-chain contacts to data/haddock_units/3PC8/contacts/contacts_3PC8_WZ.tsv
+Wrote 5 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3PC8/contacts/3PC8_WZ_W_truecontacts.txt
+Wrote 5 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3PC8/contacts/3PC8_WZ_Z_truecontacts.txt
+Found 723 CA atoms
+Computing 123372 inter-chain CA-CA distances...
+Kept 75 pairs within 0.8 nm cutoff
+Wrote 75 inter-chain contacts to data/haddock_units/2GAF/contacts/contacts_2GAF_WZ.tsv
+Wrote 38 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2GAF/contacts/2GAF_WZ_W_truecontacts.txt
+Wrote 33 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2GAF/contacts/2GAF_WZ_Z_truecontacts.txt
+Found 254 CA atoms
+Computing 16048 inter-chain CA-CA distances...
+Kept 32 pairs within 0.8 nm cutoff
+Wrote 32 inter-chain contacts to data/haddock_units/1Z5Y/contacts/contacts_1Z5Y_WZ.tsv
+Wrote 13 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1Z5Y/contacts/1Z5Y_WZ_W_truecontacts.txt
+Wrote 12 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1Z5Y/contacts/1Z5Y_WZ_Z_truecontacts.txt
+Found 225 CA atoms
+Computing 12654 inter-chain CA-CA distances...
+Kept 6 pairs within 0.8 nm cutoff
+Wrote 6 inter-chain contacts to data/haddock_units/3F1P/contacts/contacts_3F1P_WZ.tsv
+Wrote 5 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3F1P/contacts/3F1P_WZ_W_truecontacts.txt
+Wrote 5 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3F1P/contacts/3F1P_WZ_Z_truecontacts.txt
+Found 217 CA atoms
+Computing 9610 inter-chain CA-CA distances...
+Kept 0 pairs within 0.8 nm cutoff
+Wrote 0 inter-chain contacts to data/haddock_units/3A4S/contacts/contacts_3A4S_WZ.tsv
+Found 629 CA atoms
+Computing 31570 inter-chain CA-CA distances...
+Kept 48 pairs within 0.8 nm cutoff
+Wrote 48 inter-chain contacts to data/haddock_units/2VDB/contacts/contacts_2VDB_WZ.tsv
+Wrote 15 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2VDB/contacts/2VDB_WZ_W_truecontacts.txt
+Wrote 22 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2VDB/contacts/2VDB_WZ_Z_truecontacts.txt
+Found 414 CA atoms
+Computing 35624 inter-chain CA-CA distances...
+Kept 48 pairs within 0.8 nm cutoff
+Wrote 48 inter-chain contacts to data/haddock_units/2C0L/contacts/contacts_2C0L_WZ.tsv
+Wrote 25 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2C0L/contacts/2C0L_WZ_W_truecontacts.txt
+Wrote 16 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2C0L/contacts/2C0L_WZ_Z_truecontacts.txt
+Found 273 CA atoms
+Computing 8126 inter-chain CA-CA distances...
+Kept 49 pairs within 0.8 nm cutoff
+Wrote 49 inter-chain contacts to data/haddock_units/1GL1/contacts/contacts_1GL1_WZ.tsv
+Wrote 20 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1GL1/contacts/1GL1_WZ_W_truecontacts.txt
+Wrote 12 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1GL1/contacts/1GL1_WZ_Z_truecontacts.txt
+Found 466 CA atoms
+Computing 53133 inter-chain CA-CA distances...
+Kept 25 pairs within 0.8 nm cutoff
+Wrote 25 inter-chain contacts to data/haddock_units/1M10/contacts/contacts_1M10_WZ.tsv
+Wrote 12 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1M10/contacts/1M10_WZ_W_truecontacts.txt
+Wrote 10 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1M10/contacts/1M10_WZ_Z_truecontacts.txt
+Found 361 CA atoms
+Computing 32568 inter-chain CA-CA distances...
+Kept 26 pairs within 0.8 nm cutoff
+Wrote 26 inter-chain contacts to data/haddock_units/1MQ8/contacts/contacts_1MQ8_WZ.tsv
+Wrote 12 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1MQ8/contacts/1MQ8_WZ_W_truecontacts.txt
+Wrote 11 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1MQ8/contacts/1MQ8_WZ_Z_truecontacts.txt
+Found 787 CA atoms
+Computing 152862 inter-chain CA-CA distances...
+Kept 52 pairs within 0.8 nm cutoff
+Wrote 52 inter-chain contacts to data/haddock_units/1KXP/contacts/contacts_1KXP_WZ.tsv
+Wrote 24 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1KXP/contacts/1KXP_WZ_W_truecontacts.txt
+Wrote 30 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1KXP/contacts/1KXP_WZ_Z_truecontacts.txt
+Found 373 CA atoms
+Computing 31242 inter-chain CA-CA distances...
+Kept 68 pairs within 0.8 nm cutoff
+Wrote 68 inter-chain contacts to data/haddock_units/5HGG/contacts/contacts_5HGG_WZ.tsv
+Wrote 18 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/5HGG/contacts/5HGG_WZ_W_truecontacts.txt
+Wrote 30 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/5HGG/contacts/5HGG_WZ_Z_truecontacts.txt
+Found 404 CA atoms
+Computing 33748 inter-chain CA-CA distances...
+Kept 12 pairs within 0.8 nm cutoff
+Wrote 12 inter-chain contacts to data/haddock_units/6DBG/contacts/contacts_6DBG_WZ.tsv
+Wrote 6 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/6DBG/contacts/6DBG_WZ_W_truecontacts.txt
+Wrote 7 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/6DBG/contacts/6DBG_WZ_Z_truecontacts.txt
+Found 243 CA atoms
+Computing 14706 inter-chain CA-CA distances...
+Kept 38 pairs within 0.8 nm cutoff
+Wrote 38 inter-chain contacts to data/haddock_units/2I25/contacts/contacts_2I25_WZ.tsv
+Wrote 9 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2I25/contacts/2I25_WZ_W_truecontacts.txt
+Wrote 19 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2I25/contacts/2I25_WZ_Z_truecontacts.txt
+Found 453 CA atoms
+Computing 50600 inter-chain CA-CA distances...
+Kept 50 pairs within 0.8 nm cutoff
+Wrote 50 inter-chain contacts to data/haddock_units/1GPW/contacts/contacts_1GPW_WZ.tsv
+Wrote 21 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1GPW/contacts/1GPW_WZ_W_truecontacts.txt
+Wrote 24 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1GPW/contacts/1GPW_WZ_Z_truecontacts.txt
+Found 281 CA atoms
+Computing 12934 inter-chain CA-CA distances...
+Kept 45 pairs within 0.8 nm cutoff
+Wrote 45 inter-chain contacts to data/haddock_units/1D6R/contacts/contacts_1D6R_WZ.tsv
+Wrote 17 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1D6R/contacts/1D6R_WZ_W_truecontacts.txt
+Wrote 12 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1D6R/contacts/1D6R_WZ_Z_truecontacts.txt
+Found 248 CA atoms
+Computing 12876 inter-chain CA-CA distances...
+Kept 33 pairs within 0.8 nm cutoff
+Wrote 33 inter-chain contacts to data/haddock_units/3H2V/contacts/contacts_3H2V_WZ.tsv
+Wrote 14 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3H2V/contacts/3H2V_WZ_W_truecontacts.txt
+Wrote 11 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3H2V/contacts/3H2V_WZ_Z_truecontacts.txt
+Found 588 CA atoms
+Computing 55107 inter-chain CA-CA distances...
+Kept 33 pairs within 0.8 nm cutoff
+Wrote 33 inter-chain contacts to data/haddock_units/5JMO/contacts/contacts_5JMO_WZ.tsv
+Wrote 14 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/5JMO/contacts/5JMO_WZ_W_truecontacts.txt
+Wrote 16 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/5JMO/contacts/5JMO_WZ_Z_truecontacts.txt
+Found 214 CA atoms
+Computing 11049 inter-chain CA-CA distances...
+Kept 28 pairs within 0.8 nm cutoff
+Wrote 28 inter-chain contacts to data/haddock_units/7CEI/contacts/contacts_7CEI_WZ.tsv
+Wrote 13 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/7CEI/contacts/7CEI_WZ_W_truecontacts.txt
+Wrote 12 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/7CEI/contacts/7CEI_WZ_Z_truecontacts.txt
+Found 378 CA atoms
+Computing 28496 inter-chain CA-CA distances...
+Kept 63 pairs within 0.8 nm cutoff
+Wrote 63 inter-chain contacts to data/haddock_units/1OYV/contacts/contacts_1OYV_WZ.tsv
+Wrote 25 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1OYV/contacts/1OYV_WZ_W_truecontacts.txt
+Wrote 10 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1OYV/contacts/1OYV_WZ_Z_truecontacts.txt
+Found 605 CA atoms
+Computing 72874 inter-chain CA-CA distances...
+Kept 69 pairs within 0.8 nm cutoff
+Wrote 69 inter-chain contacts to data/haddock_units/1BKD/contacts/contacts_1BKD_WZ.tsv
+Wrote 26 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1BKD/contacts/1BKD_WZ_W_truecontacts.txt
+Wrote 28 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1BKD/contacts/1BKD_WZ_Z_truecontacts.txt
+Found 433 CA atoms
+Computing 37170 inter-chain CA-CA distances...
+Kept 74 pairs within 0.8 nm cutoff
+Wrote 74 inter-chain contacts to data/haddock_units/2Z0E/contacts/contacts_2Z0E_WZ.tsv
+Wrote 34 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2Z0E/contacts/2Z0E_WZ_W_truecontacts.txt
+Wrote 22 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2Z0E/contacts/2Z0E_WZ_Z_truecontacts.txt
+Found 771 CA atoms
+Computing 147798 inter-chain CA-CA distances...
+Kept 33 pairs within 0.8 nm cutoff
+Wrote 33 inter-chain contacts to data/haddock_units/4H03/contacts/contacts_4H03_WZ.tsv
+Wrote 12 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/4H03/contacts/4H03_WZ_W_truecontacts.txt
+Wrote 17 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/4H03/contacts/4H03_WZ_Z_truecontacts.txt
+Found 337 CA atoms
+Computing 24732 inter-chain CA-CA distances...
+Kept 45 pairs within 0.8 nm cutoff
+Wrote 45 inter-chain contacts to data/haddock_units/2O8V/contacts/contacts_2O8V_WZ.tsv
+Wrote 17 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2O8V/contacts/2O8V_WZ_W_truecontacts.txt
+Wrote 17 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2O8V/contacts/2O8V_WZ_Z_truecontacts.txt
+Found 363 CA atoms
+Computing 32930 inter-chain CA-CA distances...
+Kept 33 pairs within 0.8 nm cutoff
+Wrote 33 inter-chain contacts to data/haddock_units/1E96/contacts/contacts_1E96_WZ.tsv
+Wrote 10 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1E96/contacts/1E96_WZ_W_truecontacts.txt
+Wrote 16 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1E96/contacts/1E96_WZ_Z_truecontacts.txt
+Found 626 CA atoms
+Computing 76944 inter-chain CA-CA distances...
+Kept 56 pairs within 0.8 nm cutoff
+Wrote 56 inter-chain contacts to data/haddock_units/1IBR/contacts/contacts_1IBR_WZ.tsv
+Wrote 26 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1IBR/contacts/1IBR_WZ_W_truecontacts.txt
+Wrote 29 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1IBR/contacts/1IBR_WZ_Z_truecontacts.txt
+Found 594 CA atoms
+Computing 32513 inter-chain CA-CA distances...
+Kept 45 pairs within 0.8 nm cutoff
+Wrote 45 inter-chain contacts to data/haddock_units/1MAH/contacts/contacts_1MAH_WZ.tsv
+Wrote 20 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1MAH/contacts/1MAH_WZ_W_truecontacts.txt
+Wrote 15 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1MAH/contacts/1MAH_WZ_Z_truecontacts.txt
+Found 382 CA atoms
+Computing 29425 inter-chain CA-CA distances...
+Kept 65 pairs within 0.8 nm cutoff
+Wrote 65 inter-chain contacts to data/haddock_units/2SIC/contacts/contacts_2SIC_WZ.tsv
+Wrote 27 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2SIC/contacts/2SIC_WZ_W_truecontacts.txt
+Wrote 12 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2SIC/contacts/2SIC_WZ_Z_truecontacts.txt
+Found 357 CA atoms
+Computing 20090 inter-chain CA-CA distances...
+Kept 16 pairs within 0.8 nm cutoff
+Wrote 16 inter-chain contacts to data/haddock_units/1BUH/contacts/contacts_1BUH_WZ.tsv
+Wrote 9 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1BUH/contacts/1BUH_WZ_W_truecontacts.txt
+Wrote 9 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1BUH/contacts/1BUH_WZ_Z_truecontacts.txt
+Found 325 CA atoms
+Computing 13974 inter-chain CA-CA distances...
+Kept 62 pairs within 0.8 nm cutoff
+Wrote 62 inter-chain contacts to data/haddock_units/1R0R/contacts/contacts_1R0R_WZ.tsv
+Wrote 25 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1R0R/contacts/1R0R_WZ_W_truecontacts.txt
+Wrote 11 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1R0R/contacts/1R0R_WZ_Z_truecontacts.txt
+Found 370 CA atoms
+Computing 31089 inter-chain CA-CA distances...
+Kept 39 pairs within 0.8 nm cutoff
+Wrote 39 inter-chain contacts to data/haddock_units/4Y7M/contacts/contacts_4Y7M_WZ.tsv
+Wrote 15 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/4Y7M/contacts/4Y7M_WZ_W_truecontacts.txt
+Wrote 18 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/4Y7M/contacts/4Y7M_WZ_Z_truecontacts.txt
+Found 185 CA atoms
+Computing 8544 inter-chain CA-CA distances...
+Kept 22 pairs within 0.8 nm cutoff
+Wrote 22 inter-chain contacts to data/haddock_units/1AY7/contacts/contacts_1AY7_WZ.tsv
+Wrote 10 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1AY7/contacts/1AY7_WZ_W_truecontacts.txt
+Wrote 8 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1AY7/contacts/1AY7_WZ_Z_truecontacts.txt
+Found 249 CA atoms
+Computing 8858 inter-chain CA-CA distances...
+Kept 18 pairs within 0.8 nm cutoff
+Wrote 18 inter-chain contacts to data/haddock_units/1FC2/contacts/contacts_1FC2_WZ.tsv
+Wrote 10 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1FC2/contacts/1FC2_WZ_W_truecontacts.txt
+Wrote 6 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1FC2/contacts/1FC2_WZ_Z_truecontacts.txt
+Found 320 CA atoms
+Computing 24375 inter-chain CA-CA distances...
+Kept 31 pairs within 0.8 nm cutoff
+Wrote 31 inter-chain contacts to data/haddock_units/1ZHI/contacts/contacts_1ZHI_WZ.tsv
+Wrote 15 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1ZHI/contacts/1ZHI_WZ_W_truecontacts.txt
+Wrote 11 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1ZHI/contacts/1ZHI_WZ_Z_truecontacts.txt
+Found 710 CA atoms
+Computing 94341 inter-chain CA-CA distances...
+Kept 29 pairs within 0.8 nm cutoff
+Wrote 29 inter-chain contacts to data/haddock_units/3BIW/contacts/contacts_3BIW_WZ.tsv
+Wrote 11 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3BIW/contacts/3BIW_WZ_W_truecontacts.txt
+Wrote 13 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3BIW/contacts/3BIW_WZ_Z_truecontacts.txt
+Found 915 CA atoms
+Computing 124334 inter-chain CA-CA distances...
+Kept 20 pairs within 0.8 nm cutoff
+Wrote 20 inter-chain contacts to data/haddock_units/1HE8/contacts/contacts_1HE8_WZ.tsv
+Wrote 8 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1HE8/contacts/1HE8_WZ_W_truecontacts.txt
+Wrote 7 residues to /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1HE8/contacts/1HE8_WZ_Z_truecontacts.txt
+Processing: data/haddock_units/3K75/3K75_WZ.pdb -> data/haddock_units/3K75/contacts/contacts_3K75_WZ.tsv
+Processing: data/haddock_units/2AYO/2AYO_WZ.pdb -> data/haddock_units/2AYO/contacts/contacts_2AYO_WZ.tsv
+Processing: data/haddock_units/1F6M/1F6M_WZ.pdb -> data/haddock_units/1F6M/contacts/contacts_1F6M_WZ.tsv
+Processing: data/haddock_units/1FQ1/1FQ1_WZ.pdb -> data/haddock_units/1FQ1/contacts/contacts_1FQ1_WZ.tsv
+Processing: data/haddock_units/1ZM4/1ZM4_WZ.pdb -> data/haddock_units/1ZM4/contacts/contacts_1ZM4_WZ.tsv
+Processing: data/haddock_units/1GXD/1GXD_WZ.pdb -> data/haddock_units/1GXD/contacts/contacts_1GXD_WZ.tsv
+Processing: data/haddock_units/1AK4/1AK4_WZ.pdb -> data/haddock_units/1AK4/contacts/contacts_1AK4_WZ.tsv
+Processing: data/haddock_units/2AJF/2AJF_WZ.pdb -> data/haddock_units/2AJF/contacts/contacts_2AJF_WZ.tsv
+Processing: data/haddock_units/2A9K/2A9K_WZ.pdb -> data/haddock_units/2A9K/contacts/contacts_2A9K_WZ.tsv
+Processing: data/haddock_units/2NZ8/2NZ8_WZ.pdb -> data/haddock_units/2NZ8/contacts/contacts_2NZ8_WZ.tsv
+Processing: data/haddock_units/1R8S/1R8S_WZ.pdb -> data/haddock_units/1R8S/contacts/contacts_1R8S_WZ.tsv
+Processing: data/haddock_units/1FQJ/1FQJ_WZ.pdb -> data/haddock_units/1FQJ/contacts/contacts_1FQJ_WZ.tsv
+Processing: data/haddock_units/4M76/4M76_WZ.pdb -> data/haddock_units/4M76/contacts/contacts_4M76_WZ.tsv
+Processing: data/haddock_units/3D5S/3D5S_WZ.pdb -> data/haddock_units/3D5S/contacts/contacts_3D5S_WZ.tsv
+Processing: data/haddock_units/1F34/1F34_WZ.pdb -> data/haddock_units/1F34/contacts/contacts_1F34_WZ.tsv
+Processing: data/haddock_units/2ABZ/2ABZ_WZ.pdb -> data/haddock_units/2ABZ/contacts/contacts_2ABZ_WZ.tsv
+Processing: data/haddock_units/6CWG/6CWG_WZ.pdb -> data/haddock_units/6CWG/contacts/contacts_6CWG_WZ.tsv
+Processing: data/haddock_units/1FLE/1FLE_WZ.pdb -> data/haddock_units/1FLE/contacts/contacts_1FLE_WZ.tsv
+Processing: data/haddock_units/1JTG/1JTG_WZ.pdb -> data/haddock_units/1JTG/contacts/contacts_1JTG_WZ.tsv
+Processing: data/haddock_units/3FN1/3FN1_WZ.pdb -> data/haddock_units/3FN1/contacts/contacts_3FN1_WZ.tsv
+Processing: data/haddock_units/2G77/2G77_WZ.pdb -> data/haddock_units/2G77/contacts/contacts_2G77_WZ.tsv
+Processing: data/haddock_units/1OC0/1OC0_WZ.pdb -> data/haddock_units/1OC0/contacts/contacts_1OC0_WZ.tsv
+Processing: data/haddock_units/2O3B/2O3B_WZ.pdb -> data/haddock_units/2O3B/contacts/contacts_2O3B_WZ.tsv
+Processing: data/haddock_units/1QA9/1QA9_WZ.pdb -> data/haddock_units/1QA9/contacts/contacts_1QA9_WZ.tsv
+Processing: data/haddock_units/5SV3/5SV3_WZ.pdb -> data/haddock_units/5SV3/contacts/contacts_5SV3_WZ.tsv
+Processing: data/haddock_units/1T6B/1T6B_WZ.pdb -> data/haddock_units/1T6B/contacts/contacts_1T6B_WZ.tsv
+Processing: data/haddock_units/4CPA/4CPA_WZ.pdb -> data/haddock_units/4CPA/contacts/contacts_4CPA_WZ.tsv
+Processing: data/haddock_units/1B6C/1B6C_WZ.pdb -> data/haddock_units/1B6C/contacts/contacts_1B6C_WZ.tsv
+Processing: data/haddock_units/2BTF/2BTF_WZ.pdb -> data/haddock_units/2BTF/contacts/contacts_2BTF_WZ.tsv
+Processing: data/haddock_units/1TMQ/1TMQ_WZ.pdb -> data/haddock_units/1TMQ/contacts/contacts_1TMQ_WZ.tsv
+Processing: data/haddock_units/1RKE/1RKE_WZ.pdb -> data/haddock_units/1RKE/contacts/contacts_1RKE_WZ.tsv
+Processing: data/haddock_units/1EAW/1EAW_WZ.pdb -> data/haddock_units/1EAW/contacts/contacts_1EAW_WZ.tsv
+Processing: data/haddock_units/1S1Q/1S1Q_WZ.pdb -> data/haddock_units/1S1Q/contacts/contacts_1S1Q_WZ.tsv
+Processing: data/haddock_units/3AAD/3AAD_WZ.pdb -> data/haddock_units/3AAD/contacts/contacts_3AAD_WZ.tsv
+Processing: data/haddock_units/2A1A/2A1A_WZ.pdb -> data/haddock_units/2A1A/contacts/contacts_2A1A_WZ.tsv
+Processing: data/haddock_units/1I2M/1I2M_WZ.pdb -> data/haddock_units/1I2M/contacts/contacts_1I2M_WZ.tsv
+Processing: data/haddock_units/1Y64/1Y64_WZ.pdb -> data/haddock_units/1Y64/contacts/contacts_1Y64_WZ.tsv
+Processing: data/haddock_units/4IZ7/4IZ7_WZ.pdb -> data/haddock_units/4IZ7/contacts/contacts_4IZ7_WZ.tsv
+Processing: data/haddock_units/2A5T/2A5T_WZ.pdb -> data/haddock_units/2A5T/contacts/contacts_2A5T_WZ.tsv
+Processing: data/haddock_units/2CFH/2CFH_WZ.pdb -> data/haddock_units/2CFH/contacts/contacts_2CFH_WZ.tsv
+Processing: data/haddock_units/1KAC/1KAC_WZ.pdb -> data/haddock_units/1KAC/contacts/contacts_1KAC_WZ.tsv
+Processing: data/haddock_units/1H9D/1H9D_WZ.pdb -> data/haddock_units/1H9D/contacts/contacts_1H9D_WZ.tsv
+Processing: data/haddock_units/1HE1/1HE1_WZ.pdb -> data/haddock_units/1HE1/contacts/contacts_1HE1_WZ.tsv
+Processing: data/haddock_units/1R6Q/1R6Q_WZ.pdb -> data/haddock_units/1R6Q/contacts/contacts_1R6Q_WZ.tsv
+Processing: data/haddock_units/1JTD/1JTD_WZ.pdb -> data/haddock_units/1JTD/contacts/contacts_1JTD_WZ.tsv
+Processing: data/haddock_units/4M3K/4M3K_WZ.pdb -> data/haddock_units/4M3K/contacts/contacts_4M3K_WZ.tsv
+Processing: data/haddock_units/1YVB/1YVB_WZ.pdb -> data/haddock_units/1YVB/contacts/contacts_1YVB_WZ.tsv
+Processing: data/haddock_units/1PVH/1PVH_WZ.pdb -> data/haddock_units/1PVH/contacts/contacts_1PVH_WZ.tsv
+Processing: data/haddock_units/2J7P/2J7P_WZ.pdb -> data/haddock_units/2J7P/contacts/contacts_2J7P_WZ.tsv
+Processing: data/haddock_units/3DAW/3DAW_WZ.pdb -> data/haddock_units/3DAW/contacts/contacts_3DAW_WZ.tsv
+Processing: data/haddock_units/2GTP/2GTP_WZ.pdb -> data/haddock_units/2GTP/contacts/contacts_2GTP_WZ.tsv
+Processing: data/haddock_units/1J2J/1J2J_WZ.pdb -> data/haddock_units/1J2J/contacts/contacts_1J2J_WZ.tsv
+Processing: data/haddock_units/3CPH/3CPH_WZ.pdb -> data/haddock_units/3CPH/contacts/contacts_3CPH_WZ.tsv
+Processing: data/haddock_units/2PCC/2PCC_WZ.pdb -> data/haddock_units/2PCC/contacts/contacts_2PCC_WZ.tsv
+Processing: data/haddock_units/2SNI/2SNI_WZ.pdb -> data/haddock_units/2SNI/contacts/contacts_2SNI_WZ.tsv
+Processing: data/haddock_units/1XD3/1XD3_WZ.pdb -> data/haddock_units/1XD3/contacts/contacts_1XD3_WZ.tsv
+Processing: data/haddock_units/2UUY/2UUY_WZ.pdb -> data/haddock_units/2UUY/contacts/contacts_2UUY_WZ.tsv
+Processing: data/haddock_units/5E5M/5E5M_WZ.pdb -> data/haddock_units/5E5M/contacts/contacts_5E5M_WZ.tsv
+Processing: data/haddock_units/5VNW/5VNW_WZ.pdb -> data/haddock_units/5VNW/contacts/contacts_5VNW_WZ.tsv
+Processing: data/haddock_units/2FJU/2FJU_WZ.pdb -> data/haddock_units/2FJU/contacts/contacts_2FJU_WZ.tsv
+Processing: data/haddock_units/2H7V/2H7V_WZ.pdb -> data/haddock_units/2H7V/contacts/contacts_2H7V_WZ.tsv
+Processing: data/haddock_units/2YVJ/2YVJ_WZ.pdb -> data/haddock_units/2YVJ/contacts/contacts_2YVJ_WZ.tsv
+Processing: data/haddock_units/2B42/2B42_WZ.pdb -> data/haddock_units/2B42/contacts/contacts_2B42_WZ.tsv
+Processing: data/haddock_units/1E6E/1E6E_WZ.pdb -> data/haddock_units/1E6E/contacts/contacts_1E6E_WZ.tsv
+Processing: data/haddock_units/4POU/4POU_WZ.pdb -> data/haddock_units/4POU/contacts/contacts_4POU_WZ.tsv
+Processing: data/haddock_units/2X9A/2X9A_WZ.pdb -> data/haddock_units/2X9A/contacts/contacts_2X9A_WZ.tsv
+Processing: data/haddock_units/1SBB/1SBB_WZ.pdb -> data/haddock_units/1SBB/contacts/contacts_1SBB_WZ.tsv
+Processing: data/haddock_units/1ZHH/1ZHH_WZ.pdb -> data/haddock_units/1ZHH/contacts/contacts_1ZHH_WZ.tsv
+Processing: data/haddock_units/4FZA/4FZA_WZ.pdb -> data/haddock_units/4FZA/contacts/contacts_4FZA_WZ.tsv
+Processing: data/haddock_units/2J0T/2J0T_WZ.pdb -> data/haddock_units/2J0T/contacts/contacts_2J0T_WZ.tsv
+Processing: data/haddock_units/1KTZ/1KTZ_WZ.pdb -> data/haddock_units/1KTZ/contacts/contacts_1KTZ_WZ.tsv
+Processing: data/haddock_units/1GHQ/1GHQ_WZ.pdb -> data/haddock_units/1GHQ/contacts/contacts_1GHQ_WZ.tsv
+Processing: data/haddock_units/1JIW/1JIW_WZ.pdb -> data/haddock_units/1JIW/contacts/contacts_1JIW_WZ.tsv
+Processing: data/haddock_units/3BX7/3BX7_WZ.pdb -> data/haddock_units/3BX7/contacts/contacts_3BX7_WZ.tsv
+Processing: data/haddock_units/1UDI/1UDI_WZ.pdb -> data/haddock_units/1UDI/contacts/contacts_1UDI_WZ.tsv
+Processing: data/haddock_units/1XQS/1XQS_WZ.pdb -> data/haddock_units/1XQS/contacts/contacts_1XQS_WZ.tsv
+Processing: data/haddock_units/2I9B/2I9B_WZ.pdb -> data/haddock_units/2I9B/contacts/contacts_2I9B_WZ.tsv
+Processing: data/haddock_units/1H1V/1H1V_WZ.pdb -> data/haddock_units/1H1V/contacts/contacts_1H1V_WZ.tsv
+Processing: data/haddock_units/1EFN/1EFN_WZ.pdb -> data/haddock_units/1EFN/contacts/contacts_1EFN_WZ.tsv
+Processing: data/haddock_units/1LFD/1LFD_WZ.pdb -> data/haddock_units/1LFD/contacts/contacts_1LFD_WZ.tsv
+Processing: data/haddock_units/3S9D/3S9D_WZ.pdb -> data/haddock_units/3S9D/contacts/contacts_3S9D_WZ.tsv
+Processing: data/haddock_units/2OOB/2OOB_WZ.pdb -> data/haddock_units/2OOB/contacts/contacts_2OOB_WZ.tsv
+Processing: data/haddock_units/1IRA/1IRA_WZ.pdb -> data/haddock_units/1IRA/contacts/contacts_1IRA_WZ.tsv
+Processing: data/haddock_units/2OUL/2OUL_WZ.pdb -> data/haddock_units/2OUL/contacts/contacts_2OUL_WZ.tsv
+Processing: data/haddock_units/2OT3/2OT3_WZ.pdb -> data/haddock_units/2OT3/contacts/contacts_2OT3_WZ.tsv
+Processing: data/haddock_units/1ATN/1ATN_WZ.pdb -> data/haddock_units/1ATN/contacts/contacts_1ATN_WZ.tsv
+Processing: data/haddock_units/1EWY/1EWY_WZ.pdb -> data/haddock_units/1EWY/contacts/contacts_1EWY_WZ.tsv
+Processing: data/haddock_units/1CGI/1CGI_WZ.pdb -> data/haddock_units/1CGI/contacts/contacts_1CGI_WZ.tsv
+Processing: data/haddock_units/1BVN/1BVN_WZ.pdb -> data/haddock_units/1BVN/contacts/contacts_1BVN_WZ.tsv
+Processing: data/haddock_units/3SGQ/3SGQ_WZ.pdb -> data/haddock_units/3SGQ/contacts/contacts_3SGQ_WZ.tsv
+Processing: data/haddock_units/3RJQ/3RJQ_WZ.pdb -> data/haddock_units/3RJQ/contacts/contacts_3RJQ_WZ.tsv
+Processing: data/haddock_units/1JK9/1JK9_WZ.pdb -> data/haddock_units/1JK9/contacts/contacts_1JK9_WZ.tsv
+Processing: data/haddock_units/2OZA/2OZA_WZ.pdb -> data/haddock_units/2OZA/contacts/contacts_2OZA_WZ.tsv
+Processing: data/haddock_units/1GLA/1GLA_WZ.pdb -> data/haddock_units/1GLA/contacts/contacts_1GLA_WZ.tsv
+Processing: data/haddock_units/1OPH/1OPH_WZ.pdb -> data/haddock_units/1OPH/contacts/contacts_1OPH_WZ.tsv
+Processing: data/haddock_units/2IDO/2IDO_WZ.pdb -> data/haddock_units/2IDO/contacts/contacts_2IDO_WZ.tsv
+Processing: data/haddock_units/1FFW/1FFW_WZ.pdb -> data/haddock_units/1FFW/contacts/contacts_1FFW_WZ.tsv
+Processing: data/haddock_units/1ZLI/1ZLI_WZ.pdb -> data/haddock_units/1ZLI/contacts/contacts_1ZLI_WZ.tsv
+Processing: data/haddock_units/1NW9/1NW9_WZ.pdb -> data/haddock_units/1NW9/contacts/contacts_1NW9_WZ.tsv
+Processing: data/haddock_units/1AVX/1AVX_WZ.pdb -> data/haddock_units/1AVX/contacts/contacts_1AVX_WZ.tsv
+Processing: data/haddock_units/2HQS/2HQS_WZ.pdb -> data/haddock_units/2HQS/contacts/contacts_2HQS_WZ.tsv
+Processing: data/haddock_units/1PPE/1PPE_WZ.pdb -> data/haddock_units/1PPE/contacts/contacts_1PPE_WZ.tsv
+Processing: data/haddock_units/1DFJ/1DFJ_WZ.pdb -> data/haddock_units/1DFJ/contacts/contacts_1DFJ_WZ.tsv
+Processing: data/haddock_units/1GCQ/1GCQ_WZ.pdb -> data/haddock_units/1GCQ/contacts/contacts_1GCQ_WZ.tsv
+Processing: data/haddock_units/2HLE/2HLE_WZ.pdb -> data/haddock_units/2HLE/contacts/contacts_2HLE_WZ.tsv
+Processing: data/haddock_units/1US7/1US7_WZ.pdb -> data/haddock_units/1US7/contacts/contacts_1US7_WZ.tsv
+Processing: data/haddock_units/2HRK/2HRK_WZ.pdb -> data/haddock_units/2HRK/contacts/contacts_2HRK_WZ.tsv
+Processing: data/haddock_units/1PXV/1PXV_WZ.pdb -> data/haddock_units/1PXV/contacts/contacts_1PXV_WZ.tsv
+Processing: data/haddock_units/1Z0K/1Z0K_WZ.pdb -> data/haddock_units/1Z0K/contacts/contacts_1Z0K_WZ.tsv
+Processing: data/haddock_units/3VLB/3VLB_WZ.pdb -> data/haddock_units/3VLB/contacts/contacts_3VLB_WZ.tsv
+Processing: data/haddock_units/1ACB/1ACB_WZ.pdb -> data/haddock_units/1ACB/contacts/contacts_1ACB_WZ.tsv
+Processing: data/haddock_units/1SYX/1SYX_WZ.pdb -> data/haddock_units/1SYX/contacts/contacts_1SYX_WZ.tsv
+Processing: data/haddock_units/1CLV/1CLV_WZ.pdb -> data/haddock_units/1CLV/contacts/contacts_1CLV_WZ.tsv
+Processing: data/haddock_units/3PC8/3PC8_WZ.pdb -> data/haddock_units/3PC8/contacts/contacts_3PC8_WZ.tsv
+Processing: data/haddock_units/2GAF/2GAF_WZ.pdb -> data/haddock_units/2GAF/contacts/contacts_2GAF_WZ.tsv
+Processing: data/haddock_units/1Z5Y/1Z5Y_WZ.pdb -> data/haddock_units/1Z5Y/contacts/contacts_1Z5Y_WZ.tsv
+Processing: data/haddock_units/3F1P/3F1P_WZ.pdb -> data/haddock_units/3F1P/contacts/contacts_3F1P_WZ.tsv
+Processing: data/haddock_units/3A4S/3A4S_WZ.pdb -> data/haddock_units/3A4S/contacts/contacts_3A4S_WZ.tsv
+Processing: data/haddock_units/2VDB/2VDB_WZ.pdb -> data/haddock_units/2VDB/contacts/contacts_2VDB_WZ.tsv
+Processing: data/haddock_units/2C0L/2C0L_WZ.pdb -> data/haddock_units/2C0L/contacts/contacts_2C0L_WZ.tsv
+Processing: data/haddock_units/1GL1/1GL1_WZ.pdb -> data/haddock_units/1GL1/contacts/contacts_1GL1_WZ.tsv
+Processing: data/haddock_units/1M10/1M10_WZ.pdb -> data/haddock_units/1M10/contacts/contacts_1M10_WZ.tsv
+Processing: data/haddock_units/1MQ8/1MQ8_WZ.pdb -> data/haddock_units/1MQ8/contacts/contacts_1MQ8_WZ.tsv
+Processing: data/haddock_units/1KXP/1KXP_WZ.pdb -> data/haddock_units/1KXP/contacts/contacts_1KXP_WZ.tsv
+Processing: data/haddock_units/5HGG/5HGG_WZ.pdb -> data/haddock_units/5HGG/contacts/contacts_5HGG_WZ.tsv
+Processing: data/haddock_units/6DBG/6DBG_WZ.pdb -> data/haddock_units/6DBG/contacts/contacts_6DBG_WZ.tsv
+Processing: data/haddock_units/2I25/2I25_WZ.pdb -> data/haddock_units/2I25/contacts/contacts_2I25_WZ.tsv
+Processing: data/haddock_units/1GPW/1GPW_WZ.pdb -> data/haddock_units/1GPW/contacts/contacts_1GPW_WZ.tsv
+Processing: data/haddock_units/1D6R/1D6R_WZ.pdb -> data/haddock_units/1D6R/contacts/contacts_1D6R_WZ.tsv
+Processing: data/haddock_units/3H2V/3H2V_WZ.pdb -> data/haddock_units/3H2V/contacts/contacts_3H2V_WZ.tsv
+Processing: data/haddock_units/5JMO/5JMO_WZ.pdb -> data/haddock_units/5JMO/contacts/contacts_5JMO_WZ.tsv
+Processing: data/haddock_units/7CEI/7CEI_WZ.pdb -> data/haddock_units/7CEI/contacts/contacts_7CEI_WZ.tsv
+Processing: data/haddock_units/1OYV/1OYV_WZ.pdb -> data/haddock_units/1OYV/contacts/contacts_1OYV_WZ.tsv
+Processing: data/haddock_units/1BKD/1BKD_WZ.pdb -> data/haddock_units/1BKD/contacts/contacts_1BKD_WZ.tsv
+Processing: data/haddock_units/2Z0E/2Z0E_WZ.pdb -> data/haddock_units/2Z0E/contacts/contacts_2Z0E_WZ.tsv
+Processing: data/haddock_units/4H03/4H03_WZ.pdb -> data/haddock_units/4H03/contacts/contacts_4H03_WZ.tsv
+Processing: data/haddock_units/2O8V/2O8V_WZ.pdb -> data/haddock_units/2O8V/contacts/contacts_2O8V_WZ.tsv
+Processing: data/haddock_units/1E96/1E96_WZ.pdb -> data/haddock_units/1E96/contacts/contacts_1E96_WZ.tsv
+Processing: data/haddock_units/1IBR/1IBR_WZ.pdb -> data/haddock_units/1IBR/contacts/contacts_1IBR_WZ.tsv
+Processing: data/haddock_units/1MAH/1MAH_WZ.pdb -> data/haddock_units/1MAH/contacts/contacts_1MAH_WZ.tsv
+Processing: data/haddock_units/2SIC/2SIC_WZ.pdb -> data/haddock_units/2SIC/contacts/contacts_2SIC_WZ.tsv
+Processing: data/haddock_units/1BUH/1BUH_WZ.pdb -> data/haddock_units/1BUH/contacts/contacts_1BUH_WZ.tsv
+Processing: data/haddock_units/1R0R/1R0R_WZ.pdb -> data/haddock_units/1R0R/contacts/contacts_1R0R_WZ.tsv
+Processing: data/haddock_units/4Y7M/4Y7M_WZ.pdb -> data/haddock_units/4Y7M/contacts/contacts_4Y7M_WZ.tsv
+Processing: data/haddock_units/1AY7/1AY7_WZ.pdb -> data/haddock_units/1AY7/contacts/contacts_1AY7_WZ.tsv
+Processing: data/haddock_units/1FC2/1FC2_WZ.pdb -> data/haddock_units/1FC2/contacts/contacts_1FC2_WZ.tsv
+Processing: data/haddock_units/1ZHI/1ZHI_WZ.pdb -> data/haddock_units/1ZHI/contacts/contacts_1ZHI_WZ.tsv
+Processing: data/haddock_units/3BIW/3BIW_WZ.pdb -> data/haddock_units/3BIW/contacts/contacts_3BIW_WZ.tsv
+Processing: data/haddock_units/1HE8/1HE8_WZ.pdb -> data/haddock_units/1HE8/contacts/contacts_1HE8_WZ.tsv
+All processing complete!
+-----\n
+-----\n
+-----\n
+SECTION: alignment of dimeric_pdb to single_chain
+Using chain ID: W
+Chain sequence length: 242
+Complex sequence length: 248
+Alignment score: 1246.0
+Output saved to data/haddock_units/3K75/aln/3K75_WZ_vs_1BPB_W.tsv  (248 rows)
+Using chain ID: Z
+Chain sequence length: 152
+Complex sequence length: 151
+Alignment score: 767.0
+Output saved to data/haddock_units/3K75/aln/3K75_WZ_vs_3K77_Z.tsv  (152 rows)
+Using chain ID: W
+Chain sequence length: 337
+Complex sequence length: 355
+Alignment score: 1707.0
+Output saved to data/haddock_units/2AYO/aln/2AYO_WZ_vs_2AYN_W.tsv  (355 rows)
+Using chain ID: Z
+Chain sequence length: 72
+Complex sequence length: 75
+Alignment score: 334.5
+Output saved to data/haddock_units/2AYO/aln/2AYO_WZ_vs_2FCN_Z.tsv  (75 rows)
+Using chain ID: W
+Chain sequence length: 317
+Complex sequence length: 320
+Alignment score: 1619.0
+Output saved to data/haddock_units/1F6M/aln/1F6M_WZ_vs_1CL0_W.tsv  (320 rows)
+Using chain ID: Z
+Chain sequence length: 108
+Complex sequence length: 108
+Alignment score: 549.0
+Output saved to data/haddock_units/1F6M/aln/1F6M_WZ_vs_2TIR_Z.tsv  (108 rows)
+Using chain ID: Z
+Chain sequence length: 178
+Complex sequence length: 295
+Alignment score: -38.0
+Output saved to data/haddock_units/1FQ1/aln/1FQ1_WZ_vs_1FPZ_Z.tsv  (326 rows)
+Using chain ID: W
+Chain sequence length: 290
+Complex sequence length: 183
+Alignment score: -54.0
+Output saved to data/haddock_units/1FQ1/aln/1FQ1_WZ_vs_1B39_W.tsv  (317 rows)
+Using chain ID: Z
+Chain sequence length: 204
+Complex sequence length: 207
+Alignment score: 1051.0
+Output saved to data/haddock_units/1ZM4/aln/1ZM4_WZ_vs_1XK9_Z.tsv  (207 rows)
+Using chain ID: W
+Chain sequence length: 825
+Complex sequence length: 822
+Alignment score: 4199.5
+Output saved to data/haddock_units/1ZM4/aln/1ZM4_WZ_vs_1N0V_W.tsv  (825 rows)
+Using chain ID: W
+Chain sequence length: 619
+Complex sequence length: 624
+Alignment score: 3428.5
+Output saved to data/haddock_units/1GXD/aln/1GXD_WZ_vs_1CK7_W.tsv  (624 rows)
+Using chain ID: Z
+Chain sequence length: 182
+Complex sequence length: 192
+Alignment score: 989.5
+Output saved to data/haddock_units/1GXD/aln/1GXD_WZ_vs_1BR9_Z.tsv  (192 rows)
+Using chain ID: Z
+Chain sequence length: 146
+Complex sequence length: 145
+Alignment score: 755.0
+Output saved to data/haddock_units/1AK4/aln/1AK4_WZ_vs_4J93_Z.tsv  (146 rows)
+Using chain ID: W
+Chain sequence length: 164
+Complex sequence length: 165
+Alignment score: 871.0
+Output saved to data/haddock_units/1AK4/aln/1AK4_WZ_vs_2CPL_W.tsv  (165 rows)
+Using chain ID: W
+Chain sequence length: 597
+Complex sequence length: 597
+Alignment score: 3241.0
+Output saved to data/haddock_units/2AJF/aln/2AJF_WZ_vs_1R42_W.tsv  (597 rows)
+Using chain ID: Z
+Chain sequence length: 183
+Complex sequence length: 174
+Alignment score: 943.5
+Output saved to data/haddock_units/2AJF/aln/2AJF_WZ_vs_2GHV_Z.tsv  (183 rows)
+Using chain ID: W
+Chain sequence length: 168
+Complex sequence length: 170
+Alignment score: 816.0
+Output saved to data/haddock_units/2A9K/aln/2A9K_WZ_vs_1U90_W.tsv  (172 rows)
+Using chain ID: Z
+Chain sequence length: 201
+Complex sequence length: 207
+Alignment score: 1008.5
+Output saved to data/haddock_units/2A9K/aln/2A9K_WZ_vs_2C8B_Z.tsv  (207 rows)
+Using chain ID: Z
+Chain sequence length: 305
+Complex sequence length: 279
+Alignment score: 1410.5
+Output saved to data/haddock_units/2NZ8/aln/2NZ8_WZ_vs_1NTY_Z.tsv  (305 rows)
+Using chain ID: W
+Chain sequence length: 183
+Complex sequence length: 177
+Alignment score: 895.0
+Output saved to data/haddock_units/2NZ8/aln/2NZ8_WZ_vs_1MH1_W.tsv  (183 rows)
+Using chain ID: Z
+Chain sequence length: 195
+Complex sequence length: 187
+Alignment score: 923.5
+Output saved to data/haddock_units/1R8S/aln/1R8S_WZ_vs_1R8M_Z.tsv  (198 rows)
+Using chain ID: W
+Chain sequence length: 180
+Complex sequence length: 160
+Alignment score: 804.0
+Output saved to data/haddock_units/1R8S/aln/1R8S_WZ_vs_1HUR_W.tsv  (180 rows)
+Using chain ID: W
+Chain sequence length: 316
+Complex sequence length: 317
+Alignment score: 1481.5
+Output saved to data/haddock_units/1FQJ/aln/1FQJ_WZ_vs_1TND_W.tsv  (318 rows)
+Using chain ID: Z
+Chain sequence length: 133
+Complex sequence length: 133
+Alignment score: 619.0
+Output saved to data/haddock_units/1FQJ/aln/1FQJ_WZ_vs_1FQI_Z.tsv  (138 rows)
+Using chain ID: Z
+Chain sequence length: 184
+Complex sequence length: 179
+Alignment score: 903.0
+Output saved to data/haddock_units/4M76/aln/4M76_WZ_vs_1M1U_Z.tsv  (184 rows)
+Using chain ID: W
+Chain sequence length: 294
+Complex sequence length: 296
+Alignment score: 1494.5
+Output saved to data/haddock_units/4M76/aln/4M76_WZ_vs_1C3D_W.tsv  (296 rows)
+Using chain ID: Z
+Chain sequence length: 61
+Complex sequence length: 65
+Alignment score: 279.5
+Output saved to data/haddock_units/3D5S/aln/3D5S_WZ_vs_2GOM_Z.tsv  (65 rows)
+Using chain ID: W
+Chain sequence length: 294
+Complex sequence length: 297
+Alignment score: 1491.0
+Output saved to data/haddock_units/3D5S/aln/3D5S_WZ_vs_1C3D_W.tsv  (297 rows)
+Using chain ID: W
+Chain sequence length: 325
+Complex sequence length: 325
+Alignment score: 1698.0
+Output saved to data/haddock_units/1F34/aln/1F34_WZ_vs_4PEP_W.tsv  (325 rows)
+Using chain ID: Z
+Chain sequence length: 127
+Complex sequence length: 138
+Alignment score: 670.5
+Output saved to data/haddock_units/1F34/aln/1F34_WZ_vs_1F32_Z.tsv  (138 rows)
+Aligning: 1BPB_W -> data/haddock_units/3K75/aln/3K75_WZ_vs_1BPB_W.tsv
+Aligning: 3K77_Z -> data/haddock_units/3K75/aln/3K75_WZ_vs_3K77_Z.tsv
+Aligning: 2AYN_W -> data/haddock_units/2AYO/aln/2AYO_WZ_vs_2AYN_W.tsv
+Aligning: 2FCN_Z -> data/haddock_units/2AYO/aln/2AYO_WZ_vs_2FCN_Z.tsv
+Aligning: 1CL0_W -> data/haddock_units/1F6M/aln/1F6M_WZ_vs_1CL0_W.tsv
+Aligning: 2TIR_Z -> data/haddock_units/1F6M/aln/1F6M_WZ_vs_2TIR_Z.tsv
+Aligning: 1FPZ_Z -> data/haddock_units/1FQ1/aln/1FQ1_WZ_vs_1FPZ_Z.tsv
+Aligning: 1B39_W -> data/haddock_units/1FQ1/aln/1FQ1_WZ_vs_1B39_W.tsv
+Aligning: 1XK9_Z -> data/haddock_units/1ZM4/aln/1ZM4_WZ_vs_1XK9_Z.tsv
+Aligning: 1N0V_W -> data/haddock_units/1ZM4/aln/1ZM4_WZ_vs_1N0V_W.tsv
+Aligning: 1CK7_W -> data/haddock_units/1GXD/aln/1GXD_WZ_vs_1CK7_W.tsv
+Aligning: 1BR9_Z -> data/haddock_units/1GXD/aln/1GXD_WZ_vs_1BR9_Z.tsv
+Aligning: 4J93_Z -> data/haddock_units/1AK4/aln/1AK4_WZ_vs_4J93_Z.tsv
+Aligning: 2CPL_W -> data/haddock_units/1AK4/aln/1AK4_WZ_vs_2CPL_W.tsv
+Aligning: 1R42_W -> data/haddock_units/2AJF/aln/2AJF_WZ_vs_1R42_W.tsv
+Aligning: 2GHV_Z -> data/haddock_units/2AJF/aln/2AJF_WZ_vs_2GHV_Z.tsv
+Aligning: 1U90_W -> data/haddock_units/2A9K/aln/2A9K_WZ_vs_1U90_W.tsv
+Aligning: 2C8B_Z -> data/haddock_units/2A9K/aln/2A9K_WZ_vs_2C8B_Z.tsv
+Aligning: 1NTY_Z -> data/haddock_units/2NZ8/aln/2NZ8_WZ_vs_1NTY_Z.tsv
+Aligning: 1MH1_W -> data/haddock_units/2NZ8/aln/2NZ8_WZ_vs_1MH1_W.tsv
+Aligning: 1R8M_Z -> data/haddock_units/1R8S/aln/1R8S_WZ_vs_1R8M_Z.tsv
+Aligning: 1HUR_W -> data/haddock_units/1R8S/aln/1R8S_WZ_vs_1HUR_W.tsv
+Aligning: 1TND_W -> data/haddock_units/1FQJ/aln/1FQJ_WZ_vs_1TND_W.tsv
+Aligning: 1FQI_Z -> data/haddock_units/1FQJ/aln/1FQJ_WZ_vs_1FQI_Z.tsv
+Aligning: 1M1U_Z -> data/haddock_units/4M76/aln/4M76_WZ_vs_1M1U_Z.tsv
+Aligning: 1C3D_W -> data/haddock_units/4M76/aln/4M76_WZ_vs_1C3D_W.tsv
+Aligning: 2GOM_Z -> data/haddock_units/3D5S/aln/3D5S_WZ_vs_2GOM_Z.tsv
+Aligning: 1C3D_W -> data/haddock_units/3D5S/aln/3D5S_WZ_vs_1C3D_W.tsv
+Aligning: 4PEP_W -> data/haddock_units/1F34/aln/1F34_WZ_vs_4PEP_W.tsv
+Aligning: 1F32_Z -> data/haddock_units/1F34/aln/1F34_WZ_vs_1F32_Z.tsv
+Aligning: 3I1U_W -> data/haddock_units/2ABZ/aln/2ABZ_WZ_vs_3I1U_W.tsv
+-----\n
+-----\n
+-----\n
+SECTION: contact pairs remapped to single_chain
+[INFO] Output written : /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3K75/contacts/3K75_WZ_1BPB_W_3K77_Z_targetPairs.tsv
+[INFO] Output written : /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2AYO/contacts/2AYO_WZ_2AYN_W_2FCN_Z_targetPairs.tsv
+[INFO] Output written : /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1F6M/contacts/1F6M_WZ_1CL0_W_2TIR_Z_targetPairs.tsv
+[INFO] Output written : /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1FQ1/contacts/1FQ1_WZ_1B39_W_1FPZ_Z_targetPairs.tsv
+[INFO] Output written : /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1ZM4/contacts/1ZM4_WZ_1N0V_W_1XK9_Z_targetPairs.tsv
+[INFO] Output written : /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1GXD/contacts/1GXD_WZ_1CK7_W_1BR9_Z_targetPairs.tsv
+[INFO] Output written : /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1AK4/contacts/1AK4_WZ_2CPL_W_4J93_Z_targetPairs.tsv
+[INFO] Output written : /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2AJF/contacts/2AJF_WZ_1R42_W_2GHV_Z_targetPairs.tsv
+[INFO] Output written : /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2A9K/contacts/2A9K_WZ_1U90_W_2C8B_Z_targetPairs.tsv
+[INFO] Output written : /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/2NZ8/contacts/2NZ8_WZ_1MH1_W_1NTY_Z_targetPairs.tsv
+[INFO] Output written : /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1R8S/contacts/1R8S_WZ_1HUR_W_1R8M_Z_targetPairs.tsv
+[INFO] Output written : /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1FQJ/contacts/1FQJ_WZ_1TND_W_1FQI_Z_targetPairs.tsv
+[INFO] Output written : /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/4M76/contacts/4M76_WZ_1C3D_W_1M1U_Z_targetPairs.tsv
+[INFO] Output written : /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/3D5S/contacts/3D5S_WZ_1C3D_W_2GOM_Z_targetPairs.tsv
+[INFO] Output written : /orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/testrun_zlab/data/haddock_units/1F34/contacts/1F34_WZ_4PEP_W_1F32_Z_targetPairs.tsv
+Remapping: data/haddock_units/3K75/
+Remapping: data/haddock_units/2AYO/
+Remapping: data/haddock_units/1F6M/
+Remapping: data/haddock_units/1FQ1/
+Remapping: data/haddock_units/1ZM4/
+Remapping: data/haddock_units/1GXD/
+Remapping: data/haddock_units/1AK4/
+Remapping: data/haddock_units/2AJF/
+Remapping: data/haddock_units/2A9K/
+Remapping: data/haddock_units/2NZ8/
+Remapping: data/haddock_units/1R8S/
+Remapping: data/haddock_units/1FQJ/
+Remapping: data/haddock_units/4M76/
+Remapping: data/haddock_units/3D5S/
+Remapping: data/haddock_units/1F34/
+Remapping: data/haddock_units/2ABZ/
+-----\n
+-----\n
+-----\n
