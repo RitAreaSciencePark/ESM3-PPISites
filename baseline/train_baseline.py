@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 import torch.nn.functional as F
+import argparse
 import pandas as pd
 import numpy as np
 from torch.utils.data import DataLoader 
@@ -11,8 +12,14 @@ import os
 import concurrent.futures
 
 # DATASET & MODEL CONFIGURATION
-model_name = "big_model"
-dataset_name = "PDBbind-1409"
+parser = argparse.ArgumentParser(description="Train baseline model")
+parser.add_argument("--model_name", default="big_model", help="Model name (big_model or small_model)")
+parser.add_argument("--dataset_name", default="BioLiP-3693", help="Dataset name (BioLiP-3693 or PDBbind-1409)")
+args = parser.parse_args()
+
+
+model_name = args.model_name
+dataset_name = args.dataset_name
 repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 data_path = os.path.join(repo_root, "data") + os.sep
 reps_path = #MISSING

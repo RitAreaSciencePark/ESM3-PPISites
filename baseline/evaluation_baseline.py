@@ -1,4 +1,5 @@
 import os
+import argparse
 import numpy as np
 import pandas as pd
 import torch
@@ -9,8 +10,13 @@ from sklearn.metrics import roc_auc_score
 from torch.utils.data import DataLoader, Dataset
 
 # DATASET & MODEL CONFIGURATION
-model_name = "small_model"
-dataset_name = "BioLiP-3693"
+parser = argparse.ArgumentParser(description="Evaluate baseline model")
+parser.add_argument("--model_name", default="small_model", help="Model name (big_model or small_model)")
+parser.add_argument("--dataset_name", default="BioLiP-3693", help="Dataset name (BioLiP-3693 or PDBbind-1409)")
+args = parser.parse_args()
+
+model_name = args.model_name
+dataset_name = args.dataset_name
 repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 data_path = os.path.join(repo_root, "data") + os.sep
 reps_path = os.path.abspath(os.path.join(repo_root, "..", "Paper", f"{model_name}_data")) + os.sep
