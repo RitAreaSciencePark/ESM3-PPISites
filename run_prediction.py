@@ -57,11 +57,11 @@ def main():
     login(token=args.token)
 
     # 2. Load the model and tokenizer
-    print("Loading model and tokenizer...")
+    print("Loading model and tokenizer...", flush=True)
     repo_id = "area-science-park/ESM3-PPISites"
     
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    print(f"Using device: {device}")
+    print(f"Using device: {device}", flush=True)
 
     # Pass the token directly to from_pretrained as an extra precaution
     model = ModelForResidueClassification.from_pretrained(repo_id, token=args.token).to(device)
@@ -70,7 +70,7 @@ def main():
     tokenizer = EsmSequenceTokenizer()
 
     # 3. Read Input CSV
-    print(f"Reading input from {args.input}...")
+    print(f"Reading input from {args.input}...", flush=True)
     with open(args.input, 'r', encoding='utf-8') as infile:
         reader = csv.DictReader(infile)
         fieldnames = reader.fieldnames
@@ -85,7 +85,7 @@ def main():
     out_fieldnames = fieldnames + ['probabilities', 'prediction']
 
     # 4. Process Sequences and Write Output CSV
-    print(f"Processing {len(rows)} sequences...")
+    print(f"Processing {len(rows)} sequences...", flush=True)
     with open(args.output, 'w', encoding='utf-8', newline='') as outfile:
         writer = csv.DictWriter(outfile, fieldnames=out_fieldnames)
         writer.writeheader()
