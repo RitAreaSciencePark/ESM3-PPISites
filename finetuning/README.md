@@ -1,10 +1,7 @@
 ## Finetuning 
 
 
-To run the finetuning the following sbatch runs training_main.py and reads the parameter from train_jobs.csv.
-The parameters for the finetuning are ```model,train_file,val_file,test_file,dataset_type,epochs,lr,wd,batch_size,gradient_batch,done``` and can be found in the train_jobs.csv file
+To run the finetuning procedure run `python training_main.py` which reads the parameters from `train_jobs.csv`.
+The parameters for the finetuning are ```model,train_file,val_file,test_file,dataset_type,epochs,lr,wd,batch_size,gradient_batch,done```
 
-This training runs for the amounts of input epochs and select the best models.
-``` 
-sbatch train.sh 
-```
+The finetuned models and the performances evaluated with  `python evaluation_finetuning.py` will be saved inside **results_finetuning**

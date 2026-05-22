@@ -25,6 +25,23 @@ from src.dataset_class import ResidueInterfaceDataset
 from src.evaluation import compute_metrics
 
 # -------------------------------
+# Set Global Seed for Reproducibility
+# -------------------------------
+def set_seed(seed: int = 42):
+    """
+    Sets the seed for reproducibility across Python, NumPy, PyTorch, and Hugging Face.
+    """
+    random.seed(seed)
+    os.environ['PYTHONHASHSEED'] = str(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)  # For multi-GPU
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
+    
+    print(f"✅ Seed set to {seed} for all random number generators.", flush=True)
+# -------------------------------
 # Wrapper to guarantee Precision & Recall
 # -------------------------------
 def enhanced_compute_metrics(eval_pred):
@@ -72,6 +89,7 @@ class CustomTrainer(Trainer):
 # -------------------------------
 # Custom Callback for CSV Logging
 # -------------------------------
+
 class CSVLoggerCallback(TrainerCallback):
     """
     A Custom Callback that groups log history by epoch and shapes it 
@@ -95,19 +113,22 @@ class CSVLoggerCallback(TrainerCallback):
         # Group logs by epoch
         for log in state.log_history:
             epoch = log.get("epoch")
-            if epoch is None: 
+            if epoch is None:
                 continue
+                
+            epoch_int = round(epoch)  # map to nearest integer epoch
             
-            epoch = round(epoch, 4)
-            if epoch not in df_data:
-                df_data[epoch] = {"epoch": epoch}
+            # ✅ FIX: Initialize the dictionary for this epoch unconditionally
+            if epoch_int not in df_data:
+                df_data[epoch_int] = {"epoch": epoch_int}
             
             for k, v in log.items():
                 if k == "loss":
-                    # Distinct standard loss tracking vs full 'train_loss' evaluated on the train set
-                    df_data[epoch]["train_step_loss"] = v
+                    # ✅ FIX: Use epoch_int consistently
+                    df_data[epoch_int]["train_step_loss"] = v
                 elif k != "epoch" and not k.startswith("test_"):
-                    df_data[epoch][k] = v
+                    # ✅ FIX: Use epoch_int consistently
+                    df_data[epoch_int][k] = v
                     
         df = pd.DataFrame(list(df_data.values()))
         
@@ -126,7 +147,6 @@ class CSVLoggerCallback(TrainerCallback):
         # Filter out extra Hugging Face default columns and sort
         df = df[[c for c in self.expected_cols if c in df.columns]]
         df.to_csv(self.file_path, index=False)
-
 # -------------------------------
 # Main
 # -------------------------------
@@ -160,9 +180,10 @@ def main():
     # 1. Output dir for the saved model: output_dir + models/model_<dataset_name>
     model_output_dir = os.path.join(args.output_dir, "models", f"model_{dataset_name}")
     # 2. Output dir for performances: results_finetuning/performances_<dataset_name>
-    
+    results_output_dir = os.path.join(args.output_dir, "results")
+
     os.makedirs(model_output_dir, exist_ok=True)
-    os.makedirs("results", exist_ok=True)
+    os.makedirs(results_output_dir, exist_ok=True)
 
     # -------------------------------
     # Load sequences and labels
@@ -231,12 +252,12 @@ def main():
     training_args = TrainingArguments(**training_args_dict)
 
     # Metrics will be exported directly to performances directory
-    metrics_csv_path = os.path.join("results", f"training_metrics_{dataset_name}.csv")
+    metrics_csv_path = os.path.join(results_output_dir, f"training_metrics_{dataset_name}.csv")
     csv_callback = CSVLoggerCallback(metrics_csv_path)
     
     early_stopping = EarlyStoppingCallback(
-        early_stopping_patience=7, 
-        early_stopping_threshold=0.1 
+        early_stopping_patience=15, 
+        early_stopping_threshold=0.001 
     )
 
     # -------------------------------
@@ -315,7 +336,7 @@ def main():
     }
 
     # Save details parameters in the performances folder
-    params_path = os.path.join("results", f"params_dict_{dataset_name}.pkl")
+    params_path = os.path.join(results_output_dir, f"params_dict_{dataset_name}.pkl")
     with open(params_path , "wb") as f:
         pickle.dump(dict_to_save, f)
         
@@ -323,4 +344,5 @@ def main():
 
 # run
 if __name__ == "__main__":
+    set_seed()
     main()
