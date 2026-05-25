@@ -14,7 +14,7 @@ Before training, you must download the embeddings from Zenodo (33 GB):
    unzip esm3_data.zip
    ```
 
-This will create the `esm3_data/` subdirectory with all embeddings and CSV files organized as shown in the directory structure above.
+This will create the `esm3_data/` subdirectory with all embeddings and CSV files organized as shown in the directory structure below.
 
 ## Directory Structure
 
@@ -90,7 +90,7 @@ The following hyperparameters can be modified in `train_baseline.py`:
 
 **Datasets:**
 - `BioLiP-3693`: BioLiP database with 3693 proteins
-- `PDBbind-1409`: PDBbind database with 1409 protein-ligand complexes
+- `PDBbind-1409`: PDBbind database with 1409 proteins
 
 ## Evaluation
 
