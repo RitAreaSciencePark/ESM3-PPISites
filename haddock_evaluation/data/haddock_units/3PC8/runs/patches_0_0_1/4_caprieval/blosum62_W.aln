@@ -1,0 +1,7 @@
+target            0 MPELPDFFEGKHFFLYGEFPGDERRRLIRYVTAFNGELEDR-MNERVQFVITAQEWDPNF
+                  0 --||||||||||||||||||||||||||||||||||||||--||||||||||||||||||
+query             0 --ELPDFFEGKHFFLYGEFPGDERRRLIRYVTAFNGELED-YMNERVQFVITAQEWDPNF
+
+target           59 EEALMENPSLAFVRPRWIYSCNEKQKLLPHQLYGVVPQ----  97
+                 60 ||||||||||||||||||||||||||||||||||||||---- 102
+query            57 EEALMENPSLAFVRPRWIYSCNEKQKLLPHQLYGVVPQAHHH  99

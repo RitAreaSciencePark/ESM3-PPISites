@@ -1,0 +1,664 @@
+{
+    "input": [
+        {
+            "clt_id": 1,
+            "clt_model_rank": 1,
+            "clt_rank": 1,
+            "created": "2026-05-25 09:43:41",
+            "file_name": "cluster_1_model_1.pdb",
+            "file_type": {
+                "py/reduce": [
+                    {
+                        "py/type": "haddock.libs.libontology.Format"
+                    },
+                    {
+                        "py/tuple": [
+                            "pdb"
+                        ]
+                    }
+                ]
+            },
+            "full_name": "cluster_1_model_1.pdb",
+            "len": NaN,
+            "md5": null,
+            "ori_name": "emref_10.pdb",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/2GAF/haddock_oracle_100_10/6_seletopclusts",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib._local.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "6_seletopclusts",
+                            "cluster_1_model_1.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": {
+                "py/object": "haddock.EmptyPath"
+            },
+            "score": -144.32351300000002,
+            "seed": 942,
+            "topology": [
+                {
+                    "created": "2026-05-25 09:42:04",
+                    "file_name": "1VPT_Z_haddock.psf",
+                    "file_type": {
+                        "py/reduce": [
+                            {
+                                "py/type": "haddock.libs.libontology.Format"
+                            },
+                            {
+                                "py/tuple": [
+                                    "psf"
+                                ]
+                            }
+                        ]
+                    },
+                    "full_name": "1VPT_Z_haddock.psf",
+                    "md5": null,
+                    "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/2GAF/haddock_oracle_100_10/0_topoaa",
+                    "py/object": "haddock.libs.libontology.TopologyFile",
+                    "rel_path": {
+                        "py/reduce": [
+                            {
+                                "py/type": "pathlib._local.PosixPath"
+                            },
+                            {
+                                "py/tuple": [
+                                    "..",
+                                    "0_topoaa",
+                                    "1VPT_Z_haddock.psf"
+                                ]
+                            }
+                        ]
+                    },
+                    "restr_fname": null
+                },
+                {
+                    "created": "2026-05-25 09:42:04",
+                    "file_name": "3OWG_W_haddock.psf",
+                    "file_type": {
+                        "py/id": 8
+                    },
+                    "full_name": "3OWG_W_haddock.psf",
+                    "md5": null,
+                    "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/2GAF/haddock_oracle_100_10/0_topoaa",
+                    "py/object": "haddock.libs.libontology.TopologyFile",
+                    "rel_path": {
+                        "py/reduce": [
+                            {
+                                "py/type": "pathlib._local.PosixPath"
+                            },
+                            {
+                                "py/tuple": [
+                                    "..",
+                                    "0_topoaa",
+                                    "3OWG_W_haddock.psf"
+                                ]
+                            }
+                        ]
+                    },
+                    "restr_fname": null
+                }
+            ],
+            "unw_energies": {
+                "air": 0.0,
+                "angles": 555.432,
+                "bonds": 110.078,
+                "bsa": 2705.08,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 0.457887,
+                "dihe": 4288.42,
+                "elec": -455.872,
+                "improper": 143.682,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": -509.479,
+                "vdw": -53.607,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "clt_id": 1,
+            "clt_model_rank": 2,
+            "clt_rank": 1,
+            "created": "2026-05-25 09:43:41",
+            "file_name": "cluster_1_model_2.pdb",
+            "file_type": {
+                "py/id": 3
+            },
+            "full_name": "cluster_1_model_2.pdb",
+            "len": NaN,
+            "md5": null,
+            "ori_name": "emref_9.pdb",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/2GAF/haddock_oracle_100_10/6_seletopclusts",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib._local.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "6_seletopclusts",
+                            "cluster_1_model_2.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": {
+                "py/id": 5
+            },
+            "score": -138.3743478,
+            "seed": 1006,
+            "topology": [
+                {
+                    "py/id": 7
+                },
+                {
+                    "py/id": 10
+                }
+            ],
+            "unw_energies": {
+                "air": 0.727322,
+                "angles": 550.149,
+                "bonds": 105.517,
+                "bsa": 2683.54,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": -2.54718,
+                "dihe": 4283.5,
+                "elec": -344.935,
+                "improper": 149.822,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": -411.121,
+                "vdw": -66.9129,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "clt_id": 1,
+            "clt_model_rank": 3,
+            "clt_rank": 1,
+            "created": "2026-05-25 09:43:41",
+            "file_name": "cluster_1_model_3.pdb",
+            "file_type": {
+                "py/id": 3
+            },
+            "full_name": "cluster_1_model_3.pdb",
+            "len": NaN,
+            "md5": null,
+            "ori_name": "emref_6.pdb",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/2GAF/haddock_oracle_100_10/6_seletopclusts",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib._local.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "6_seletopclusts",
+                            "cluster_1_model_3.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": {
+                "py/id": 5
+            },
+            "score": -131.22095869999998,
+            "seed": 938,
+            "topology": [
+                {
+                    "py/id": 7
+                },
+                {
+                    "py/id": 10
+                }
+            ],
+            "unw_energies": {
+                "air": 0.537213,
+                "angles": 551.775,
+                "bonds": 106.987,
+                "bsa": 2568.71,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 3.98192,
+                "dihe": 4291.42,
+                "elec": -367.63,
+                "improper": 148.105,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": -428.823,
+                "vdw": -61.7306,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "clt_id": 1,
+            "clt_model_rank": 4,
+            "clt_rank": 1,
+            "created": "2026-05-25 09:43:41",
+            "file_name": "cluster_1_model_4.pdb",
+            "file_type": {
+                "py/id": 3
+            },
+            "full_name": "cluster_1_model_4.pdb",
+            "len": NaN,
+            "md5": null,
+            "ori_name": "emref_3.pdb",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/2GAF/haddock_oracle_100_10/6_seletopclusts",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib._local.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "6_seletopclusts",
+                            "cluster_1_model_4.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": {
+                "py/id": 5
+            },
+            "score": -122.96494838200002,
+            "seed": 968,
+            "topology": [
+                {
+                    "py/id": 7
+                },
+                {
+                    "py/id": 10
+                }
+            ],
+            "unw_energies": {
+                "air": 0.04071618,
+                "angles": 538.334,
+                "bonds": 107.811,
+                "bsa": 2355.03,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 2.11978,
+                "dihe": 4280.04,
+                "elec": -366.271,
+                "improper": 140.887,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": -418.064,
+                "vdw": -51.8346,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "clt_id": 1,
+            "clt_model_rank": 5,
+            "clt_rank": 1,
+            "created": "2026-05-25 09:43:41",
+            "file_name": "cluster_1_model_5.pdb",
+            "file_type": {
+                "py/id": 3
+            },
+            "full_name": "cluster_1_model_5.pdb",
+            "len": NaN,
+            "md5": null,
+            "ori_name": "emref_5.pdb",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/2GAF/haddock_oracle_100_10/6_seletopclusts",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib._local.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "6_seletopclusts",
+                            "cluster_1_model_5.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": {
+                "py/id": 5
+            },
+            "score": -121.15634,
+            "seed": 960,
+            "topology": [
+                {
+                    "py/id": 7
+                },
+                {
+                    "py/id": 10
+                }
+            ],
+            "unw_energies": {
+                "air": 0.0,
+                "angles": 546.479,
+                "bonds": 105.419,
+                "bsa": 2510.24,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": -1.47234,
+                "dihe": 4273.36,
+                "elec": -344.536,
+                "improper": 142.723,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": -395.312,
+                "vdw": -50.7768,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "clt_id": 1,
+            "clt_model_rank": 6,
+            "clt_rank": 1,
+            "created": "2026-05-25 09:43:41",
+            "file_name": "cluster_1_model_6.pdb",
+            "file_type": {
+                "py/id": 3
+            },
+            "full_name": "cluster_1_model_6.pdb",
+            "len": NaN,
+            "md5": null,
+            "ori_name": "emref_4.pdb",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/2GAF/haddock_oracle_100_10/6_seletopclusts",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib._local.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "6_seletopclusts",
+                            "cluster_1_model_6.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": {
+                "py/id": 5
+            },
+            "score": -120.73192109799999,
+            "seed": 963,
+            "topology": [
+                {
+                    "py/id": 7
+                },
+                {
+                    "py/id": 10
+                }
+            ],
+            "unw_energies": {
+                "air": 0.08768902,
+                "angles": 546.598,
+                "bonds": 105.087,
+                "bsa": 2362.4,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 3.47651,
+                "dihe": 4259.12,
+                "elec": -353.919,
+                "improper": 142.292,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": -407.265,
+                "vdw": -53.4334,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "clt_id": 1,
+            "clt_model_rank": 7,
+            "clt_rank": 1,
+            "created": "2026-05-25 09:43:41",
+            "file_name": "cluster_1_model_7.pdb",
+            "file_type": {
+                "py/id": 3
+            },
+            "full_name": "cluster_1_model_7.pdb",
+            "len": NaN,
+            "md5": null,
+            "ori_name": "emref_8.pdb",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/2GAF/haddock_oracle_100_10/6_seletopclusts",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib._local.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "6_seletopclusts",
+                            "cluster_1_model_7.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": {
+                "py/id": 5
+            },
+            "score": -112.6739185,
+            "seed": 982,
+            "topology": [
+                {
+                    "py/id": 7
+                },
+                {
+                    "py/id": 10
+                }
+            ],
+            "unw_energies": {
+                "air": 0.398315,
+                "angles": 535.829,
+                "bonds": 104.899,
+                "bsa": 2176.23,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 2.00635,
+                "dihe": 4257.95,
+                "elec": -360.309,
+                "improper": 137.211,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": -402.569,
+                "vdw": -42.6583,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "clt_id": 1,
+            "clt_model_rank": 8,
+            "clt_rank": 1,
+            "created": "2026-05-25 09:43:41",
+            "file_name": "cluster_1_model_8.pdb",
+            "file_type": {
+                "py/id": 3
+            },
+            "full_name": "cluster_1_model_8.pdb",
+            "len": NaN,
+            "md5": null,
+            "ori_name": "emref_7.pdb",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/2GAF/haddock_oracle_100_10/6_seletopclusts",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib._local.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "6_seletopclusts",
+                            "cluster_1_model_8.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": {
+                "py/id": 5
+            },
+            "score": -103.9408078,
+            "seed": 991,
+            "topology": [
+                {
+                    "py/id": 7
+                },
+                {
+                    "py/id": 10
+                }
+            ],
+            "unw_energies": {
+                "air": 0.111822,
+                "angles": 552.014,
+                "bonds": 106.879,
+                "bsa": 2125.84,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 2.16491,
+                "dihe": 4287.84,
+                "elec": -363.474,
+                "improper": 141.749,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": -396.784,
+                "vdw": -33.4221,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "clt_id": 1,
+            "clt_model_rank": 9,
+            "clt_rank": 1,
+            "created": "2026-05-25 09:43:41",
+            "file_name": "cluster_1_model_9.pdb",
+            "file_type": {
+                "py/id": 3
+            },
+            "full_name": "cluster_1_model_9.pdb",
+            "len": NaN,
+            "md5": null,
+            "ori_name": "emref_2.pdb",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/2GAF/haddock_oracle_100_10/6_seletopclusts",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib._local.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "6_seletopclusts",
+                            "cluster_1_model_9.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": {
+                "py/id": 5
+            },
+            "score": -100.58181290000002,
+            "seed": 992,
+            "topology": [
+                {
+                    "py/id": 7
+                },
+                {
+                    "py/id": 10
+                }
+            ],
+            "unw_energies": {
+                "air": 0.438571,
+                "angles": 547.279,
+                "bonds": 106.105,
+                "bsa": 1933.01,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": -8.28877,
+                "dihe": 4248.96,
+                "elec": -240.733,
+                "improper": 143.349,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": -284.485,
+                "vdw": -44.1903,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        }
+    ],
+    "output": [
+        {
+            "py/id": 2
+        },
+        {
+            "py/id": 13
+        },
+        {
+            "py/id": 17
+        },
+        {
+            "py/id": 21
+        },
+        {
+            "py/id": 25
+        },
+        {
+            "py/id": 29
+        },
+        {
+            "py/id": 33
+        },
+        {
+            "py/id": 37
+        },
+        {
+            "py/id": 41
+        }
+    ]
+}

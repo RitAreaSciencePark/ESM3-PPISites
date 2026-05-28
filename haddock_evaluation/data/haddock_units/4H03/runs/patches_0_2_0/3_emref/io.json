@@ -1,0 +1,216 @@
+{
+    "input": [
+        {
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-05-25 18:21:38",
+            "file_name": "rigidbody_33.pdb",
+            "file_type": {
+                "py/reduce": [
+                    {
+                        "py/type": "haddock.libs.libontology.Format"
+                    },
+                    {
+                        "py/tuple": [
+                            "pdb"
+                        ]
+                    }
+                ]
+            },
+            "full_name": "rigidbody_33.pdb",
+            "len": NaN,
+            "md5": null,
+            "ori_name": null,
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/4H03/runs/patches_0_2_0/1_rigidbody",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib._local.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "1_rigidbody",
+                            "rigidbody_33.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib._local.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "data",
+                            "1_rigidbody",
+                            "patches_0_2_0.tbl"
+                        ]
+                    }
+                ]
+            },
+            "score": -25.7302884,
+            "seed": 75,
+            "topology": [
+                {
+                    "created": "2026-05-25 18:21:38",
+                    "file_name": "1GIQ_W_haddock.psf",
+                    "file_type": {
+                        "py/reduce": [
+                            {
+                                "py/type": "haddock.libs.libontology.Format"
+                            },
+                            {
+                                "py/tuple": [
+                                    "psf"
+                                ]
+                            }
+                        ]
+                    },
+                    "full_name": "1GIQ_W_haddock.psf",
+                    "md5": null,
+                    "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/4H03/runs/patches_0_2_0/0_topoaa",
+                    "py/object": "haddock.libs.libontology.TopologyFile",
+                    "rel_path": {
+                        "py/reduce": [
+                            {
+                                "py/type": "pathlib._local.PosixPath"
+                            },
+                            {
+                                "py/tuple": [
+                                    "..",
+                                    "0_topoaa",
+                                    "1GIQ_W_haddock.psf"
+                                ]
+                            }
+                        ]
+                    },
+                    "restr_fname": null
+                },
+                {
+                    "created": "2026-05-25 18:21:38",
+                    "file_name": "1IJJ_Z_haddock.psf",
+                    "file_type": {
+                        "py/id": 8
+                    },
+                    "full_name": "1IJJ_Z_haddock.psf",
+                    "md5": null,
+                    "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/4H03/runs/patches_0_2_0/0_topoaa",
+                    "py/object": "haddock.libs.libontology.TopologyFile",
+                    "rel_path": {
+                        "py/reduce": [
+                            {
+                                "py/type": "pathlib._local.PosixPath"
+                            },
+                            {
+                                "py/tuple": [
+                                    "..",
+                                    "0_topoaa",
+                                    "1IJJ_Z_haddock.psf"
+                                ]
+                            }
+                        ]
+                    },
+                    "restr_fname": null
+                }
+            ],
+            "unw_energies": {
+                "air": 1.89966,
+                "angles": 4036.55,
+                "bonds": 1150.33,
+                "bsa": 1280.03,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": -7.13716,
+                "dihe": 4259.94,
+                "elec": -5.45179,
+                "improper": 693.026,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": -39.5556,
+                "vdw": -36.0035,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        }
+    ],
+    "output": [
+        {
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-05-25 18:21:58",
+            "file_name": "emref_1.pdb",
+            "file_type": {
+                "py/id": 3
+            },
+            "full_name": "emref_1.pdb",
+            "len": NaN,
+            "md5": null,
+            "ori_name": "rigidbody_33.pdb",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/4H03/runs/patches_0_2_0/3_emref",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib._local.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "3_emref",
+                            ".",
+                            "emref_1.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib._local.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "data",
+                            "3_emref",
+                            "patches_0_2_0.tbl"
+                        ]
+                    }
+                ]
+            },
+            "score": -95.36576090000001,
+            "seed": 75,
+            "topology": {
+                "py/id": 6
+            },
+            "unw_energies": {
+                "air": 0.134191,
+                "angles": 563.659,
+                "bonds": 113.227,
+                "bsa": 1259.73,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": -3.99778,
+                "dihe": 4361.55,
+                "elec": -333.085,
+                "improper": 151.097,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": -357.716,
+                "vdw": -24.7644,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        }
+    ]
+}

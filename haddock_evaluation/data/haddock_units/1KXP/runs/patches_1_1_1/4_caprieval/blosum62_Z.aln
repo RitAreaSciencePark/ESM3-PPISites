@@ -1,0 +1,31 @@
+target            0 LERGRDYEKNKVCKEFSHLGKEDFTSLSLVLYSRKFPSGTFEQVSQLVKEVVSLTEACCA
+                  0 -----|||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query             0 -----DYEKNKVCKEFSHLGKEDFTSLSLVLYSRKFPSGTFEQVSQLVKEVVSLTEACCA
+
+target           60 EGADPDCYDTRTSALSAKSCESNSPFPVHP----------L--K-------HQPQEFPTY
+                 60 ||||||||||||||||||||||||||||||----------|--|-------|||||||||
+query            55 EGADPDCYDTRTSALSAKSCESNSPFPVHPGTAECCTKEGLERKLCMAALKHQPQEFPTY
+
+target          101 VEPTNDEICEAFRKDPKEYANQFMWEYSTNYGQAPLSLLVSYTKSYLSMVGSCCTSASPT
+                120 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query           115 VEPTNDEICEAFRKDPKEYANQFMWEYSTNYGQAPLSLLVSYTKSYLSMVGSCCTSASPT
+
+target          161 VCFLKERLQLKHLSLLTTLSNRVCSQYAAYGEKKSRLSNLIKLAQKVPTADLEDVLPLAE
+                180 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query           175 VCFLKERLQLKHLSLLTTLSNRVCSQYAAYGEKKSRLSNLIKLAQKVPTADLEDVLPLAE
+
+target          221 DITNILSKCCESASEDCMAKELPEHTVKLCDNLSTKNSKFEDCCQEKTAMDVFVCTYFMP
+                240 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query           235 DITNILSKCCESASEDCMAKELPEHTVKLCDNLSTKNSKFEDCCQEKTAMDVFVCTYFMP
+
+target          281 AAQLPELPDVELPTNKDVCDPGNTKVMDKYTFELSRRTHLPEVFLSKVLEPTLKSLGECC
+                300 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query           295 AAQLPELPDVELPTNKDVCDPGNTKVMDKYTFELSRRTHLPEVFLSKVLEPTLKSLGECC
+
+target          341 DVEDSTTCFNAKGPLLKKELSSFIDKGQELCADYSENTFTEYKKKLAERLKAKLPDATPK
+                360 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query           355 DVEDSTTCFNAKGPLLKKELSSFIDKGQELCADYSENTFTEYKKKLAERLKAKLPDATPK
+
+target          401 ELAKLVNKRSDFASNCCSINSPPLYCDSEIDAELKNI- 438
+                420 |||||||||||||||||||||||||||||||||||||- 458
+query           415 ELAKLVNKRSDFASNCCSINSPPLYCDSEIDAELKNIL 453

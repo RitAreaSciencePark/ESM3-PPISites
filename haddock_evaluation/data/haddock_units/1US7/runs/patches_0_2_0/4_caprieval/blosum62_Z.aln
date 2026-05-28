@@ -1,0 +1,15 @@
+target            0 HKTFVEKYEKQIKHFGMLRRWDDSQKYLSDNVHLVCEETANYLVIWCIDLEVEEKCALME
+                  0 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query             0 HKTFVEKYEKQIKHFGMLRRWDDSQKYLSDNVHLVCEETANYLVIWCIDLEVEEKCALME
+
+target           60 QVAHQTIVMQFILELAKSLKVDPRACFRQFFTKIKTADRQYMEGFNDELEAFKERVRGRA
+                 60 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query            60 QVAHQTIVMQFILELAKSLKVDPRACFRQFFTKIKTADRQYMEGFNDELEAFKERVRGRA
+
+target          120 KLRIEKAMKEYEEEERKKRLGPGGLDPVEVYESLPEELQKCMLQDAISKMDPTDAKYHMQ
+                120 |||||||||---------------------------------------------------
+query           120 KLRIEKAMK---------------------------------------------------
+
+target          180 RCIDSGLWVPNSKA 194
+                180 -------------- 194
+query           129 -------------- 129
