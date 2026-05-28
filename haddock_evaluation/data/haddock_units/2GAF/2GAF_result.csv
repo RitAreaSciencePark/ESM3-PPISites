@@ -1,3 +1,0 @@
-model,md5,caprieval_rank,score,irmsd,fnat,lrmsd,ilrmsd,dockq,rmsd,cluster_id,cluster_ranking,model-cluster_ranking,air,angles,bonds,bsa,cdih,coup,dani,desolv,dihe,elec,improper,rdcs,rg,sym,total,vdw,vean,xpcs,provenance
-../3_emref/emref_1.pdb,-,1,-56.588,20.547,0.0,58.75,48.393,0.009,20.007,-,-,-,54.495,536.535,100.821,1303.33,0.0,0.0,0.0,4.623,4261.64,-207.757,142.606,0.0,0.0,0.0,-178.37,-25.108,0.0,0.0,patches_0_0_0
-../3_emref/emref_1.pdb,-,1,-33.808,25.916,0.0,51.009,52.582,0.01,21.538,-,-,-,47.342,543.337,105.551,724.852,0.0,0.0,0.0,2.52,4258.91,-166.778,145.066,0.0,0.0,0.0,-127.144,-7.707,0.0,0.0,patches_0_0_1
