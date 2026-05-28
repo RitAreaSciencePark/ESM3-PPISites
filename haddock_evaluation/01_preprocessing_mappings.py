@@ -13,12 +13,12 @@ import subprocess
 import sys
 from pathlib import Path
 
-# --- CONFIGURAZIONE PERCORSI ---
+# --- Path Configuration ---
 TSV_FILE = Path("data/pdb_lookup.tsv")
 BASE_INPUT = Path("raw-data/haddock_units")
-BASE_OUTPUT = Path("data/haddock_units")  # La cartella principale dei risultati
+BASE_OUTPUT = Path("data/haddock_units")  
 
-### PERCORSI DEGLI SCRIPT ESTERNI
+### Preprocessing scritps
 SCRIPT_DOWNLOAD = Path("scripts_preprocessing/download_PDB_data.py")
 SCRIPT_PREPROCESS = Path("scripts_preprocessing/rename_single_chain.py")
 SCRIPT_TO_RESIDUES = Path("scripts_preprocessing/PDB_to_residues.py")
@@ -26,9 +26,8 @@ SCRIPT_CONTACT_MAP = Path("scripts_preprocessing/contact_map_dimer.py")
 SCRIPT_ALIGN_SEQS = Path("scripts_preprocessing/align_PDB_seqs.py")
 SCRIPT_REMAP_CONTACTS = Path("scripts_preprocessing/remap_contacts.py")
 SCRIPT_SUMMARY = Path("scripts_preprocessing/extract_true_mapped.py")
-#SUMMARY_OUTPUT = Path("contacts_summary/remapped_contacts_summary.tsv")
 
-# PARAMETRO DISTANZA CONTACTS
+# Distance cutoff nm
 CUTOFF = 0.8
 
 
@@ -78,7 +77,7 @@ def run_rename_two_chains(src_pdb, chain1, chain2, dst_pdb):
     try:
         run_rename(src_pdb, chain1, tmp_w, rename_to='W')
         run_rename(src_pdb, chain2, tmp_z, rename_to='Z')
-
+        
         p = PDB.PDBParser(QUIET=True)
         struct_w = p.get_structure('W', str(tmp_w))
         struct_z = p.get_structure('Z', str(tmp_z))
@@ -108,7 +107,7 @@ def process_unit(row):
     # Definizione Directory per questo specifico complesso
     download_dir = BASE_INPUT / cpx_id
     unit_out_dir = BASE_OUTPUT / cpx_id
-
+    
     download_dir.mkdir(parents=True, exist_ok=True)
     unit_out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -141,7 +140,7 @@ def process_unit(row):
     print("\n--- Step 3: Converting PDBs to Residue TSVs ---")
     residues_dir = unit_out_dir / "residues"
     residues_dir.mkdir(exist_ok=True)
-
+    
     # Processa tutti i file .pdb generati nello step precedente per questa unità
     for pdb_path in unit_out_dir.glob("*.pdb"):
         output_tsv = residues_dir / f"{pdb_path.stem}_residues.tsv"
@@ -155,7 +154,7 @@ def process_unit(row):
     print("\n--- Step 4: Computing Contact Maps ---")
     contacts_dir = unit_out_dir / "contacts"
     contacts_dir.mkdir(exist_ok=True)
-
+    
     contact_output = contacts_dir / f"contacts_{cpx_id}_WZ.tsv"
     print(f"  Computing contacts for {cpx_dst.name} -> contacts/{contact_output.name}")
     subprocess.run([
@@ -167,16 +166,16 @@ def process_unit(row):
     print("\n--- Step 5: Aligning Sequences ---")
     aln_dir = unit_out_dir / "aln"
     aln_dir.mkdir(exist_ok=True)
-
+    
     complex_residues_file = residues_dir / f"{cpx_id}_WZ_residues.tsv"
-
+    
     for chain_file in residues_dir.glob("*_residues.tsv"):
         if chain_file.name == f"{cpx_id}_WZ_residues.tsv":
             continue  # Evita il self-alignment del complesso
-
+            
         chain_base = chain_file.name.replace("_residues.tsv", "")
         output_aln_file = aln_dir / f"{cpx_id}_WZ_vs_{chain_base}.tsv"
-
+        
         print(f"  Aligning: {chain_base} -> aln/{output_aln_file.name}")
         subprocess.run([
             "python3", str(SCRIPT_ALIGN_SEQS),
@@ -204,7 +203,7 @@ def main():
 
     with open(TSV_FILE, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f, delimiter="\t")
-
+        
         for row in reader:
             complex_id = row["complex_PDB"]
             try:
@@ -229,7 +228,7 @@ def main():
             print(f"[ERROR] Summary script failed with exit code {e.returncode}", file=sys.stderr)
     else:
         print(f"[ERROR] Summary script not found at {SCRIPT_SUMMARY}", file=sys.stderr)
-
+        
 if __name__ == "__main__":
     main()
 

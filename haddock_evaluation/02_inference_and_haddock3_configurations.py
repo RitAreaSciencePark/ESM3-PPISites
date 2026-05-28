@@ -24,19 +24,19 @@ def main():
     # --- Early Setup / Initialization Steps ---
 
     # 1. Compile Ab Initio Configs
-    #run_script(["python", "scripts_abinitio/compile_abinitio_configs.py"])
+    run_script(["python", "scripts_abinitio/compile_abinitio_configs.py"])
 
     # 2. True Interface Restraints (Oracle)
-    #run_script(["python", "scripts_oracle/true_interface_restraints2.py"])
+    run_script(["python", "scripts_oracle/true_interface_restraints.py"])
 
     # 3. Compile Oracle Configs
-    #run_script(["python", "scripts_oracle/compile_oracle_configs.py"])
+    run_script(["python", "scripts_oracle/compile_oracle_configs.py"])
 
     # --- Main Inference & Evaluation Pipeline ---
 
     # 4. Inference with ESM3-PPISites large model
     # Input: esm3_reps/db5_embeddings.pt -> Output: inference_results/db5_results.csv
-    run_script(["python", "scripts_eval/deterministic_inferenceESM3.py"])
+    run_script(["python", "scripts_eval/inferenceESM3.py"])
 
     # 5. Patches creation
     # Input: inference_results/db5_results.csv -> Output: inference_results/db5_for_pairing.csv
