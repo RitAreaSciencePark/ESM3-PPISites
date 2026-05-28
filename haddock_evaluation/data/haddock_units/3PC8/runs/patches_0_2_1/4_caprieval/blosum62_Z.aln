@@ -1,0 +1,7 @@
+target            0 ----VLLDIFTGVRLYLPPSTPDFSRLRRYFVAFDGDLVQEFDMTSATHVLGSRDKNPAA
+                  0 ----|||||||||||||||||||||||||||||||||||||||-||||||||||||||||
+query             0 SQTKVLLDIFTGVRLYLPPSTPDFSRLRRYFVAFDGDLVQEFD-TSATHVLGSRDKNPAA
+
+target           56 QQVSPEWIWACIRKRRLVAPS 77
+                 60 ||||||||||||||||||||| 81
+query            59 QQVSPEWIWACIRKRRLVAPS 80

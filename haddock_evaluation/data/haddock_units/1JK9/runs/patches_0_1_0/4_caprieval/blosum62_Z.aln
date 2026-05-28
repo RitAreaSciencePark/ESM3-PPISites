@@ -1,0 +1,11 @@
+target            0 VQAVAVLKGDAGVSGVVKFEQASESEPTTVSYEIAGNSPNAERGFHIFEFGDATNGCVSA
+                  0 |||||||||||||||||||||||||||||||||||||||||||||||.||||||||||||
+query             0 VQAVAVLKGDAGVSGVVKFEQASESEPTTVSYEIAGNSPNAERGFHIHEFGDATNGCVSA
+
+target           60 GPHFNPFKKTHGAPTDEVRHVGDMGNVKTDENGVAKGSFKDSLIKLIGPTSVVGRSVVIH
+                 60 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query            60 GPHFNPFKKTHGAPTDEVRHVGDMGNVKTDENGVAKGSFKDSLIKLIGPTSVVGRSVVIH
+
+target          120 AGQDDLGKGDTEESLKTGNAGPRPACGVIGLTN 153
+                120 ||||||||||||||||||||||||||||||||| 153
+query           120 AGQDDLGKGDTEESLKTGNAGPRPACGVIGLTN 153

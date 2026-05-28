@@ -1,0 +1,19 @@
+target            0 -DVVSLDKPF-YFEEIDNELDYEPES-----KKLPYQGQLKLLLGELFFLSKLQRHGILD
+                  0 -|||||||||-|||||||||||||||-----|||||||||||||||||||||||||||||
+query             0 MDVVSLDKPFMYFEEIDNELDYEPESANEVAKKLPYQGQLKLLLGELFFLSKLQRHGILD
+
+target           53 GATVVYIGSAPGTHIRYLRDHFYNLGVIIKW-LIDGRHHDPILNGLRDVTLVTRFVDEEY
+                 60 |||||||||||||||||||||||||||||||-||||||||||||||||||||||||||||
+query            60 GATVVYIGSAPGTHIRYLRDHFYNLGVIIKWMLIDGRHHDPILNGLRDVTLVTRFVDEEY
+
+target          112 LRSIKKQLHPSKIILISDVASPSTADLLSNYALQNV-ISILNPVASSLKWRCPFPDQWIK
+                120 ||||||||||||||||||||||||||||||||||||-|||||||||||||||||||||||
+query           120 LRSIKKQLHPSKIILISDVASPSTADLLSNYALQNVMISILNPVASSLKWRCPFPDQWIK
+
+target          171 DFYIPHGNK-LQPFAPSYSAE-RLLSIYTGEN-RLTRVTKSDAVNYEKK-YYLNKIVRNK
+                180 |||||||||-|||||||||||-||||||||||-||||||||||||||||-||||||||||
+query           180 DFYIPHGNKMLQPFAPSYSAEMRLLSIYTGENMRLTRVTKSDAVNYEKKMYYLNKIVRNK
+
+target          227 VVVNFDYPNQEYDYFH-YF-LRTVYCNKTFPTTKAKVLFLQQSIFRFLNIP 276
+                240 ||||||||||||||||-||-||||||||||||||||||||||||||||||| 291
+query           240 VVVNFDYPNQEYDYFHMYFMLRTVYCNKTFPTTKAKVLFLQQSIFRFLNIP 291

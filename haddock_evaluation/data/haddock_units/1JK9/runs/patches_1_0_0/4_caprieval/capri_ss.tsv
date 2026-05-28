@@ -1,0 +1,2 @@
+model	md5	caprieval_rank	score	irmsd	fnat	lrmsd	ilrmsd	dockq	rmsd	cluster_id	cluster_ranking	model-cluster_ranking	air	angles	bonds	bsa	cdih	coup	dani	desolv	dihe	elec	improper	rdcs	rg	sym	total	vdw	vean	xpcs
+../3_emref/emref_1.pdb	-	1	-81.946	13.567	0.023	36.195	29.154	0.029	15.422	-	-	-	0.000	244.416	48.666	1510.950	0.000	0.000	0.000	-9.216	1889.170	-152.163	73.590	0.000	0.000	0.000	-194.461	-42.297	0.000	0.000

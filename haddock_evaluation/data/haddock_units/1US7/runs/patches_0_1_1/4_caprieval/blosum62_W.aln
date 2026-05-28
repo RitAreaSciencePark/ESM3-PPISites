@@ -1,0 +1,15 @@
+target            0 ASETFEFQAEITQLMSLIINTVYSNKEIFLRELISNASDALDKIRYKSLSDPKQLETEPD
+                  0 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query             0 ASETFEFQAEITQLMSLIINTVYSNKEIFLRELISNASDALDKIRYKSLSDPKQLETEPD
+
+target           60 LFIRITPKPEQKVLEIRDSGIGMTKAELINNLGTIAKSGTKAFMEALSAGADVSMIGQFG
+                 60 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query            60 LFIRITPKPEQKVLEIRDSGIGMTKAELINNLGTIAKSGTKAFMEALSAGADVSMIGQFG
+
+target          120 VGFYSLFLVADRVQVISKSNDDEQYIWESNAGGSFTVTLDEVNERIGRGTILRLFLKDDQ
+                120 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query           120 VGFYSLFLVADRVQVISKSNDDEQYIWESNAGGSFTVTLDEVNERIGRGTILRLFLKDDQ
+
+target          180 LEYLEEKRIKEVIKRHSEFVAYPIQLV------ 207
+                180 |||||||||||||||||||||||||||------ 213
+query           180 LEYLEEKRIKEVIKRHSEFVAYPIQLVVTKEVE 213
