@@ -7,7 +7,7 @@ library(cowplot)
 
 fp_abinitio = "collected_caprievals/all_caprievals_unrestrained_10k.tsv"
 fp_oracle = "collected_caprievals/all_caprievals_oracle_100_10.tsv" 
-fp_eval = "collected_caprievals/all_caprievals_eval.tsv"
+fp_eval = "collected_caprievals/all_caprievals_eval_here.tsv"
 complexes = dir("data/haddock_units")
 complexes
 
