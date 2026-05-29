@@ -19,7 +19,7 @@ model_name = args.model_name
 dataset_name = args.dataset_name
 repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 data_path = os.path.join(repo_root, "data") + os.sep
-reps_path = os.path.abspath(os.path.join(repo_root, "..", "Paper", f"{model_name}_data")) + os.sep
+reps_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "esm3_data", model_name + "data") + os.sep
 models_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models_baseline")
 results_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "results_baseline")
 
