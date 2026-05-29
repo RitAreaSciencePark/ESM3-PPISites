@@ -22,7 +22,7 @@ model_name = args.model_name
 dataset_name = args.dataset_name
 repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 data_path = os.path.join(repo_root, "data") + os.sep
-reps_path = #MISSING
+reps_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "esm3_data", model_name + "data") + os.sep
 print(f"Model: {model_name}")
 print(f"Dataset: {dataset_name}")
 
