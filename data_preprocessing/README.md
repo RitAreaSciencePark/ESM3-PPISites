@@ -1,5 +1,4 @@
-## [WIP]
-
+## Data Preprocessing
 The preprocessing is composed by the following pipeline
     
 1) Download the original data
@@ -9,7 +8,11 @@ The preprocessing is composed by the following pipeline
 5) Remove PDBS that are not correct
 
 ### Step 1: Download and preparation of the data 
-**[WIP]**
+To download the original dataset from  [Zenodo](https://zenodo.org/records/20366948) , you can run the following commands:
+```
+wget [https://zenodo.org/records/20366948/files/data.zip](https://zenodo.org/records/20366948/files/data.zip)
+unzip data.zip
+```
 ### Step 2: Run MMSEQ
 
 To run MMSEQ we have to setup the fasta files before with the script create_fasta.py, it will create a folder where the `<input_file>.csv` it's processed to `<input_file>.fasta` file.
