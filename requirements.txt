@@ -9,3 +9,5 @@ tqdm
 transformers
 iprogress
 ipywidgets
+haddock3
+httpx
