@@ -41,9 +41,10 @@ To start the training pipeline, run the following command. The script will autom
 
 ```bash
 python train_finetuning.py
-
+```
 ### 2. Running the evaluation
 To run the evalutation of the model, run the following command.
 
 ```bash
 python evaluation_finetuning.py
+```
