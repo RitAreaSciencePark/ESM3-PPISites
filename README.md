@@ -1,7 +1,9 @@
 # ESM3-PPISites
-[Temporary Description]  Protein Protein Interaction project
 
-**Authors**: 
+## Decoding the Grammar of Protein–Protein Interaction Interfaces with Multimodal Representations
+
+**Authors**: Yuri Gardinazzi, Edith Natalia Villegas Garcia, Sergio Senci, Davide Di Vora, Antonio
+Feltrin, and Francesca Cuturello
 
 **Paper**: 
 
