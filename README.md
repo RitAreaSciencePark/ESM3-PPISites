@@ -5,8 +5,8 @@
 **Authors**: Yuri Gardinazzi, Edith Natalia Villegas Garcia, Sergio Senci, Davide Di Vora, Antonio
 Feltrin, and Francesca Cuturello
 
-**Paper**: 
-
+**Paper**: [bioRxiv link](https://www.biorxiv.org/content/10.64898/2026.05.29.728739v1)
+**doi**: https://doi.org/10.64898/2026.05.29.728739
 
 ### Install 
 
