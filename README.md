@@ -7,8 +7,6 @@ Feltrin, and Francesca Cuturello
 
 **Paper**: [bioRxiv link](https://www.biorxiv.org/content/10.64898/2026.05.29.728739v1)
 
-**doi**: https://doi.org/10.64898/2026.05.29.728739
-
 ### Install 
 
 To run the code be sure to have at least a version of python >= 3.10
