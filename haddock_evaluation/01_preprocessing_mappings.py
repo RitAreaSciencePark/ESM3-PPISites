@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[11]:
 
 
 #!/usr/bin/env python3
@@ -13,8 +13,8 @@ import subprocess
 import sys
 from pathlib import Path
 
-# --- Path Configuration ---
-TSV_FILE = Path("data/pdb_lookup.tsv")
+# Path Configuration
+TSV_FILE = Path("pdb_lookup.tsv")
 BASE_INPUT = Path("raw-data/haddock_units")
 BASE_OUTPUT = Path("data/haddock_units")  
 
@@ -31,22 +31,20 @@ SCRIPT_SUMMARY = Path("scripts_preprocessing/extract_true_mapped.py")
 CUTOFF = 0.8
 
 
-# In[2]:
+# In[12]:
 
 
 tsv_tbl = pd.read_csv(TSV_FILE, sep = "\t")
 tsv_tbl.head()
 
 
-# In[3]:
+# In[13]:
 
 
-# ---------------------------------------------------------------------------
 # Subprocess wrappers
-# ---------------------------------------------------------------------------
 
 def download_pdb(pdb_id: str, output_dir: Path) -> None:
-    """Scarica il file PDB se non è già presente."""
+    """Download PDBs"""
     pdb_file = output_dir / f"{pdb_id}.pdb"
     if pdb_file.exists():
         print(f"  Skipping download: {pdb_id}.pdb (already exists)")
@@ -61,7 +59,7 @@ def download_pdb(pdb_id: str, output_dir: Path) -> None:
         print(f"  Downloaded {pdb_id}.pdb")
 
 def run_rename(src_pdb, chain, dst_pdb, rename_to):
-    """Chiama lo script per l'estrazione e rinomina di una singola catena."""
+    """Call scripts for execution"""
     cmd = [
         sys.executable, str(SCRIPT_PREPROCESS),
         '--complex', str(src_pdb), '--chain', chain,
@@ -70,14 +68,14 @@ def run_rename(src_pdb, chain, dst_pdb, rename_to):
     subprocess.run(cmd, check=True, capture_output=True)
 
 def run_rename_two_chains(src_pdb, chain1, chain2, dst_pdb):
-    """Estrae e rinomina due catene dallo stesso complesso e le unisce."""
+    """Extracts and renames pair of chains from complex pdb"""
     from Bio import PDB
     tmp_w = dst_pdb.parent / f"_tmp_W_{dst_pdb.name}"
     tmp_z = dst_pdb.parent / f"_tmp_Z_{dst_pdb.name}"
     try:
         run_rename(src_pdb, chain1, tmp_w, rename_to='W')
         run_rename(src_pdb, chain2, tmp_z, rename_to='Z')
-        
+
         p = PDB.PDBParser(QUIET=True)
         struct_w = p.get_structure('W', str(tmp_w))
         struct_z = p.get_structure('Z', str(tmp_z))
@@ -92,7 +90,7 @@ def run_rename_two_chains(src_pdb, chain1, chain2, dst_pdb):
         tmp_z.unlink(missing_ok=True)
 
 
-# In[4]:
+# In[14]:
 
 
 # ---------------------------------------------------------------------------
@@ -107,7 +105,7 @@ def process_unit(row):
     # Definizione Directory per questo specifico complesso
     download_dir = BASE_INPUT / cpx_id
     unit_out_dir = BASE_OUTPUT / cpx_id
-    
+
     download_dir.mkdir(parents=True, exist_ok=True)
     unit_out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -140,7 +138,7 @@ def process_unit(row):
     print("\n--- Step 3: Converting PDBs to Residue TSVs ---")
     residues_dir = unit_out_dir / "residues"
     residues_dir.mkdir(exist_ok=True)
-    
+
     # Processa tutti i file .pdb generati nello step precedente per questa unità
     for pdb_path in unit_out_dir.glob("*.pdb"):
         output_tsv = residues_dir / f"{pdb_path.stem}_residues.tsv"
@@ -154,7 +152,7 @@ def process_unit(row):
     print("\n--- Step 4: Computing Contact Maps ---")
     contacts_dir = unit_out_dir / "contacts"
     contacts_dir.mkdir(exist_ok=True)
-    
+
     contact_output = contacts_dir / f"contacts_{cpx_id}_WZ.tsv"
     print(f"  Computing contacts for {cpx_dst.name} -> contacts/{contact_output.name}")
     subprocess.run([
@@ -166,16 +164,16 @@ def process_unit(row):
     print("\n--- Step 5: Aligning Sequences ---")
     aln_dir = unit_out_dir / "aln"
     aln_dir.mkdir(exist_ok=True)
-    
+
     complex_residues_file = residues_dir / f"{cpx_id}_WZ_residues.tsv"
-    
+
     for chain_file in residues_dir.glob("*_residues.tsv"):
         if chain_file.name == f"{cpx_id}_WZ_residues.tsv":
             continue  # Evita il self-alignment del complesso
-            
+
         chain_base = chain_file.name.replace("_residues.tsv", "")
         output_aln_file = aln_dir / f"{cpx_id}_WZ_vs_{chain_base}.tsv"
-        
+
         print(f"  Aligning: {chain_base} -> aln/{output_aln_file.name}")
         subprocess.run([
             "python3", str(SCRIPT_ALIGN_SEQS),
@@ -193,7 +191,7 @@ def process_unit(row):
     ], check=True)
 
 
-# In[5]:
+# In[15]:
 
 
 def main():
@@ -203,7 +201,7 @@ def main():
 
     with open(TSV_FILE, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f, delimiter="\t")
-        
+
         for row in reader:
             complex_id = row["complex_PDB"]
             try:
@@ -228,9 +226,21 @@ def main():
             print(f"[ERROR] Summary script failed with exit code {e.returncode}", file=sys.stderr)
     else:
         print(f"[ERROR] Summary script not found at {SCRIPT_SUMMARY}", file=sys.stderr)
-        
+
 if __name__ == "__main__":
     main()
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:

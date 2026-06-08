@@ -4,7 +4,7 @@
             "clt_id": null,
             "clt_model_rank": null,
             "clt_rank": null,
-            "created": "2026-05-25 18:16:47",
+            "created": "2026-06-06 16:16:13",
             "file_name": "emref_1.pdb",
             "file_type": {
                 "py/reduce": [
@@ -21,8 +21,8 @@
             "full_name": "emref_1.pdb",
             "len": NaN,
             "md5": null,
-            "ori_name": "rigidbody_34.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/3PC8/runs/patches_0_0_0/3_emref",
+            "ori_name": "rigidbody_95.pdb",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/3PC8/runs/patches_0_0_0/3_emref",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -54,11 +54,11 @@
                     }
                 ]
             },
-            "score": -115.91709,
-            "seed": 76,
+            "score": -43.43662,
+            "seed": 137,
             "topology": [
                 {
-                    "created": "2026-05-25 18:16:42",
+                    "created": "2026-06-06 16:16:07",
                     "file_name": "3PC6_W_haddock.psf",
                     "file_type": {
                         "py/reduce": [
@@ -74,7 +74,7 @@
                     },
                     "full_name": "3PC6_W_haddock.psf",
                     "md5": null,
-                    "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/3PC8/runs/patches_0_0_0/0_topoaa",
+                    "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/3PC8/runs/patches_0_0_0/0_topoaa",
                     "py/object": "haddock.libs.libontology.TopologyFile",
                     "rel_path": {
                         "py/reduce": [
@@ -93,14 +93,14 @@
                     "restr_fname": null
                 },
                 {
-                    "created": "2026-05-25 18:16:42",
+                    "created": "2026-06-06 16:16:07",
                     "file_name": "3PC7_Z_haddock.psf",
                     "file_type": {
                         "py/id": 8
                     },
                     "full_name": "3PC7_Z_haddock.psf",
                     "md5": null,
-                    "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/3PC8/runs/patches_0_0_0/0_topoaa",
+                    "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/3PC8/runs/patches_0_0_0/0_topoaa",
                     "py/object": "haddock.libs.libontology.TopologyFile",
                     "rel_path": {
                         "py/reduce": [
@@ -120,22 +120,22 @@
                 }
             ],
             "unw_energies": {
-                "air": 47.2971,
-                "angles": 96.197,
-                "bonds": 25.853,
-                "bsa": 1392.16,
+                "air": 0.0,
+                "angles": 90.7974,
+                "bonds": 24.9534,
+                "bsa": 782.67,
                 "cdih": 0.0,
                 "coup": 0.0,
                 "dani": 0.0,
-                "desolv": 14.9362,
-                "dihe": 957.406,
-                "elec": -508.023,
-                "improper": 31.2106,
+                "desolv": 2.96358,
+                "dihe": 959.654,
+                "elec": -151.229,
+                "improper": 26.1541,
                 "rdcs": 0.0,
                 "rg": 0.0,
                 "sym": 0.0,
-                "total": -494.705,
-                "vdw": -33.9784,
+                "total": -167.384,
+                "vdw": -16.1544,
                 "vean": 0.0,
                 "xpcs": 0.0
             }

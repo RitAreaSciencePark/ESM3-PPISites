@@ -4,8 +4,8 @@
             "clt_id": null,
             "clt_model_rank": null,
             "clt_rank": null,
-            "created": "2026-05-25 17:51:06",
-            "file_name": "rigidbody_57.pdb",
+            "created": "2026-06-06 15:51:21",
+            "file_name": "rigidbody_63.pdb",
             "file_type": {
                 "py/reduce": [
                     {
@@ -18,11 +18,11 @@
                     }
                 ]
             },
-            "full_name": "rigidbody_57.pdb",
+            "full_name": "rigidbody_63.pdb",
             "len": NaN,
             "md5": null,
             "ori_name": null,
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1Z5Y/runs/patches_1_1_0/1_rigidbody",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1Z5Y/runs/patches_1_1_0/1_rigidbody",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -33,7 +33,7 @@
                         "py/tuple": [
                             "..",
                             "1_rigidbody",
-                            "rigidbody_57.pdb"
+                            "rigidbody_63.pdb"
                         ]
                     }
                 ]
@@ -53,11 +53,11 @@
                     }
                 ]
             },
-            "score": -19.44605334,
-            "seed": 99,
+            "score": -17.193637,
+            "seed": 105,
             "topology": [
                 {
-                    "created": "2026-05-25 17:51:05",
+                    "created": "2026-06-06 15:51:21",
                     "file_name": "1L6P_W_haddock.psf",
                     "file_type": {
                         "py/reduce": [
@@ -73,7 +73,7 @@
                     },
                     "full_name": "1L6P_W_haddock.psf",
                     "md5": null,
-                    "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1Z5Y/runs/patches_1_1_0/0_topoaa",
+                    "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1Z5Y/runs/patches_1_1_0/0_topoaa",
                     "py/object": "haddock.libs.libontology.TopologyFile",
                     "rel_path": {
                         "py/reduce": [
@@ -92,14 +92,14 @@
                     "restr_fname": null
                 },
                 {
-                    "created": "2026-05-25 17:51:05",
+                    "created": "2026-06-06 15:51:21",
                     "file_name": "2B1K_Z_haddock.psf",
                     "file_type": {
                         "py/id": 8
                     },
                     "full_name": "2B1K_Z_haddock.psf",
                     "md5": null,
-                    "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1Z5Y/runs/patches_1_1_0/0_topoaa",
+                    "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1Z5Y/runs/patches_1_1_0/0_topoaa",
                     "py/object": "haddock.libs.libontology.TopologyFile",
                     "rel_path": {
                         "py/reduce": [
@@ -119,22 +119,22 @@
                 }
             ],
             "unw_energies": {
-                "air": 0.150166,
-                "angles": 1083.2,
-                "bonds": 114.078,
-                "bsa": 735.302,
+                "air": 1.7537,
+                "angles": 1083.01,
+                "bonds": 113.691,
+                "bsa": 741.88,
                 "cdih": 0.0,
                 "coup": 0.0,
                 "dani": 0.0,
-                "desolv": -10.4039,
-                "dihe": 1372.56,
-                "elec": -1.44609,
-                "improper": 590.052,
+                "desolv": -7.56935,
+                "dihe": 1369.63,
+                "elec": -2.01359,
+                "improper": 590.174,
                 "rdcs": 0.0,
                 "rg": 0.0,
                 "sym": 0.0,
-                "total": -25.7505,
-                "vdw": -24.4545,
+                "total": -21.2033,
+                "vdw": -20.9434,
                 "vean": 0.0,
                 "xpcs": 0.0
             }
@@ -145,7 +145,7 @@
             "clt_id": null,
             "clt_model_rank": null,
             "clt_rank": null,
-            "created": "2026-05-25 17:51:15",
+            "created": "2026-06-06 15:51:29",
             "file_name": "emref_1.pdb",
             "file_type": {
                 "py/id": 3
@@ -153,8 +153,8 @@
             "full_name": "emref_1.pdb",
             "len": NaN,
             "md5": null,
-            "ori_name": "rigidbody_57.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1Z5Y/runs/patches_1_1_0/3_emref",
+            "ori_name": "rigidbody_63.pdb",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1Z5Y/runs/patches_1_1_0/3_emref",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -186,28 +186,28 @@
                     }
                 ]
             },
-            "score": -39.35041,
-            "seed": 99,
+            "score": -34.597316286,
+            "seed": 105,
             "topology": {
                 "py/id": 6
             },
             "unw_energies": {
-                "air": 0.0,
-                "angles": 151.534,
-                "bonds": 38.8358,
-                "bsa": 740.474,
+                "air": 0.08673714,
+                "angles": 155.085,
+                "bonds": 38.3726,
+                "bsa": 700.205,
                 "cdih": 0.0,
                 "coup": 0.0,
                 "dani": 0.0,
-                "desolv": -5.94855,
-                "dihe": 1371.07,
-                "elec": -48.0023,
-                "improper": 52.2891,
+                "desolv": -5.27863,
+                "dihe": 1371.16,
+                "elec": -43.0468,
+                "improper": 54.8611,
                 "rdcs": 0.0,
                 "rg": 0.0,
                 "sym": 0.0,
-                "total": -71.8037,
-                "vdw": -23.8014,
+                "total": -63.678,
+                "vdw": -20.718,
                 "vean": 0.0,
                 "xpcs": 0.0
             }

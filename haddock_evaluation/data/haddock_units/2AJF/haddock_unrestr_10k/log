@@ -1,0 +1,150 @@
+[2026-06-06 18:02:01,649 cli INFO] 
+##############################################
+#                                            #
+#                 HADDOCK3                   #
+#                                            #
+##############################################
+
+!! Some of the HADDOCK3 components use CNS (Crystallographic and NMR System) which is free of use for non-profit applications. !!
+!! For commercial use it is your own responsibility to have a proper license. !!
+!! For details refer to the DISCLAIMER file in the HADDOCK3 repository. !!
+
+Starting HADDOCK3 v2025.11.0 on 2026-06-06 18:02:00
+
+Python 3.13.9 (main, Oct 14 2025, 00:00:00) [GCC 14.3.1 20250808 (Red Hat 14.3.1-3)]
+
+[2026-06-06 18:02:05,505 libworkflow INFO] Reading instructions step 0_topoaa
+[2026-06-06 18:02:05,505 libworkflow INFO] Reading instructions step 1_rigidbody
+[2026-06-06 18:02:05,505 libworkflow INFO] Reading instructions step 2_seletop
+[2026-06-06 18:02:05,505 libworkflow INFO] Reading instructions step 3_flexref
+[2026-06-06 18:02:05,505 libworkflow INFO] Reading instructions step 4_emref
+[2026-06-06 18:02:05,506 libworkflow INFO] Reading instructions step 5_clustfcc
+[2026-06-06 18:02:05,506 libworkflow INFO] Reading instructions step 6_seletopclusts
+[2026-06-06 18:02:05,506 libworkflow INFO] Reading instructions step 7_caprieval
+[2026-06-06 18:02:05,522 base_cns_module INFO] Running [topoaa] module
+[2026-06-06 18:02:05,522 __init__ INFO] [topoaa] Molecule 1: 2GHV_Z.pdb
+[2026-06-06 18:02:05,525 __init__ INFO] [topoaa] Termini of molecule 1:
+ N-ter: uncharged C-ter: uncharged 5'phosphate: no
+[2026-06-06 18:02:05,525 __init__ INFO] [topoaa] Sanitizing molecule 2GHV_Z.pdb
+[2026-06-06 18:02:05,530 __init__ INFO] [topoaa] Topology CNS input created
+[2026-06-06 18:02:05,531 __init__ INFO] [topoaa] Molecule 2: 1R42_W.pdb
+[2026-06-06 18:02:05,532 __init__ INFO] [topoaa] Termini of molecule 2:
+ N-ter: uncharged C-ter: uncharged 5'phosphate: no
+[2026-06-06 18:02:05,532 __init__ INFO] [topoaa] Sanitizing molecule 1R42_W.pdb
+[2026-06-06 18:02:05,543 __init__ INFO] [topoaa] Topology CNS input created
+[2026-06-06 18:02:05,543 __init__ INFO] [topoaa] Running CNS Jobs n=2
+[2026-06-06 18:02:05,543 libutil INFO] Selected 2 cores to process 2 jobs, with 64 maximum available cores.
+[2026-06-06 18:02:05,545 libparallel INFO] Using 2 cores
+[2026-06-06 18:02:11,304 libparallel INFO] 2 tasks finished
+[2026-06-06 18:02:11,305 __init__ INFO] [topoaa] CNS jobs have finished
+[2026-06-06 18:02:11,307 base_cns_module INFO] Module [topoaa] finished.
+[2026-06-06 18:02:11,307 __init__ INFO] [topoaa] took 6 seconds
+[2026-06-06 18:02:11,661 base_cns_module INFO] Running [rigidbody] module
+[2026-06-06 18:02:11,662 __init__ INFO] [rigidbody] crossdock=true
+[2026-06-06 18:02:11,662 __init__ INFO] [rigidbody] Preparing jobs...
+[2026-06-06 18:02:11,676 libutil INFO] Selected 64 cores to process 10000 jobs, with 64 maximum available cores.
+[2026-06-06 18:02:11,677 libparallel INFO] Using 64 cores
+[2026-06-06 18:02:13,930 libparallel INFO] 10000 tasks finished
+[2026-06-06 18:02:14,209 __init__ INFO] [rigidbody] Running CNS Jobs n=10000
+[2026-06-06 18:02:14,209 libutil INFO] Selected 64 cores to process 10000 jobs, with 64 maximum available cores.
+[2026-06-06 18:02:14,214 libparallel INFO] Using 64 cores
+[2026-06-06 18:31:55,611 libparallel INFO] 10000 tasks finished
+[2026-06-06 18:31:55,636 __init__ INFO] [rigidbody] CNS jobs have finished
+[2026-06-06 18:32:05,672 base_cns_module INFO] Module [rigidbody] finished.
+[2026-06-06 18:32:05,673 __init__ INFO] [rigidbody] took 29 minutes and 54 seconds
+[2026-06-06 18:32:06,134 __init__ INFO] Running [seletop] module
+[2026-06-06 18:32:06,737 __init__ INFO] Module [seletop] finished.
+[2026-06-06 18:32:06,737 __init__ INFO] [seletop] took 1 seconds
+[2026-06-06 18:32:07,628 base_cns_module INFO] Running [flexref] module
+[2026-06-06 18:32:08,474 __init__ INFO] [flexref] Running CNS Jobs n=200
+[2026-06-06 18:32:08,474 libutil INFO] Selected 64 cores to process 200 jobs, with 64 maximum available cores.
+[2026-06-06 18:32:08,475 libparallel INFO] Using 64 cores
+[2026-06-06 18:37:28,635 libparallel INFO] 200 tasks finished
+[2026-06-06 18:37:28,637 __init__ INFO] [flexref] CNS jobs have finished
+[2026-06-06 18:37:28,838 base_cns_module INFO] Module [flexref] finished.
+[2026-06-06 18:37:28,838 __init__ INFO] [flexref] took 5 minutes and 21 seconds
+[2026-06-06 18:37:29,214 base_cns_module INFO] Running [emref] module
+[2026-06-06 18:37:30,042 __init__ INFO] [emref] Running CNS Jobs n=200
+[2026-06-06 18:37:30,042 libutil INFO] Selected 64 cores to process 200 jobs, with 64 maximum available cores.
+[2026-06-06 18:37:30,042 libparallel INFO] Using 64 cores
+[2026-06-06 18:37:55,396 libparallel INFO] 200 tasks finished
+[2026-06-06 18:37:55,396 __init__ INFO] [emref] CNS jobs have finished
+[2026-06-06 18:37:55,587 base_cns_module INFO] Module [emref] finished.
+[2026-06-06 18:37:55,587 __init__ INFO] [emref] took 26 seconds
+[2026-06-06 18:37:55,613 __init__ INFO] Running [clustfcc] module
+[2026-06-06 18:37:55,613 __init__ INFO] Calculating contacts
+[2026-06-06 18:37:55,613 libutil INFO] Selected 64 cores to process 200 jobs, with 64 maximum available cores.
+[2026-06-06 18:37:55,614 libparallel INFO] Using 64 cores
+[2026-06-06 18:37:56,235 libparallel INFO] 200 tasks finished
+[2026-06-06 18:37:56,237 __init__ INFO] Calculating the FCC matrix
+[2026-06-06 18:37:56,270 __init__ INFO] Clustering...
+[2026-06-06 18:37:56,272 clustfcc INFO] Clustering with min_population=4
+[2026-06-06 18:37:56,272 clustfcc INFO] [WARNING] No cluster was found, decreasing min_population!
+[2026-06-06 18:37:56,272 clustfcc INFO] Clustering with min_population=3
+[2026-06-06 18:37:56,272 clustfcc INFO] Saving output to cluster.out
+[2026-06-06 18:37:56,273 libclust INFO] Saving structure list to clustfcc.tsv
+[2026-06-06 18:37:56,273 clustfcc INFO] Saving detailed output to clustfcc.txt
+[2026-06-06 18:37:56,288 __init__ INFO] Module [clustfcc] finished.
+[2026-06-06 18:37:56,289 __init__ INFO] [clustfcc] took 1 seconds
+[2026-06-06 18:37:56,302 __init__ INFO] Running [seletopclusts] module
+[2026-06-06 18:37:56,302 __init__ INFO] Selecting all clusters: 1,2,3
+[2026-06-06 18:37:56,311 __init__ INFO] Module [seletopclusts] finished.
+[2026-06-06 18:37:56,311 __init__ INFO] [seletopclusts] took 0 seconds
+[2026-06-06 18:37:56,326 __init__ INFO] Running [caprieval] module
+[2026-06-06 18:37:56,327 capri INFO] Found previous CNS step: 4_emref
+[2026-06-06 18:37:56,493 capri INFO] Saved scoring weights to: weights_params.json
+[2026-06-06 18:37:56,545 libutil INFO] Selected 9 cores to process 9 jobs, with 64 maximum available cores.
+[2026-06-06 18:37:56,546 libparallel INFO] Using 9 cores
+[2026-06-06 18:37:57,015 libparallel INFO] 9 tasks finished
+[2026-06-06 18:37:57,016 capri INFO] Rearranging cluster information into capri_clt.tsv
+[2026-06-06 18:37:57,020 __init__ INFO] Module [caprieval] finished.
+[2026-06-06 18:37:57,020 __init__ INFO] [caprieval] took 1 seconds
+[2026-06-06 18:37:57,020 cli_analyse INFO] Running haddock3-analyse on ./, modules [7], with top_clusters = 10
+[2026-06-06 18:37:57,028 cli_analyse INFO] Created directory: /orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/2AJF/haddock_unrestr_10k/analysis
+[2026-06-06 18:37:57,028 cli_analyse INFO] Reading input run directory
+[2026-06-06 18:37:57,040 cli_analyse INFO] selected steps: 7_caprieval
+[2026-06-06 18:37:57,040 cli_analyse INFO] Analysing step 7_caprieval
+[2026-06-06 18:37:57,040 cli_analyse INFO] step 7_caprieval is caprieval, files should be already available
+[2026-06-06 18:37:57,041 cli_analyse INFO] CAPRI files identified
+[2026-06-06 18:37:57,298 cli_analyse INFO] Top structures summary archive summary.tgz created!
+[2026-06-06 18:37:57,298 cli_analyse INFO] Plotting results..
+[2026-06-06 18:37:58,203 cli_analyse INFO] moving files to analysis folder
+[2026-06-06 18:37:58,203 cli_analyse INFO] updating paths in analysis/7_caprieval_analysis/capri_ss.tsv
+[2026-06-06 18:37:58,205 cli_analyse INFO] View the results in analysis/7_caprieval_analysis/report.html
+[2026-06-06 18:37:58,205 cli_analyse INFO] To view structures or download the structure files, in a terminal run the command: 
+>python -m http.server --directory /orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/2AJF/haddock_unrestr_10k
+And open the link http://0.0.0.0:8000/analysis/7_caprieval_analysis/report.html in a web browser.
+[2026-06-06 18:37:58,205 cli_traceback INFO] Running haddock3-traceback on ./
+[2026-06-06 18:37:58,205 cli_traceback INFO] Reading input run directory
+[2026-06-06 18:37:58,205 cli_traceback INFO] All_steps: 0_topoaa, 1_rigidbody, 2_seletop, 3_flexref, 4_emref, 5_clustfcc, 6_seletopclusts, 7_caprieval
+[2026-06-06 18:37:58,385 cli_traceback INFO] Modules not to be analysed: 0_topoaa, 2_seletop, 5_clustfcc, 7_caprieval
+[2026-06-06 18:37:58,385 cli_traceback INFO] Steps to trace back: 1_rigidbody, 3_flexref, 4_emref, 6_seletopclusts
+[2026-06-06 18:37:58,386 cli_traceback INFO] Created directory: /orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/2AJF/haddock_unrestr_10k/traceback
+[2026-06-06 18:37:58,386 cli_traceback INFO] Tracing back step 6_seletopclusts
+[2026-06-06 18:37:58,387 cli_traceback INFO] Tracing back step 4_emref
+[2026-06-06 18:37:58,404 cli_traceback INFO] Tracing back step 3_flexref
+[2026-06-06 18:37:58,427 cli_traceback INFO] Tracing back step 1_rigidbody
+[2026-06-06 18:37:59,033 cli_traceback INFO] Output dataframe traceback/traceback.tsv created with shape (10000, 10)
+[2026-06-06 18:37:59,093 clean_steps INFO] Cleaning output for '0_topoaa' using 64 cores.
+[2026-06-06 18:38:00,376 libtimer INFO] cleaning output files took 1 seconds
+[2026-06-06 18:38:00,376 clean_steps INFO] Cleaning output for '1_rigidbody' using 64 cores.
+[2026-06-06 18:38:08,746 libtimer INFO] cleaning output files took 8 seconds
+[2026-06-06 18:38:08,968 clean_steps INFO] Cleaning output for '2_seletop' using 64 cores.
+[2026-06-06 18:38:09,018 libtimer INFO] cleaning output files took 0 seconds
+[2026-06-06 18:38:09,018 clean_steps INFO] Cleaning output for '3_flexref' using 64 cores.
+[2026-06-06 18:38:09,808 libtimer INFO] cleaning output files took 1 seconds
+[2026-06-06 18:38:09,808 clean_steps INFO] Cleaning output for '4_emref' using 64 cores.
+[2026-06-06 18:38:10,593 libtimer INFO] cleaning output files took 1 seconds
+[2026-06-06 18:38:10,593 clean_steps INFO] Cleaning output for '5_clustfcc' using 64 cores.
+[2026-06-06 18:38:11,405 libtimer INFO] cleaning output files took 1 seconds
+[2026-06-06 18:38:11,405 clean_steps INFO] Cleaning output for '6_seletopclusts' using 64 cores.
+[2026-06-06 18:38:12,053 libtimer INFO] cleaning output files took 1 seconds
+[2026-06-06 18:38:12,053 clean_steps INFO] Cleaning output for '7_caprieval' using 64 cores.
+[2026-06-06 18:38:12,101 libtimer INFO] cleaning output files took 0 seconds
+[2026-06-06 18:38:12,101 cli INFO] This HADDOCK3 run took: 36 minutes and 10 seconds
+[2026-06-06 18:38:12,101 greetings INFO] Your feedback matters in Haddock3! Share your experience and help us grow:
+[2026-06-06 18:38:12,101 greetings INFO] GitHub issues: https://github.com/haddocking/haddock3/issues
+[2026-06-06 18:38:12,101 greetings INFO] BioExcel feedback: https://www.bonvinlab.org/feedback
+[2026-06-06 18:38:12,101 greetings INFO] BioExcel forum: https://ask.bioexcel.eu/c/haddock/6
+[2026-06-06 18:38:12,101 greetings INFO] Haddock3 user manual: https://www.bonvinlab.org/haddock3-user-manual/
+[2026-06-06 18:38:12,101 cli INFO] Finished at 06/06/2026 18:38:12. Adéu-siau! Tot ziens! Agur!

@@ -20,6 +20,8 @@ pip install -r requirements.txt
 - `data_preprocessing`: contains the script to run the necessary preprocessing to obtain the final csv necessary to train to finetune the models.
 - `finetuning`: it contains the code to finetune the model, and inside the subfolder `data` the csv files already computed and used in the paper.
 - `inference`: it contains the code to run the final models.
+- `haddock_evaluation`: contains results from evaluation on DB5.5 benchmark
+- `haddock_pair_eval`: allows for custom analysis of pairs of proteins directly from sequence.
 
 ### Prediction / Inference
 
@@ -47,5 +49,14 @@ The generated output file will contain all the original columns from your input 
 
 - prediction: A continuous binary string composed of 0s and 1s representing the final classification for each residue (based on a probability threshold of > 0.70).
 
-#### Predictions for haddock
-Run `pair_predictions.py` in the same way as run_prediction. it will do the inference with ESM3 to generate the PDBS and inside the output file there will be the field **hotspot_pred** with the indexes of the one predictions.
+#### Custom inference for haddock
+The `haddock_pair_eval` directory provides a complete workflow to run structure generation in ESM3, inference, PPI-Site clustering and Haddock3 configuration. The workflow is entirely handled by the `pair_eval.py`. The script requires at least an input file named `test_input.csv`:
+
+```
+complex,id,sequence
+p53_mdm2_complex,P04637,MEEPQSDPSVEPPLSQETFSDLWKLLPENNVLS...
+p53_mdm2_complex,Q00987,MCNTNMSVPTDGAVTTSQIPASEQETLVRPKPL...
+```
+
+Briefly, ids are grouped by complex. Only complexes mapping to exactly two ids are selected.
+Output is is saved to `data/haddock_units/{complex}`, and Haddock3 configurations are located within the `cfg` subfolder.

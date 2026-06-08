@@ -1,0 +1,9 @@
+Model	1_rigidbody_rank	3_flexref_rank	4_emref_rank	6_seletopclusts_rank	Sum-of-Ranks
+cluster_1_model_1.pdb	89	28	45	1	163
+cluster_1_model_2.pdb	6	90	49	2	147
+cluster_2_model_1.pdb	94	93	53	3	243
+cluster_1_model_3.pdb	12	72	61	4	149
+cluster_1_model_4.pdb	4	111	82	5	202
+cluster_2_model_2.pdb	151	142	85	6	384
+cluster_2_model_3.pdb	108	179	143	7	437
+cluster_2_model_4.pdb	154	166	148	8	476

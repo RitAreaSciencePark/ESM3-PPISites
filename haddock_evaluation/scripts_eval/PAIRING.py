@@ -49,7 +49,6 @@ def main(base_path, df_top):
             with open(tbl_file, "w") as f:
                 for idx_s, r_short in enumerate(sequence):
                     idx_l_center = s + idx_s
-                #    target_window = [idx_l_center - 1, idx_l_center, idx_l_center + 1]
                     target_window = [idx_l_center - 1, idx_l_center, idx_l_center + 1]
 
                     passives = []

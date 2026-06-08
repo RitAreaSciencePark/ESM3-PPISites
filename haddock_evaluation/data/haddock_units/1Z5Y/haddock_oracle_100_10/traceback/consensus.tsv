@@ -1,0 +1,10 @@
+Model	1_rigidbody_rank	3_flexref_rank	4_emref_rank	6_seletopclusts_rank	Sum-of-Ranks
+cluster_1_model_1.pdb	10	7	1	1	19
+cluster_1_model_2.pdb	7	1	2	2	12
+cluster_1_model_3.pdb	2	6	3	3	14
+cluster_1_model_4.pdb	8	5	4	4	21
+cluster_1_model_5.pdb	3	2	5	5	15
+cluster_1_model_6.pdb	6	3	6	6	21
+cluster_1_model_7.pdb	4	4	7	7	22
+cluster_1_model_8.pdb	5	9	8	8	30
+cluster_1_model_9.pdb	9	8	9	9	35

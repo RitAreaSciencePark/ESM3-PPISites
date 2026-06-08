@@ -4,7 +4,7 @@
             "clt_id": 1,
             "clt_model_rank": 1,
             "clt_rank": 1,
-            "created": "2026-05-25 09:44:57",
+            "created": "2026-06-06 15:49:13",
             "file_name": "cluster_1_model_1.pdb",
             "file_type": {
                 "py/reduce": [
@@ -22,7 +22,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_7.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/2YVJ/haddock_oracle_100_10/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/2YVJ/haddock_oracle_100_10/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -45,7 +45,7 @@
             "seed": 965,
             "topology": [
                 {
-                    "created": "2026-05-25 09:43:59",
+                    "created": "2026-06-06 15:48:14",
                     "file_name": "2E4P_Z_haddock.psf",
                     "file_type": {
                         "py/reduce": [
@@ -61,7 +61,7 @@
                     },
                     "full_name": "2E4P_Z_haddock.psf",
                     "md5": null,
-                    "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/2YVJ/haddock_oracle_100_10/0_topoaa",
+                    "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/2YVJ/haddock_oracle_100_10/0_topoaa",
                     "py/object": "haddock.libs.libontology.TopologyFile",
                     "rel_path": {
                         "py/reduce": [
@@ -80,14 +80,14 @@
                     "restr_fname": null
                 },
                 {
-                    "created": "2026-05-25 09:43:59",
+                    "created": "2026-06-06 15:48:14",
                     "file_name": "2YVF_W_haddock.psf",
                     "file_type": {
                         "py/id": 8
                     },
                     "full_name": "2YVF_W_haddock.psf",
                     "md5": null,
-                    "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/2YVJ/haddock_oracle_100_10/0_topoaa",
+                    "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/2YVJ/haddock_oracle_100_10/0_topoaa",
                     "py/object": "haddock.libs.libontology.TopologyFile",
                     "rel_path": {
                         "py/reduce": [
@@ -131,7 +131,7 @@
             "clt_id": 1,
             "clt_model_rank": 2,
             "clt_rank": 1,
-            "created": "2026-05-25 09:44:57",
+            "created": "2026-06-06 15:49:13",
             "file_name": "cluster_1_model_2.pdb",
             "file_type": {
                 "py/id": 3
@@ -140,7 +140,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_9.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/2YVJ/haddock_oracle_100_10/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/2YVJ/haddock_oracle_100_10/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -194,7 +194,7 @@
             "clt_id": 1,
             "clt_model_rank": 3,
             "clt_rank": 1,
-            "created": "2026-05-25 09:44:57",
+            "created": "2026-06-06 15:49:13",
             "file_name": "cluster_1_model_3.pdb",
             "file_type": {
                 "py/id": 3
@@ -203,7 +203,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_3.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/2YVJ/haddock_oracle_100_10/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/2YVJ/haddock_oracle_100_10/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [

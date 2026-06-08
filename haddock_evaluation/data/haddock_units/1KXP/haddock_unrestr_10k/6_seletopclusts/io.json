@@ -4,7 +4,7 @@
             "clt_id": 11,
             "clt_model_rank": 1,
             "clt_rank": 1,
-            "created": "2026-05-21 13:00:20",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_1_model_1.pdb",
             "file_type": {
                 "py/reduce": [
@@ -22,7 +22,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_45.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -45,7 +45,7 @@
             "seed": 5358,
             "topology": [
                 {
-                    "created": "2026-05-21 12:23:35",
+                    "created": "2026-06-06 15:54:59",
                     "file_name": "1KW2_Z_haddock.psf",
                     "file_type": {
                         "py/reduce": [
@@ -61,7 +61,7 @@
                     },
                     "full_name": "1KW2_Z_haddock.psf",
                     "md5": null,
-                    "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/0_topoaa",
+                    "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/0_topoaa",
                     "py/object": "haddock.libs.libontology.TopologyFile",
                     "rel_path": {
                         "py/reduce": [
@@ -80,14 +80,14 @@
                     "restr_fname": null
                 },
                 {
-                    "created": "2026-05-21 12:23:35",
+                    "created": "2026-06-06 15:54:59",
                     "file_name": "1IJJ_W_haddock.psf",
                     "file_type": {
                         "py/id": 8
                     },
                     "full_name": "1IJJ_W_haddock.psf",
                     "md5": null,
-                    "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/0_topoaa",
+                    "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/0_topoaa",
                     "py/object": "haddock.libs.libontology.TopologyFile",
                     "rel_path": {
                         "py/reduce": [
@@ -131,7 +131,7 @@
             "clt_id": 11,
             "clt_model_rank": 2,
             "clt_rank": 1,
-            "created": "2026-05-21 13:00:20",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_1_model_2.pdb",
             "file_type": {
                 "py/id": 3
@@ -140,7 +140,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_34.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -194,7 +194,7 @@
             "clt_id": 5,
             "clt_model_rank": 1,
             "clt_rank": 2,
-            "created": "2026-05-21 13:00:20",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_2_model_1.pdb",
             "file_type": {
                 "py/id": 3
@@ -203,7 +203,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_111.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -257,7 +257,7 @@
             "clt_id": 5,
             "clt_model_rank": 2,
             "clt_rank": 2,
-            "created": "2026-05-21 13:00:20",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_2_model_2.pdb",
             "file_type": {
                 "py/id": 3
@@ -266,7 +266,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_83.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -320,7 +320,7 @@
             "clt_id": 8,
             "clt_model_rank": 1,
             "clt_rank": 3,
-            "created": "2026-05-21 13:00:20",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_3_model_1.pdb",
             "file_type": {
                 "py/id": 3
@@ -329,7 +329,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_13.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -383,7 +383,7 @@
             "clt_id": 8,
             "clt_model_rank": 2,
             "clt_rank": 3,
-            "created": "2026-05-21 13:00:20",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_3_model_2.pdb",
             "file_type": {
                 "py/id": 3
@@ -392,7 +392,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_57.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -446,7 +446,7 @@
             "clt_id": 9,
             "clt_model_rank": 1,
             "clt_rank": 4,
-            "created": "2026-05-21 13:00:20",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_4_model_1.pdb",
             "file_type": {
                 "py/id": 3
@@ -455,7 +455,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_51.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -509,7 +509,7 @@
             "clt_id": 9,
             "clt_model_rank": 2,
             "clt_rank": 4,
-            "created": "2026-05-21 13:00:20",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_4_model_2.pdb",
             "file_type": {
                 "py/id": 3
@@ -518,7 +518,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_26.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -572,7 +572,7 @@
             "clt_id": 14,
             "clt_model_rank": 1,
             "clt_rank": 5,
-            "created": "2026-05-21 13:00:19",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_5_model_1.pdb",
             "file_type": {
                 "py/id": 3
@@ -581,7 +581,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_4.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -635,7 +635,7 @@
             "clt_id": 14,
             "clt_model_rank": 2,
             "clt_rank": 5,
-            "created": "2026-05-21 13:00:19",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_5_model_2.pdb",
             "file_type": {
                 "py/id": 3
@@ -644,7 +644,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_1.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -698,7 +698,7 @@
             "clt_id": 13,
             "clt_model_rank": 1,
             "clt_rank": 6,
-            "created": "2026-05-21 13:00:20",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_6_model_1.pdb",
             "file_type": {
                 "py/id": 3
@@ -707,7 +707,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_98.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -761,7 +761,7 @@
             "clt_id": 13,
             "clt_model_rank": 2,
             "clt_rank": 6,
-            "created": "2026-05-21 13:00:19",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_6_model_2.pdb",
             "file_type": {
                 "py/id": 3
@@ -770,7 +770,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_7.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -824,7 +824,7 @@
             "clt_id": 12,
             "clt_model_rank": 1,
             "clt_rank": 7,
-            "created": "2026-05-21 13:00:20",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_7_model_1.pdb",
             "file_type": {
                 "py/id": 3
@@ -833,7 +833,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_12.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -887,7 +887,7 @@
             "clt_id": 12,
             "clt_model_rank": 2,
             "clt_rank": 7,
-            "created": "2026-05-21 13:00:20",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_7_model_2.pdb",
             "file_type": {
                 "py/id": 3
@@ -896,7 +896,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_10.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -950,7 +950,7 @@
             "clt_id": 4,
             "clt_model_rank": 1,
             "clt_rank": 8,
-            "created": "2026-05-21 13:00:20",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_8_model_1.pdb",
             "file_type": {
                 "py/id": 3
@@ -959,7 +959,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_90.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -1013,7 +1013,7 @@
             "clt_id": 4,
             "clt_model_rank": 2,
             "clt_rank": 8,
-            "created": "2026-05-21 13:00:20",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_8_model_2.pdb",
             "file_type": {
                 "py/id": 3
@@ -1022,7 +1022,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_126.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -1076,7 +1076,7 @@
             "clt_id": 2,
             "clt_model_rank": 1,
             "clt_rank": 9,
-            "created": "2026-05-21 13:00:20",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_9_model_1.pdb",
             "file_type": {
                 "py/id": 3
@@ -1085,7 +1085,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_46.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -1139,7 +1139,7 @@
             "clt_id": 2,
             "clt_model_rank": 2,
             "clt_rank": 9,
-            "created": "2026-05-21 13:00:20",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_9_model_2.pdb",
             "file_type": {
                 "py/id": 3
@@ -1148,7 +1148,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_154.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -1202,7 +1202,7 @@
             "clt_id": 10,
             "clt_model_rank": 1,
             "clt_rank": 10,
-            "created": "2026-05-21 13:00:20",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_10_model_1.pdb",
             "file_type": {
                 "py/id": 3
@@ -1211,7 +1211,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_33.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -1265,7 +1265,7 @@
             "clt_id": 10,
             "clt_model_rank": 2,
             "clt_rank": 10,
-            "created": "2026-05-21 13:00:20",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_10_model_2.pdb",
             "file_type": {
                 "py/id": 3
@@ -1274,7 +1274,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_40.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -1328,7 +1328,7 @@
             "clt_id": 3,
             "clt_model_rank": 1,
             "clt_rank": 11,
-            "created": "2026-05-21 13:00:20",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_11_model_1.pdb",
             "file_type": {
                 "py/id": 3
@@ -1337,7 +1337,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_115.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -1391,7 +1391,7 @@
             "clt_id": 3,
             "clt_model_rank": 2,
             "clt_rank": 11,
-            "created": "2026-05-21 13:00:20",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_11_model_2.pdb",
             "file_type": {
                 "py/id": 3
@@ -1400,7 +1400,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_142.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -1454,7 +1454,7 @@
             "clt_id": 6,
             "clt_model_rank": 1,
             "clt_rank": 12,
-            "created": "2026-05-21 13:00:20",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_12_model_1.pdb",
             "file_type": {
                 "py/id": 3
@@ -1463,7 +1463,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_137.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -1517,7 +1517,7 @@
             "clt_id": 6,
             "clt_model_rank": 2,
             "clt_rank": 12,
-            "created": "2026-05-21 13:00:20",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_12_model_2.pdb",
             "file_type": {
                 "py/id": 3
@@ -1526,7 +1526,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_101.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -1580,7 +1580,7 @@
             "clt_id": 1,
             "clt_model_rank": 1,
             "clt_rank": 13,
-            "created": "2026-05-21 13:00:20",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_13_model_1.pdb",
             "file_type": {
                 "py/id": 3
@@ -1589,7 +1589,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_82.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -1643,7 +1643,7 @@
             "clt_id": 1,
             "clt_model_rank": 2,
             "clt_rank": 13,
-            "created": "2026-05-21 13:00:20",
+            "created": "2026-06-06 16:30:57",
             "file_name": "cluster_13_model_2.pdb",
             "file_type": {
                 "py/id": 3
@@ -1652,7 +1652,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_180.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -1706,7 +1706,7 @@
             "clt_id": 7,
             "clt_model_rank": 1,
             "clt_rank": 14,
-            "created": "2026-05-21 13:00:20",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_14_model_1.pdb",
             "file_type": {
                 "py/id": 3
@@ -1715,7 +1715,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_16.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
@@ -1769,7 +1769,7 @@
             "clt_id": 7,
             "clt_model_rank": 2,
             "clt_rank": 14,
-            "created": "2026-05-21 13:00:20",
+            "created": "2026-06-06 16:30:56",
             "file_name": "cluster_14_model_2.pdb",
             "file_type": {
                 "py/id": 3
@@ -1778,7 +1778,7 @@
             "len": NaN,
             "md5": null,
             "ori_name": "emref_91.pdb",
-            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/ppi_project_fra/jupyter_haddock/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
+            "path": "/orfeo/cephfs/scratch/area/ssenci/senci_projects/LASTRUN/ESM3-PPISites/haddock_evaluation/data/haddock_units/1KXP/haddock_unrestr_10k/6_seletopclusts",
             "py/object": "haddock.libs.libontology.PDBFile",
             "rel_path": {
                 "py/reduce": [
