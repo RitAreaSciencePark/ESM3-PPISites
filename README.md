@@ -7,6 +7,8 @@ Feltrin, and Francesca Cuturello
 
 **Paper**: [bioRxiv link](https://www.biorxiv.org/content/10.64898/2026.05.29.728739v1)
 
+Test the model live on [huggingface spaces](https://huggingface.co/spaces/area-science-park/esm3-ppisites).
+
 ### Install 
 
 To run the code be sure to have at least a version of python >= 3.10
