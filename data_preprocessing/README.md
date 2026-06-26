@@ -27,7 +27,7 @@ After creating the `<output_dir>` with all the fasta files it is now possible to
 ./scripts/mmseqs2_clean_leakage.sh  <fasta_dir> <csv_dir> <train_filename> <test_filename>
 ```
 
-Note that train files are cleaned against zk488 and the validation files are validated against their respective training. **[WIP] BETTER DESCRIPTION** 
+**Note**: Train files are cleaned against zk488 and the validation files are validated against their respective training files.
 
 ### Step3: Exraction of PDBS with ESM3
 
