@@ -1,31 +1,32 @@
 #!/usr/bin/env python3
 
 import argparse
+import csv
 import os
 import random
 import socket
+import sys
+
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
 import torch
-import torch.nn as nn
-import torch.nn.functional as F
 from tqdm import tqdm
 from huggingface_hub import login
 
 from esm.models.esm3 import ESM3
-from esm.sdk.api import ESMProtein, GenerationConfig, LogitsConfig
+from esm.sdk.api import ESMProtein, GenerationConfig
+from esm.tokenization.sequence_tokenizer import EsmSequenceTokenizer
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from finetuning.src.models import ModelForResidueClassification
 
 
 SEED = 42
-
-default_model_name = "small_model"
-default_dataset_name = "BioLiP-3693"
-default_models_dir = "../baseline/models_baseline"
-default_emb_pt_path = "esm3_reps/test_embeddings.pt"
-default_out_dir = "inference_results"
-default_base_path = "data/haddock_units"
+OUT_DIR = "inference_results"
+BASE_PATH = "data/haddock_units"
+STRUCTURE_STEPS = 8
+MAX_LENGTH = 1024
 
 node_name = socket.gethostname()
 
@@ -47,24 +48,10 @@ torch.use_deterministic_algorithms(True, warn_only=True)
 
 
 def parse_args():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description="Run ESM3 Residue Classification Inference")
 
-    parser.add_argument("--input", default="test_input.csv")
-    parser.add_argument("--token", required=True)
-
-    parser.add_argument("--model-name", default=default_model_name)
-    parser.add_argument("--dataset-name", default=default_dataset_name)
-    parser.add_argument("--model-path", default=None)
-    parser.add_argument("--models-dir", default=default_models_dir)
-
-    parser.add_argument("--emb-pt-path", default=default_emb_pt_path)
-    parser.add_argument("--out-dir", default=default_out_dir)
-    parser.add_argument("--base-path", default=default_base_path)
-
-    parser.add_argument("--seed", type=int, default=SEED)
-    parser.add_argument("--structure-steps", type=int, default=8)
-    parser.add_argument("--force-structures", action="store_true")
-    parser.add_argument("--skip-embeddings", action="store_true")
+    parser.add_argument("--token", type=str, required=True, help="Hugging Face access token")
+    parser.add_argument("--input", type=str, required=True, help="Path to input CSV file")
 
     return parser.parse_args()
 
@@ -135,7 +122,7 @@ def write_pdb_with_chain_id(pdb_path, chain_id):
         handle.writelines(lines)
 
 
-def generate_structures(df_input, args, device):
+def generate_structures(df_input, device):
     print("STEP 1 - STRUCTURE GENERATION")
 
     struct_model = ESM3.from_pretrained("esm3_sm_open_v1").to(device)
@@ -147,12 +134,12 @@ def generate_structures(df_input, args, device):
         chain = row["chain"]
         sequence = row["sequence"]
 
-        complex_dir = Path(args.base_path) / complex_id
+        complex_dir = Path(BASE_PATH) / complex_id
         complex_dir.mkdir(parents=True, exist_ok=True)
 
         pdb_path = complex_dir / f"{protein_id}.pdb"
 
-        if pdb_path.exists() and not args.force_structures:
+        if pdb_path.exists():
             continue
 
         try:
@@ -161,7 +148,7 @@ def generate_structures(df_input, args, device):
             with torch.no_grad():
                 protein = struct_model.generate(
                     protein,
-                    GenerationConfig(track="structure", num_steps=args.structure_steps),
+                    GenerationConfig(track="structure", num_steps=STRUCTURE_STEPS),
                 )
 
             protein.to_pdb(str(pdb_path))
@@ -169,89 +156,6 @@ def generate_structures(df_input, args, device):
 
         except Exception as e:
             print(f"Failed to generate structure for {protein_id}: {e}")
-
-
-def generate_embeddings(df_input, args, device):
-    print("STEP 2 - EMBEDDINGS")
-
-    emb_path = Path(args.emb_pt_path)
-
-    if emb_path.exists():
-        return str(emb_path)
-
-    if args.skip_embeddings:
-        raise FileNotFoundError(f"Embedding file not found: {emb_path}")
-
-    emb_path.parent.mkdir(parents=True, exist_ok=True)
-
-    esm3_model = ESM3.from_pretrained("esm3_sm_open_v1").to(device)
-    esm3_model.eval()
-
-    emb_dict = {}
-
-    for _, row in tqdm(df_input.iterrows(), total=len(df_input)):
-        protein_id = row["id"]
-        complex_id = row["complex"]
-        sequence = row["sequence"]
-
-        try:
-            protein = ESMProtein(sequence=sequence)
-
-            with torch.no_grad():
-                protein_tensor = esm3_model.encode(protein)
-                logits_output = esm3_model.logits(
-                    protein_tensor,
-                    LogitsConfig(return_embeddings=True),
-                )
-
-            emb = logits_output.embeddings
-
-            if emb.dim() == 3:
-                emb = emb.squeeze(0)
-
-            if emb.shape[0] == len(sequence) + 2:
-                emb = emb[1:-1]
-            elif emb.shape[0] > len(sequence):
-                emb = emb[: len(sequence)]
-
-            emb_dict[protein_id] = {
-                "tensor": emb.detach().cpu().float(),
-                "complex": complex_id,
-            }
-
-        except Exception as e:
-            print(f"Failed to generate embedding for {protein_id}: {e}")
-
-    torch.save(emb_dict, emb_path)
-    print(f"Saved embeddings to: {emb_path}")
-
-    return str(emb_path)
-
-
-def resolve_checkpoint_path(model_name, dataset_name, models_dir, model_path=None):
-    checkpoint_path = os.path.join(models_dir, f"{model_name}_{dataset_name}.pt")
-
-    if os.path.isfile(checkpoint_path):
-        return checkpoint_path
-
-    if model_path is None:
-        raise FileNotFoundError(
-            "Checkpoint was not found and no --model-path was provided.\n"
-            f"Tried: {checkpoint_path}"
-        )
-
-    if os.path.isfile(model_path):
-        return model_path
-
-    if os.path.isdir(model_path):
-        fallback_checkpoint_path = os.path.join(model_path, f"{model_name}_{dataset_name}.pt")
-
-        if os.path.isfile(fallback_checkpoint_path):
-            return fallback_checkpoint_path
-
-        raise FileNotFoundError(f"Checkpoint not found inside directory: {fallback_checkpoint_path}")
-
-    raise FileNotFoundError(f"Checkpoint path does not exist: {model_path}")
 
 
 def hotspot_sites_from_binary_array(binary_array):
@@ -262,93 +166,69 @@ def probabilities_to_csv_string(prob_array, decimals=6):
     return ",".join(f"{float(p):.{decimals}f}" for p in prob_array)
 
 
-def normalize_data(pt_path, df_input):
-    emb_dict = torch.load(pt_path, map_location="cpu", weights_only=False)
-
-    original_to_paired = dict(zip(df_input["original_id"], df_input["id"]))
-    paired_to_complex = dict(zip(df_input["id"], df_input["complex"]))
-
-    processed_data = []
-
-    for u_id in sorted(emb_dict.keys()):
-        data = emb_dict[u_id]
-        protein_id = original_to_paired.get(u_id, u_id)
-
-        if protein_id not in paired_to_complex:
-            continue
-
-        raw_tensor = data["tensor"] if isinstance(data, dict) else data
-
-        if isinstance(data, dict):
-            complex_id = data.get("complex", paired_to_complex[protein_id])
-        else:
-            complex_id = paired_to_complex[protein_id]
-
-        normalized_tensor = F.normalize(raw_tensor, p=2, dim=1).float()
-
-        processed_data.append(
-            {
-                "id": protein_id,
-                "complex": complex_id,
-                "tensor": normalized_tensor,
-            }
-        )
-
-    expected = set(df_input["id"])
-    found = {item["id"] for item in processed_data}
-    missing = sorted(expected - found)
-
-    if missing:
-        raise ValueError(
-            "Missing embeddings for these ids:\n"
-            + "\n".join(missing)
-            + "\nEmbedding keys must match either original input ids or paired ids with _W/_Z suffix."
-        )
-
-    return sorted(processed_data, key=lambda x: x["id"])
-
-
-def run_inference(checkpoint_path, emb_pt_path, df_input, seed):
-    print("STEP 3 - INFERENCE")
+def run_inference(df_input, model, tokenizer, device, seed):
+    print("STEP 2 - INFERENCE")
 
     set_seed(seed)
 
-    processed_data = normalize_data(emb_pt_path, df_input)
-    hidden_dim = processed_data[0]["tensor"].shape[1]
-
-    model = nn.Linear(hidden_dim, 1)
-
-    checkpoint = torch.load(checkpoint_path, map_location=torch.device("cpu"), weights_only=False)
-    model.load_state_dict(checkpoint["model_state_dict"])
+    max_residues = MAX_LENGTH - 2
+    results_list = []
     model.eval()
 
-    results_list = []
-
     with torch.no_grad():
-        for item in processed_data:
-            x_single = item["tensor"]
-            protein_id = item["id"]
-            complex_id = item["complex"]
-            seq_len = x_single.shape[0]
+        for _, row in tqdm(df_input.iterrows(), total=len(df_input)):
+            protein_id = row["id"]
+            complex_id = row["complex"]
+            sequence = row["sequence"]
+            seq_len = len(sequence)
 
-            logits = model(x_single).squeeze(-1)
-            y_prob = torch.sigmoid(logits).cpu().numpy()
+            try:
+                inputs = tokenizer(
+                    sequence,
+                    padding="max_length",
+                    truncation=True,
+                    max_length=MAX_LENGTH,
+                    return_tensors="pt",
+                ).to(device)
 
-            threshold = 0.7 if seq_len < 100 else 0.6
-            y_pred = (y_prob > threshold).astype(np.int32)
+                effective_len = min(seq_len, max_residues)
 
-            hotspot_pred = hotspot_sites_from_binary_array(y_pred)
-            probability_vector = probabilities_to_csv_string(y_prob[y_pred == 1])
+                outputs = model(**inputs)
+                logits = outputs["logits"] if isinstance(outputs, dict) else outputs
+                probs = torch.sigmoid(logits)
+                probs_np = probs.squeeze(0).cpu().numpy()
 
-            results_list.append(
-                {
-                    "complex": complex_id,
-                    "id": protein_id,
-                    "hotspot_pred": hotspot_pred,
-                    "prob": probability_vector,
-                    "length": seq_len,
-                }
-            )
+                start_idx = 1
+                end_idx = start_idx + effective_len
+                valid_probs = probs_np[start_idx:end_idx]
+
+                threshold = 0.7 if seq_len < 100 else 0.6
+                valid_preds = (valid_probs > threshold).astype(np.int32)
+
+                hotspot_pred = hotspot_sites_from_binary_array(valid_preds)
+                probability_vector = probabilities_to_csv_string(valid_probs[valid_preds == 1])
+
+                results_list.append(
+                    {
+                        "complex": complex_id,
+                        "id": protein_id,
+                        "hotspot_pred": hotspot_pred,
+                        "prob": probability_vector,
+                        "length": seq_len,
+                    }
+                )
+
+            except Exception as e:
+                print(f"Failed inference for {protein_id}: {e}")
+                results_list.append(
+                    {
+                        "complex": complex_id,
+                        "id": protein_id,
+                        "hotspot_pred": "",
+                        "prob": "",
+                        "length": seq_len,
+                    }
+                )
 
     return pd.DataFrame(results_list, columns=["complex", "id", "hotspot_pred", "prob", "length"])
 
@@ -372,7 +252,7 @@ def extract_patches(residues, probs):
 
 
 def make_patches(df):
-    print("STEP 4 - PATCHES")
+    print("STEP 3 - PATCHES")
 
     patch_data = []
 
@@ -435,34 +315,30 @@ def compile_eval_config(id_path, tbl_file, config_file):
     prot_w = prot_w_list[0].name
     prot_z = prot_z_list[0].name
 
-    config_content = f"""run_dir = "{run_dir / patch}"
-molecules = ["{id_path / prot_w}","{id_path / prot_z}"]
-ncores = 64
-
-[topoaa]
-iniseed = 42
-
-[rigidbody]
-ambig_fname = "{tbl_file}"
-sampling = 100
-iniseed = 42
-npart = 5
-
-[seletop]
-select = 1
-
-[emref]
-ambig_fname = "{tbl_file}"
-iniseed = 42
-
-"""
+    config_content = (
+        f'run_dir = "{run_dir / patch}"\n'
+        f'molecules = ["{id_path / prot_w}","{id_path / prot_z}"]\n'
+        f'ncores = 64\n\n'
+        f'[topoaa]\n'
+        f'iniseed = 42\n\n'
+        f'[rigidbody]\n'
+        f'ambig_fname = "{tbl_file}"\n'
+        f'sampling = 100\n'
+        f'iniseed = 42\n'
+        f'npart = 5\n\n'
+        f'[seletop]\n'
+        f'select = 1\n\n'
+        f'[emref]\n'
+        f'ambig_fname = "{tbl_file}"\n'
+        f'iniseed = 42\n\n'
+    )
 
     config_file.write_text(config_content)
     print(f"Created configuration file at: {config_file}")
 
 
-def run_pairing(base_path, df_top):
-    print("STEP 5 - PAIRING AND CONFIGS")
+def run_pairing(df_top):
+    print("STEP 4 - PAIRING AND CONFIGS")
 
     df_w = df_top[df_top["id"].str.endswith("_W")].copy()
     df_z = df_top[df_top["id"].str.endswith("_Z")].copy()
@@ -471,7 +347,7 @@ def run_pairing(base_path, df_top):
     for _, row in df_pairs.iterrows():
         complex_id = row["complex"]
 
-        id_path = Path(base_path) / complex_id
+        id_path = Path(BASE_PATH) / complex_id
         tbl_dir = id_path / "tbls"
         config_dir = id_path / "configs"
         tbl_dir.mkdir(exist_ok=True, parents=True)
@@ -507,7 +383,7 @@ def run_pairing(base_path, df_top):
 
                     if passives:
                         active_selection = f"(resid {r_short} and segid {c_short} and name CA)"
-                        f.write(f"assign {active_selection}\n")
+                        f.write("assign " + active_selection + "\n")
                         f.write("        (" + " or ".join(passives) + ") 10.0 6.0 4.0\n")
 
             compile_eval_config(id_path, tbl_file, config_file)
@@ -516,51 +392,52 @@ def run_pairing(base_path, df_top):
 def main():
     args = parse_args()
 
-    set_seed(args.seed)
+    set_seed(SEED)
+
+    print("Authenticating with Hugging Face...")
     login(token=args.token)
 
-    device = "cuda" if torch.cuda.is_available() else "cpu"
+    print("Loading model and tokenizer from Hugging Face...", flush=True)
+    repo_id = "area-science-park/ESM3-PPISites"
 
-    os.makedirs(args.out_dir, exist_ok=True)
-    os.makedirs(args.base_path, exist_ok=True)
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    print(f"Using device: {device}", flush=True)
+
+    model = ModelForResidueClassification.from_pretrained(repo_id, token=args.token).to(device)
+    model.eval()
+
+    tokenizer = EsmSequenceTokenizer()
+
+    os.makedirs(OUT_DIR, exist_ok=True)
+    os.makedirs(BASE_PATH, exist_ok=True)
 
     df_input = load_input_pairs(args.input)
-    df_input.to_csv(Path(args.out_dir) / "paired_input.csv", index=False)
-
-    checkpoint_path = resolve_checkpoint_path(
-        model_name=args.model_name,
-        dataset_name=args.dataset_name,
-        models_dir=args.models_dir,
-        model_path=args.model_path,
-    )
+    df_input.to_csv(Path(OUT_DIR) / "paired_input.csv", index=False)
 
     print(f"Device: {device}")
-    print(f"Model: {args.model_name}")
-    print(f"Dataset: {args.dataset_name}")
+    print(f"Model: {repo_id}")
     print(f"Node: {node_name}")
-    print(f"Checkpoint: {checkpoint_path}")
 
-    generate_structures(df_input, args, device)
-
-    current_emb_pt_path = generate_embeddings(df_input, args, device)
-
-    out_csv = os.path.join(args.out_dir, f"{args.model_name}_results.csv")
-    patches_csv = os.path.join(args.out_dir, f"{args.model_name}_patches.csv")
-    pairing_csv = os.path.join(args.out_dir, f"{args.model_name}_for_pairing.csv")
+    generate_structures(df_input, device)
 
     df_results = run_inference(
-        checkpoint_path=checkpoint_path,
-        emb_pt_path=current_emb_pt_path,
         df_input=df_input,
-        seed=args.seed,
+        model=model,
+        tokenizer=tokenizer,
+        device=device,
+        seed=SEED,
     )
 
-    df_results.to_csv(out_csv, index=False)
-    print(f"Saved inference results to: {out_csv}")
+    results_path = Path(OUT_DIR) / "results.csv"
+    df_results.to_csv(results_path, index=False)
+    print(f"Saved inference results to: {results_path}")
 
     df_all = make_patches(df_results)
 
     if not df_all.empty:
+        patches_csv = os.path.join(OUT_DIR, "patches.csv")
+        pairing_csv = os.path.join(OUT_DIR, "for_pairing.csv")
+
         df_all.to_csv(patches_csv, index=False)
         print(f"Saved patches to: {patches_csv}")
 
@@ -568,7 +445,7 @@ def main():
         df_filtered.to_csv(pairing_csv, index=False)
         print(f"Saved pairing input to: {pairing_csv}")
 
-        run_pairing(args.base_path, df_filtered)
+        run_pairing(df_filtered)
     else:
         print("No patches generated.")
 
@@ -577,5 +454,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 
