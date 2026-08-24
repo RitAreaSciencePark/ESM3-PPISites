@@ -11,3 +11,5 @@ iprogress
 ipywidgets
 haddock3
 httpx
+biopython
+mdtraj
