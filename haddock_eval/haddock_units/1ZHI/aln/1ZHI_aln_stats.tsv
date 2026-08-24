@@ -1,0 +1,7 @@
+ref_id	query_id	score	ref_len	query_len	aln_len	n_ident	n_mismatch	n_aligned	n_gaps	n_insertions	n_deletions	n_open_gaps	ref_start	ref_end	query_start	query_end	n_ref_aligned	n_query_aligned	query_coverage	ref_coverage	pct_identity	pct_identity_vs_min	target
+P54784_W_upseq	c1_1M4Z_W_pdbseq	191.5	914	203	214	200	0	200	14	0	14	1	0	214	3	203	200	200	0.9852	0.2188	100.0	98.52	1ZHI
+P54784_W_upseq	cc1_1ZHI_W_pdbseq	188.5	914	195	205	195	0	195	10	0	10	1	9	214	0	195	195	195	1.0	0.2133	100.0	100.0	1ZHI
+P21691_Z_upseq	c2_1Z1A_Z_pdbseq	108.0	654	117	128	116	1	117	11	0	11	1	459	587	0	117	117	117	1.0	0.1789	99.15	99.15	1ZHI
+P21691_Z_upseq	cc2_1ZHI_Z_pdbseq	123.0	654	125	125	124	1	125	0	0	0	0	462	587	0	125	125	125	1.0	0.1911	99.2	99.2	1ZHI
+cc1_1ZHI_W_pdbseq	c1_1M4Z_W_pdbseq	187.5	195	203	195	191	0	191	4	0	4	1	0	195	12	203	191	191	0.9409	0.9795	100.0	97.95	1ZHI
+cc2_1ZHI_Z_pdbseq	c2_1Z1A_Z_pdbseq	107.0	125	117	125	114	0	114	11	0	11	1	0	125	3	117	114	114	0.9744	0.912	100.0	97.44	1ZHI

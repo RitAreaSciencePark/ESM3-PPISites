@@ -1,0 +1,20 @@
+assign (resid 136 and segid Z and name CA)
+        ((resid 212 and segid W and name CA) or (resid 213 and segid W and name CA)) 10.0 6.0 4.0
+assign (resid 142 and segid Z and name CA)
+        ((resid 212 and segid W and name CA) or (resid 213 and segid W and name CA) or (resid 214 and segid W and name CA)) 10.0 6.0 4.0
+assign (resid 143 and segid Z and name CA)
+        ((resid 213 and segid W and name CA) or (resid 214 and segid W and name CA) or (resid 215 and segid W and name CA)) 10.0 6.0 4.0
+assign (resid 146 and segid Z and name CA)
+        ((resid 214 and segid W and name CA) or (resid 215 and segid W and name CA) or (resid 216 and segid W and name CA)) 10.0 6.0 4.0
+assign (resid 147 and segid Z and name CA)
+        ((resid 215 and segid W and name CA) or (resid 216 and segid W and name CA) or (resid 217 and segid W and name CA)) 10.0 6.0 4.0
+assign (resid 148 and segid Z and name CA)
+        ((resid 216 and segid W and name CA) or (resid 217 and segid W and name CA) or (resid 218 and segid W and name CA)) 10.0 6.0 4.0
+assign (resid 150 and segid Z and name CA)
+        ((resid 217 and segid W and name CA) or (resid 218 and segid W and name CA) or (resid 219 and segid W and name CA)) 10.0 6.0 4.0
+assign (resid 151 and segid Z and name CA)
+        ((resid 218 and segid W and name CA) or (resid 219 and segid W and name CA) or (resid 220 and segid W and name CA)) 10.0 6.0 4.0
+assign (resid 152 and segid Z and name CA)
+        ((resid 219 and segid W and name CA) or (resid 220 and segid W and name CA) or (resid 221 and segid W and name CA)) 10.0 6.0 4.0
+assign (resid 153 and segid Z and name CA)
+        ((resid 220 and segid W and name CA) or (resid 221 and segid W and name CA) or (resid 222 and segid W and name CA)) 10.0 6.0 4.0

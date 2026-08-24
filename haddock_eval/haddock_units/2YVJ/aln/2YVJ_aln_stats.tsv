@@ -1,0 +1,7 @@
+ref_id	query_id	score	ref_len	query_len	aln_len	n_ident	n_mismatch	n_aligned	n_gaps	n_insertions	n_deletions	n_open_gaps	ref_start	ref_end	query_start	query_end	n_ref_aligned	n_query_aligned	query_coverage	ref_coverage	pct_identity	pct_identity_vs_min	target
+Q52437_W_upseq	c1_2YVF_W_pdbseq	401.0	408	401	401	401	0	401	0	0	0	0	5	406	0	401	401	401	1.0	0.9828	100.0	100.0	2YVJ
+Q52437_W_upseq	cc1_2YVJ_W_pdbseq	402.0	408	402	402	402	0	402	0	0	0	0	4	406	0	402	402	402	1.0	0.9853	100.0	100.0	2YVJ
+Q52440_Z_upseq	c2_2E4P_Z_pdbseq	108.0	109	108	108	108	0	108	0	0	0	0	1	109	0	108	108	108	1.0	0.9908	100.0	100.0	2YVJ
+Q52440_Z_upseq	cc2_2YVJ_Z_pdbseq	106.0	109	106	106	106	0	106	0	0	0	0	1	107	0	106	106	106	1.0	0.9725	100.0	100.0	2YVJ
+cc1_2YVJ_W_pdbseq	c1_2YVF_W_pdbseq	401.0	402	401	401	401	0	401	0	0	0	0	1	402	0	401	401	401	1.0	0.9975	100.0	100.0	2YVJ
+cc2_2YVJ_Z_pdbseq	c2_2E4P_Z_pdbseq	106.0	106	108	106	106	0	106	0	0	0	0	0	106	0	106	106	106	0.9815	1.0	100.0	100.0	2YVJ
