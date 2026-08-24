@@ -1,4 +1,0 @@
-/orfeo/cephfs/scratch/area/ssenci/venvs/haddock_env/lib64/python3.13/site-packages/haddock/libs/libplots.py:852: FutureWarning:
-
-Setting an item of incompatible dtype is deprecated and will raise in a future error of pandas. Value 'Other' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
-
