@@ -1,7 +1,7 @@
 esm
 huggingface_hub
 matplotlib
-numpy
+numpy<2.0
 pandas<2.2.0
 scikit_learn
 torch

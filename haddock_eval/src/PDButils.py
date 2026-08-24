@@ -23,12 +23,12 @@ from Bio.PDB import PDBParser, Select, Selection
 from Bio.PDB import Structure, Model, PDBIO
 from Bio.PDB.Chain import Chain
 from Bio.Align import PairwiseAligner
-#from Bio.Align substitution_matrices
 from Bio.PDB.Polypeptide import protein_letters_3to1_extended
 
 import mdtraj as md
-import pymol
-from pymol import cmd### <!deps>
+#import pymol
+#from pymol import cmd
+### <!deps>
 
 
 ###

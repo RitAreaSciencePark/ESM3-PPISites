@@ -26,8 +26,8 @@ from Bio.Align import PairwiseAligner
 from Bio.PDB.Polypeptide import protein_letters_3to1_extended
 
 import mdtraj as md
-import pymol
-from pymol import cmd
+#import pymol
+#from pymol import cmd
 
 from config_defaults import * ### CONSTANTS
 from PDButils import *        ### scientific data manipulation
@@ -254,85 +254,85 @@ meta_df.to_csv(Path(METADATA_DIR) / 'jobs_aln_stats.tsv', sep='\t', index=False)
 #[1] aligned structure (dictionary 'mol_1', 'mol_2'):
 # >>> rmsd_cc1_c1[1]['mol_1'].split('\n')[0]
 # 'ATOM      1  N   GLU W 536      -8.864  -6.648 -21.167  1.00 50.97           N  '
-pbd_io = PDBIO()
-pars = PDBParser(QUIET=True)
-rmsd_df_list = []
+#pbd_io = PDBIO()
+#pars = PDBParser(QUIET=True)
+#rmsd_df_list = []
 
-for target in tqdm(target_dirs, "Computing pymol RMSD caprieval"):
-    m1_fp = list(target.glob(f'*_{STANDARD_CHAINS[0]}.pdb'))
-    m2_fp = list(target.glob(f'*_{STANDARD_CHAINS[1]}.pdb'))
-    cc_fp = list(target.glob(f"*_{''.join(STANDARD_CHAINS)}.pdb"))
-    m1_fp = str(m1_fp[0])
-    m2_fp = str(m2_fp[0])
-    cc_fp = str(cc_fp[0])
-    pdb_id_m1 = str(Path(m1_fp).stem).split('_')[0] 
-    pdb_id_m2 = str(Path(m2_fp).stem).split('_')[0]
-    pdb_id_cc = str(Path(cc_fp).stem).split('_')[0]
-    chains = _unfold_job(m1_fp, m2_fp, cc_fp, 
-        STANDARD_CHAINS[0], STANDARD_CHAINS[1],
-        STANDARD_CHAINS[0], STANDARD_CHAINS[1])
-    new_names = [f'c1_{pdb_id_m1}_{STANDARD_CHAINS[0]}',
-        f'c2_{pdb_id_m2}_{STANDARD_CHAINS[1]}',
-        f'cc1_{pdb_id_cc}_{STANDARD_CHAINS[0]}',
-        f'cc2_{pdb_id_cc}_{STANDARD_CHAINS[1]}']
-    chains = {new_key: chains[old_key] for new_key, old_key in zip(new_names, chains.keys())}
+#for target in tqdm(target_dirs, "Computing pymol RMSD caprieval"):
+#    m1_fp = list(target.glob(f'*_{STANDARD_CHAINS[0]}.pdb'))
+#    m2_fp = list(target.glob(f'*_{STANDARD_CHAINS[1]}.pdb'))
+#    cc_fp = list(target.glob(f"*_{''.join(STANDARD_CHAINS)}.pdb"))
+#    m1_fp = str(m1_fp[0])
+#    m2_fp = str(m2_fp[0])
+#    cc_fp = str(cc_fp[0])
+#    pdb_id_m1 = str(Path(m1_fp).stem).split('_')[0] 
+#    pdb_id_m2 = str(Path(m2_fp).stem).split('_')[0]
+#    pdb_id_cc = str(Path(cc_fp).stem).split('_')[0]
+#    chains = _unfold_job(m1_fp, m2_fp, cc_fp, 
+#        STANDARD_CHAINS[0], STANDARD_CHAINS[1],
+#        STANDARD_CHAINS[0], STANDARD_CHAINS[1])
+#    new_names = [f'c1_{pdb_id_m1}_{STANDARD_CHAINS[0]}',
+#        f'c2_{pdb_id_m2}_{STANDARD_CHAINS[1]}',
+#        f'cc1_{pdb_id_cc}_{STANDARD_CHAINS[0]}',
+#        f'cc2_{pdb_id_cc}_{STANDARD_CHAINS[1]}']
+#    chains = {new_key: chains[old_key] for new_key, old_key in zip(new_names, chains.keys())}
 
-    pymol_dir = target / 'pymol'
-    chains_dir = pymol_dir / 'chains'
-    pymol_dir.mkdir(parents=True, exist_ok=True)
-    chains_dir.mkdir(parents=True, exist_ok=True)
-    chain_keys = list(chains.keys())
-    chain_paths: dict[str, PosixPath] = {}
-    for k in chain_keys:
-        cstru_tmp = assemble_structure(chains[k], structure_id=k)
-        chain_path = chains_dir / f'{k}.pdb'
-        pbd_io.set_structure(cstru_tmp)
-        pbd_io.save(str(chain_path))
-        chain_paths[k] = chain_path
+#    pymol_dir = target / 'pymol'
+#    chains_dir = pymol_dir / 'chains'
+#    pymol_dir.mkdir(parents=True, exist_ok=True)
+#    chains_dir.mkdir(parents=True, exist_ok=True)
+#    chain_keys = list(chains.keys())
+#    chain_paths: dict[str, PosixPath] = {}
+#    for k in chain_keys:
+#        cstru_tmp = assemble_structure(chains[k], structure_id=k)
+#        chain_path = chains_dir / f'{k}.pdb'
+#        pbd_io.set_structure(cstru_tmp)
+#        pbd_io.save(str(chain_path))
+#        chain_paths[k] = chain_path
 
-    c1_keys = [k for k in chain_keys if k.startswith(('c1_', 'cc1_'))]
-    c2_keys = [k for k in chain_keys if k.startswith(('c2_', 'cc2_'))]
+#    c1_keys = [k for k in chain_keys if k.startswith(('c1_', 'cc1_'))]
+#    c2_keys = [k for k in chain_keys if k.startswith(('c2_', 'cc2_'))]
 
-    c1_aln_fp = pymol_dir / f"{'_'.join([str(chain_paths[k].stem) for k in c1_keys])}_pymol.pdb"
-    c2_aln_fp = pymol_dir / f"{'_'.join([str(chain_paths[k].stem) for k in c2_keys])}_pymol.pdb"
-    cc1_key = next(k for k in c1_keys if k.startswith('cc1_'))
-    c1_key  = next(k for k in c1_keys if k.startswith('c1_'))
-    cc2_key = next(k for k in c2_keys if k.startswith('cc2_'))
-    c2_key  = next(k for k in c2_keys if k.startswith('c2_'))
-    rmsd_cc1_c1 = align_pdb_structures(
-        mol1_path=str(chain_paths[cc1_key]), 
-        mol2_path=str(chain_paths[c1_key]), 
-        return_structure=True
-    )
-    rmsd_cc2_c2 = align_pdb_structures(
-        mol1_path=str(chain_paths[cc2_key]), 
-        mol2_path=str(chain_paths[c2_key]), 
-        return_structure=True
-    )
-    rmsd_df_list.append(pd.concat([rmsd_cc1_c1[0], rmsd_cc2_c2[0]]))
+#    c1_aln_fp = pymol_dir / f"{'_'.join([str(chain_paths[k].stem) for k in c1_keys])}_pymol.pdb"
+#    c2_aln_fp = pymol_dir / f"{'_'.join([str(chain_paths[k].stem) for k in c2_keys])}_pymol.pdb"
+#    cc1_key = next(k for k in c1_keys if k.startswith('cc1_'))
+#    c1_key  = next(k for k in c1_keys if k.startswith('c1_'))
+#    cc2_key = next(k for k in c2_keys if k.startswith('cc2_'))
+#    c2_key  = next(k for k in c2_keys if k.startswith('c2_'))
+#    rmsd_cc1_c1 = align_pdb_structures(
+#        mol1_path=str(chain_paths[cc1_key]), 
+#        mol2_path=str(chain_paths[c1_key]), 
+#        return_structure=True
+#    )
+#    rmsd_cc2_c2 = align_pdb_structures(
+#        mol1_path=str(chain_paths[cc2_key]), 
+#        mol2_path=str(chain_paths[c2_key]), 
+#        return_structure=True
+#    )
+#    rmsd_df_list.append(pd.concat([rmsd_cc1_c1[0], rmsd_cc2_c2[0]]))
 
-    c1_str = rmsd_cc1_c1[1]
-    structure_cc = pars.get_structure(str(c1_aln_fp.stem), io.StringIO(c1_str['mol_1']))
-    structure_c = pars.get_structure(str(c1_aln_fp.stem), io.StringIO(c1_str['mol_2']))
-    str_cc = Selection.unfold_entities(structure_cc, 'C')[0]
-    str_c = Selection.unfold_entities(structure_c, 'C')[0]
-    str_c.id = str_c.id.lower()
-    test = assemble_structure(str_cc, str_c, structure_id=str(c1_aln_fp.stem))
-    pbd_io.set_structure(test)
-    pbd_io.save(str(c1_aln_fp))
+#    c1_str = rmsd_cc1_c1[1]
+#    structure_cc = pars.get_structure(str(c1_aln_fp.stem), io.StringIO(c1_str['mol_1']))
+#    structure_c = pars.get_structure(str(c1_aln_fp.stem), io.StringIO(c1_str['mol_2']))
+#    str_cc = Selection.unfold_entities(structure_cc, 'C')[0]
+#    str_c = Selection.unfold_entities(structure_c, 'C')[0]
+#    str_c.id = str_c.id.lower()
+#    test = assemble_structure(str_cc, str_c, structure_id=str(c1_aln_fp.stem))
+#    pbd_io.set_structure(test)
+#    pbd_io.save(str(c1_aln_fp))
 
-    c2_str = rmsd_cc2_c2[1]
-    structure_cc2 = pars.get_structure(str(c2_aln_fp.stem), io.StringIO(c2_str['mol_1']))
-    structure_c2 = pars.get_structure(str(c2_aln_fp.stem), io.StringIO(c2_str['mol_2']))
-    str_cc2 = Selection.unfold_entities(structure_cc2, 'C')[0]
-    str_c2 = Selection.unfold_entities(structure_c2, 'C')[0]
-    str_c2.id = str_c2.id.lower()
-    test2 = assemble_structure(str_cc2, str_c2, structure_id=str(c2_aln_fp.stem))
-    pbd_io.set_structure(test2)
-    pbd_io.save(str(c2_aln_fp))
+#    c2_str = rmsd_cc2_c2[1]
+#    structure_cc2 = pars.get_structure(str(c2_aln_fp.stem), io.StringIO(c2_str['mol_1']))
+#    structure_c2 = pars.get_structure(str(c2_aln_fp.stem), io.StringIO(c2_str['mol_2']))
+#    str_cc2 = Selection.unfold_entities(structure_cc2, 'C')[0]
+#    str_c2 = Selection.unfold_entities(structure_c2, 'C')[0]
+#    str_c2.id = str_c2.id.lower()
+#    test2 = assemble_structure(str_cc2, str_c2, structure_id=str(c2_aln_fp.stem))
+#    pbd_io.set_structure(test2)
+#    pbd_io.save(str(c2_aln_fp))
 
-rmsd_df = pd.concat(rmsd_df_list)
-rmsd_df.to_csv(Path(METADATA_DIR) / 'dimer_monomer_pymol_RMSD.tsv', sep="\t", index=False)
+#rmsd_df = pd.concat(rmsd_df_list)
+#rmsd_df.to_csv(Path(METADATA_DIR) / 'dimer_monomer_pymol_RMSD.tsv', sep="\t", index=False)
 ############################## Section: <Str-rmsd>
 
 ########## Section: <contacts>

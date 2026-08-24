@@ -37,3 +37,5 @@ ALT_PATCH_LENGTH = 3
 MIN_RES_CLUSTERING = 4
 ALT_RES_CLUSTERING = 3
 N_TOP_PATCHES = 4
+
+CAPRIEVALS_FP = f'{METADATA_DIR}/haddock3_all_caprievals.tsv' #..# args.caprievals
