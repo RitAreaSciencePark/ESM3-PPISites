@@ -8,3 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
+
+# haddock units (too many files)
+haddock_eval/haddock_units/

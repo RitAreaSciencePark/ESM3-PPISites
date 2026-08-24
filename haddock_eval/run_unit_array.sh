@@ -1,13 +1,15 @@
 #!/bin/bash
 #SBATCH --job-name=haddock3
-#SBATCH --partition=GENOA
+#SBATCH --partition=EPYC
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=25
+#SBATCH --cpus-per-task=16
 #SBATCH --mem=20G
 #SBATCH --time=30:00:00
 #SBATCH --output=logs/log_%A_%a_%x.out
 #SBATCH --error=logs/log_%A_%a_%x.err
+
+source "${SLURM_SUBMIT_DIR}/.haddock_venv/bin/activate"
 
 LISTFILE="$1"
 
@@ -32,17 +34,18 @@ if [[ ! -d "$CONFIG_DIR" ]]; then
     exit 1
 fi
 
-conda activate ppi
-
 DIR_NAME=$(basename "$WORKING_DIR")
+LOG="logs/${DIR_NAME}_${SLURM_ARRAY_JOB_ID}_${SLURM_ARRAY_TASK_ID}.log"
+
+: > "$LOG"
 
 for CONFIG_FILE in "${CONFIG_DIR}"/*.cfg; do
     [[ -f "$CONFIG_FILE" ]] || continue
 
-    CFG_NAME=$(basename "$CONFIG_FILE")
-    LOG="logs/log_${DIR_NAME}_${CFG_NAME}_${SLURM_ARRAY_JOB_ID}_${SLURM_ARRAY_TASK_ID}.out"
+    CFG_NAME=$(basename "$CONFIG_FILE" .cfg)
 
     {
+        echo ""
         echo "=== $(date '+%F %T') | ${SLURM_ARRAY_JOB_ID}_${SLURM_ARRAY_TASK_ID} | ${DIR_NAME} | ${CFG_NAME} ==="
 
         sed -i "s/^ncores.*/ncores=${SLURM_CPUS_PER_TASK:-25}/" "$CONFIG_FILE"
@@ -52,7 +55,7 @@ for CONFIG_FILE in "${CONFIG_DIR}"/*.cfg; do
         code=$?
 
         echo "=== Exit: $code | Duration: $((SECONDS - start))s ==="
-    } > "$LOG" 2>&1
+    } >> "$LOG" 2>&1
 
 done
 
