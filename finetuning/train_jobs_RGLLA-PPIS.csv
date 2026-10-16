@@ -1,0 +1,2 @@
+model,train_file,val_file,test_file,dataset_type,epochs,lr,wd,batch_size,gradient_batch,done
+EvolutionaryScale/esm3-sm-open-v1,../data/train324_RGLLA-PPIS.csv,../data/test315_RGLLA-PPIS.csv,../data/test71_RGLLA-PPIS.csv,p,3,0.00002,0.05,1,4,1
